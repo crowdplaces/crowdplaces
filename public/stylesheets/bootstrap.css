@@ -8259,14 +8259,16 @@ body #page_content .container .list {
 }
 /* line 24, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container .list_title .title h2 {
-  font-family: "Bevan", serif;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: bold;
   font-size: 20px;
 }
-/* line 27, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 29, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container .projects {
   padding-top: 20px;
 }
-/* line 29, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 31, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos {
   margin-left: auto;
   margin-right: auto;
@@ -8607,7 +8609,7 @@ body #logos .push_15 {
 body #logos .pull_15 {
   left: -900px;
 }
-/* line 35, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 37, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .multide {
   display: inline;
   float: left;
@@ -8616,11 +8618,11 @@ body #logos .multide {
   width: 100px;
   padding-right: 240px;
 }
-/* line 38, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 40, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .multide a {
   margin-left: 10px;
 }
-/* line 40, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 42, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .comum {
   display: inline;
   float: left;
@@ -8629,13 +8631,13 @@ body #logos .comum {
   width: 160px;
   padding-right: 180px;
 }
-/* line 43, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 45, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .comum a {
   float: left;
   margin-top: 5px;
   margin-left: 10px;
 }
-/* line 47, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 49, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .power {
   display: inline;
   float: left;
@@ -8643,7 +8645,7 @@ body #logos .power {
   margin-right: 10px;
   width: 220px;
 }
-/* line 49, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 51, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .power a {
   margin-top: -15px;
   float: right;
@@ -9007,10 +9009,12 @@ body #logos .power a {
 /* line 19, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav a {
   display: inline-block;
-  font-family: "Bevan", serif;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: bold;
   text-decoration: none;
 }
-/* line 23, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 25, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.actions {
   display: inline;
   float: left;
@@ -9019,30 +9023,30 @@ body #logos .power a {
   width: 220px;
   margin-top: 40px;
 }
-/* line 26, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 28, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.actions a {
   color: white;
   text-transform: capitalize;
   font-size: 18px;
   margin-right: 27px;
 }
-/* line 31, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 33, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.actions a:last-child {
   margin-right: 0;
 }
-/* line 33, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 35, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.actions a:hover {
   color: #4daefb;
 }
-/* line 35, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 37, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.actions a.explore {
   text-indent: 20px;
 }
-/* line 37, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 39, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.actions a.submit_project {
   text-indent: 20px;
 }
-/* line 39, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 41, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu {
   display: inline;
   float: left;
@@ -9051,7 +9055,7 @@ body #logos .power a {
   width: 220px;
   margin-top: 40px;
 }
-/* line 42, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 44, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a {
   font-family: "Lato-Regular";
   text-transform: lowercase;
@@ -9059,14 +9063,14 @@ body #logos .power a {
   font-size: 14px;
   margin-right: 12px;
 }
-/* line 48, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 50, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link {
   width: 130px;
   display: block;
   float: right;
   margin-right: 0;
 }
-/* line 54, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 56, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link img.profile_picture {
   border: 1px #333333;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 2px;
@@ -9086,33 +9090,33 @@ body #logos .power a {
   margin-top: -14px;
   margin-right: 5px;
 }
-/* line 63, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 65, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link img.profile_picture:hover {
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   -o-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
 }
-/* line 65, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 67, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link .current_user_name {
   float: left;
   margin-right: 5px;
 }
-/* line 68, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 70, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link .dropdown_arrow {
   float: left;
   position: relative;
   margin-top: 7px;
 }
-/* line 72, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 74, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a:last-child {
   margin-right: none;
 }
-/* line 74, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 76, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a:hover {
   color: #f90064;
 }
-/* line 76, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 78, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search {
   display: inline;
   float: left;
@@ -9121,7 +9125,7 @@ body #logos .power a {
   width: 220px;
   margin-top: 37px;
 }
-/* line 79, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 81, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form {
   width: 220px;
   height: 22px;
@@ -9134,17 +9138,17 @@ body #logos .power a {
   border: 1px #cccccc solid;
   background: white;
 }
-/* line 86, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 88, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="text"] {
   border: none;
   width: 190px;
   float: left;
 }
-/* line 90, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 92, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="text"]:focus {
   outline: none;
 }
-/* line 92, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 94, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="submit"] {
   background: url("/images/crowdplaces/search.png") left top no-repeat;
   width: 15px;
@@ -9680,12 +9684,14 @@ body #logos .power a {
 #recommended_header .resume_about h1 {
   margin-top: 10px;
   display: inline-block;
-  font-family: "Bevan", serif;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: bold;
   font-size: 23px;
   color: #333333;
   line-height: 110%;
 }
-/* line 22, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 24, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .resume_about h4 {
   display: inline-block;
   font-family: Arial;
@@ -9694,18 +9700,18 @@ body #logos .power a {
   line-height: 150%;
   margin-top: 15px;
 }
-/* line 29, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 31, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info {
   width: 720px;
   height: 258px;
   float: left;
 }
-/* line 33, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 35, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .video_sample {
   width: 461px;
   float: left;
 }
-/* line 36, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 38, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info, #recommended_header .project_info .institutional {
   float: left;
   width: 239px;
@@ -9713,14 +9719,14 @@ body #logos .power a {
   height: 245px;
   background: #f2f2f2;
 }
-/* line 43, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 45, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .institutional h3 {
   font-family: "Lato-Regular";
   font-size: 18px;
   color: #457e6b;
   padding-bottom: 25px;
 }
-/* line 48, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 50, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .institutional p {
   width: 200px;
   font-family: Arial;
@@ -9728,23 +9734,25 @@ body #logos .power a {
   color: #8d8d8d;
   line-height: 159%;
 }
-/* line 55, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 57, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info h3 {
-  font-family: "Bevan", serif;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: bold;
   font-size: 16px;
   color: #457e6b;
   float: left;
   clear: both;
   padding-bottom: 10px;
 }
-/* line 62, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 66, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info h2 {
   clear: both;
   font-family: "Lato-Bold";
   font-size: 14px;
   padding-bottom: 8px;
 }
-/* line 67, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 71, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info h2 a {
   color: #8d8d8d;
   text-decoration: none;
@@ -9757,44 +9765,44 @@ body #logos .power a {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 71, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 75, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info h2 a:hover {
   color: #333333;
 }
-/* line 73, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 77, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .description {
   height: 60px;
   overflow: hidden;
 }
-/* line 76, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 80, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .author, #recommended_header .project_info .info .description {
   padding: 4px 0 10px 0;
 }
-/* line 78, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 82, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .author p, #recommended_header .project_info .info .description p {
   font-family: Arial;
   font-size: 11px;
   color: #8d8d8d;
 }
-/* line 82, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 86, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .author p a, #recommended_header .project_info .info .description p a {
   color: #8d8d8d;
   text-decoration: none;
 }
-/* line 85, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 89, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .author p a:hover, #recommended_header .project_info .info .description p a:hover {
   color: #333333;
 }
-/* line 87, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 91, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .description {
   width: 200px;
 }
-/* line 89, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 93, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .description p {
   font-size: 13px;
   line-height: 120%;
 }
-/* line 93, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 97, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .statistics .progress {
   margin-bottom: 10px;
   width: 205px;
@@ -9809,7 +9817,7 @@ body #logos .power a {
   display: block;
   border: 1px #999999 solid;
 }
-/* line 101, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 105, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .statistics .progress .bar {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -9820,28 +9828,28 @@ body #logos .power a {
   height: 12px;
   background: #547e94;
 }
-/* line 106, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 110, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .statistics ul li {
   float: left;
   margin-right: 10px;
   color: #8d8d8d;
 }
-/* line 110, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 114, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .statistics ul li strong {
   font-family: "Lato-Bold";
   font-size: 12px;
 }
-/* line 113, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 117, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .statistics ul li p {
   font-family: Arial;
   font-size: 10px;
   text-transform: uppercase;
 }
-/* line 117, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 121, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .statistics ul li:last-child, #recommended_header .statistics ul li .last {
   margin-right: 0;
 }
-/* line 119, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 123, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header nav.pagination {
   font-family: Arial;
   font-size: 12px;
@@ -9852,21 +9860,21 @@ body #logos .power a {
   padding-top: 15px;
   border-top: 1px rgba(255, 255, 255, 0.1) solid;
 }
-/* line 129, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 133, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header nav.pagination a {
   color: white;
   text-decoration: none;
 }
-/* line 132, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 136, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header nav.pagination a.prev {
   float: left;
 }
-/* line 134, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 138, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header nav.pagination a.next {
   margin-right: 15px;
   float: right;
 }
-/* line 137, ../../app/stylesheets/redesign/content/_recommended_header.sass */
+/* line 141, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header nav.pagination a:hover {
   color: #59af6d;
 }
