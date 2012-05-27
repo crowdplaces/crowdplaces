@@ -9058,19 +9058,21 @@ body #logos .power a {
 /* line 44, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a {
   font-family: "Lato-Regular";
+  font-style: normal;
+  font-weight: normal;
   text-transform: lowercase;
   color: white;
   font-size: 14px;
   margin-right: 12px;
 }
-/* line 50, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 52, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link {
   width: 130px;
   display: block;
   float: right;
   margin-right: 0;
 }
-/* line 56, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 58, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link img.profile_picture {
   border: 1px #333333;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 2px;
@@ -9090,33 +9092,33 @@ body #logos .power a {
   margin-top: -14px;
   margin-right: 5px;
 }
-/* line 65, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 67, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link img.profile_picture:hover {
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   -o-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
 }
-/* line 67, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 69, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link .current_user_name {
   float: left;
   margin-right: 5px;
 }
-/* line 70, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 72, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link .dropdown_arrow {
   float: left;
   position: relative;
   margin-top: 7px;
 }
-/* line 74, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 76, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a:last-child {
   margin-right: none;
 }
-/* line 76, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 78, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a:hover {
   color: #f90064;
 }
-/* line 78, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 80, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search {
   display: inline;
   float: left;
@@ -9125,7 +9127,7 @@ body #logos .power a {
   width: 220px;
   margin-top: 37px;
 }
-/* line 81, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 83, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form {
   width: 220px;
   height: 22px;
@@ -9138,17 +9140,17 @@ body #logos .power a {
   border: 1px #cccccc solid;
   background: white;
 }
-/* line 88, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 90, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="text"] {
   border: none;
   width: 190px;
   float: left;
 }
-/* line 92, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 94, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="text"]:focus {
   outline: none;
 }
-/* line 94, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 96, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="submit"] {
   background: url("/images/crowdplaces/search.png") left top no-repeat;
   width: 15px;
