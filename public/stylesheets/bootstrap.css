@@ -9725,7 +9725,7 @@ body #logos .power a {
 #recommended_header .project_info .institutional h3 {
   font-family: "Lato-Regular";
   font-size: 18px;
-  color: #f90064;
+  color: #339933;
   padding-bottom: 25px;
 }
 /* line 50, ../../app/stylesheets/redesign/content/_recommended_header.sass */
@@ -9742,7 +9742,7 @@ body #logos .power a {
   font-style: italic;
   font-weight: bold;
   font-size: 16px;
-  color: #f90064;
+  color: #339933;
   float: left;
   clear: both;
   padding-bottom: 10px;
