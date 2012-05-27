@@ -10130,7 +10130,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
   font-family: "Lato-Bold";
   font-size: 14px;
   line-height: 120%;
-  padding-bottom: 8px;
+  padding-bottom: 0;
   padding-top: 10px;
 }
 /* line 79, ../../app/stylesheets/redesign/content/_recommended_header.sass */
@@ -10157,7 +10157,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
 }
 /* line 88, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .author, #recommended_header .project_info .info .description {
-  padding: 4px 0 10px 0;
+  padding: 4px 0 4px 0;
 }
 /* line 90, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .project_info .info .author p, #recommended_header .project_info .info .description p {
