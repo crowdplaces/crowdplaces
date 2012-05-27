@@ -361,7 +361,7 @@ div.project .box h4 a {
 }
 /* line 65, ../../app/stylesheets/redesign/miv/_projects.sass */
 div.project .box h4 a:hover {
-  color: #457e6b;
+  color: #339933;
 }
 /* line 67, ../../app/stylesheets/redesign/miv/_projects.sass */
 div.project .box .author, div.project .box .where, div.project .box .description {
@@ -9725,7 +9725,7 @@ body #logos .power a {
 #recommended_header .project_info .institutional h3 {
   font-family: "Lato-Regular";
   font-size: 18px;
-  color: #457e6b;
+  color: #f90064;
   padding-bottom: 25px;
 }
 /* line 50, ../../app/stylesheets/redesign/content/_recommended_header.sass */
@@ -9742,7 +9742,7 @@ body #logos .power a {
   font-style: italic;
   font-weight: bold;
   font-size: 16px;
-  color: #457e6b;
+  color: #f90064;
   float: left;
   clear: both;
   padding-bottom: 10px;
@@ -9828,7 +9828,7 @@ body #logos .power a {
   -khtml-border-radius: 2px;
   border-radius: 2px;
   height: 12px;
-  background: #547e94;
+  background: #4daefb;
 }
 /* line 110, ../../app/stylesheets/redesign/content/_recommended_header.sass */
 #recommended_header .statistics ul li {
