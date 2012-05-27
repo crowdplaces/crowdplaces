@@ -10908,7 +10908,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
 /* line 46, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners {
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 /* line 49, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .title {
@@ -10922,7 +10922,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
   font-size: 20px;
   line-height: 268%;
   margin-top: -48px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
   background: url("/images/crowdplaces/stain.png") top left no-repeat;
   text-indent: 32px;
 }
