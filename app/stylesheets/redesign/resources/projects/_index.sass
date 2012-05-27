@@ -1,5 +1,23 @@
 [data-namespace="null"][data-controller="projects"][data-action="index"]
   #page_content
+    .selected_projects .list_title .title
+      color: $crowdplaces_yellow
+      background: url($crowdplaces_images_path+'balloon.png') top left no-repeat
+      width: 250px
+      height: 62px
+      text-align: center
+      h2
+        line-height: 220%
+    .expiring_projects .list_title .title
+      background: url($crowdplaces_images_path+'run.png') top left no-repeat
+      text-indent: 64px
+      h2
+        line-height: 280%
+    .recents_projects .list_title .title
+      background: url($crowdplaces_images_path+'doughnut.png') top left no-repeat
+      text-indent: 44px
+      h2
+        line-height: 200%
     .explore_link
       padding-top: 20px
       padding-bottom: 30px
