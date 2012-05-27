@@ -365,7 +365,7 @@ en:
       profile: "my profile"
     recommended_header:
       sugest_for_you: "suggested for you"
-      highlight_project: "featured project"
+      highlight_project: "Featured project"
     footer:
       blog: "Our blog"
       comum: "Grupo Comum"

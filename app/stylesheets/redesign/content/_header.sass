@@ -1,27 +1,38 @@
+#header_container
+  background: $crowdplaces_black
+  overflow: visible
+  height: 78px
+  margin-bottom: 100px
+
 #header
   +grid-container
   +grid-system(16)
   padding: 17px 10px 0 10px
   margin: 0 auto 30px
   display: block
+  overflow: visible
+  position: relative
   .logo
-    +grid(4)
-    +alpha
-    margin-right: 20px
-    height: 54px
+    position: absolute
+    left: -80px
+    top: 0
+    height: 177px
+    width: 358px
     border: none
-    background: url($images_path+"logo164x54.png") left top no-repeat
+    background: url($crowdplaces_images_path+"logo.png") left top no-repeat
     text-indent: -9999em
   nav
     a
       display: inline-block
-      font-family: "Lato-Regular"
+      font-family: 'Bevan', serif
       text-decoration: none
     &.actions
       +grid(4)
+      +grid-prefix(4)
       margin-top: 20px
       a
-        color: $pink
+        color: $crowdplaces_white
+        text-transform: capitalize
         font-size: 18px
         margin-right: 27px
         &:last-child
@@ -29,10 +40,8 @@
         &:hover
           text-decoration: underline
         &.explore
-          background: url($images_path+"explore_icon23x15.png") left 3px no-repeat
           text-indent: 30px
         &.submit_project
-          background: url($images_path+"submit_project_icon25x13.png") left 4px no-repeat
           text-indent: 30px
     &.menu
       +grid(4)
@@ -40,7 +49,7 @@
       a
         font-family: "Lato-Regular"
         text-transform: lowercase
-        color: $ultra_gryn
+        color: $crowdplaces_white
         font-size: 14px
         margin-right: 12px
         &.my_profile_link
@@ -88,7 +97,7 @@
         &:focus
           outline: none
       input[type="submit"]
-        background: url($images_path+"search_submit15x15.png") left top no-repeat
+        background: url($crowdplaces_images_path+"search.png") left top no-repeat
         width: 15px
         height: 15px
         border: none

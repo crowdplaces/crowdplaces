@@ -365,7 +365,7 @@ pt:
       profile: "meu perfil"
     recommended_header:
       sugest_for_you: "sugerido para você"
-      highlight_project: "projeto em destaque"
+      highlight_project: "Projeto em destaque"
     footer:
       blog: "Leia o blog"
       comum: "Grupo Comum"
