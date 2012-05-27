@@ -48,7 +48,7 @@ pt:
     titles:
       blog: blog
       facebook: "já curtiu nosso face?"
-      twitter: "@catarse_"
+      twitter: "@crowdplaces"
       newsletter: "quer novidades?"
       faq: "tá com dúvida?"
       schedule: agenda
@@ -56,13 +56,13 @@ pt:
       newsletter: assinar
   sections:
     selection:
-      title: seleção
+      title: Seleção
     expiring:
-      title: "na reta final"
+      title: "Na reta final"
     recents:
-      title: "novos e fresquinhos"
+      title: "Novos e fresquinhos"
     partners:
-      title: parceiros
+      title: Parceiros
   "no": Não
   "yes": Sim
   accept_terms_html: "Eu li e estou de acordo com os %{link}."

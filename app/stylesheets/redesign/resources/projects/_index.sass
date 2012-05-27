@@ -1,19 +1,5 @@
 [data-namespace="null"][data-controller="projects"][data-action="index"]
   #page_content
-    .selected_projects
-      h2
-        background: url($images_path+"thumbs_up_icon16x16.png") left top no-repeat
-        text-indent: 20px
-    .expiring_projects
-      h2
-        background: url($images_path+"expiring_icon20x22.png") left top no-repeat
-        text-indent: 28px
-        padding-bottom: 3px
-    .recents_projects
-      h2
-        background: url($images_path+"recents_icon31x17.png") left top no-repeat
-        text-indent: 38px
-        padding-bottom: 3px
     .explore_link
       padding-top: 20px
       padding-bottom: 30px
@@ -28,11 +14,16 @@
         +grid(4)
         +omega
         font-family: "Lato-Regular"
-        font-size: 14px
-        color: $pink
+        font-size: 13px
+        line-height: 200%
+        background: $crowdplaces_black
+        color: $crowdplaces_white
         text-decoration: none
+        display: block
+        text-align: center
         &:hover
-          color: $green
+          background: $crowdplaces_yellow
+          color: $crowdplaces_black
 
     .partners
       padding-top: 20px

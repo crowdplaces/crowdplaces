@@ -24,6 +24,7 @@
       p.description[itemprop="description"]= truncate(project.headline, :length => 140)
       p.where[itemprop="contentLocation"]
         - unless project.user.address_city.blank?
+          = image_tag("crowdplaces/place.png")
           = project.user.address_city
           - unless project.user.address_state.blank?
             | /

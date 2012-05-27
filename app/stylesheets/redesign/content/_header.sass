@@ -1,23 +1,17 @@
 #header_container
   background: $crowdplaces_black
-  overflow: visible
-  height: 78px
-  margin-bottom: 100px
+  height: 104px
+  margin-bottom: 62px
 
 #header
   +grid-container
   +grid-system(16)
-  padding: 17px 10px 0 10px
+  padding: 5px 10px 0 10px
   margin: 0 auto 30px
   display: block
-  overflow: visible
-  position: relative
   .logo
-    position: absolute
-    left: -80px
-    top: 0
-    height: 177px
-    width: 358px
+    +grid(4)
+    height: 90px
     border: none
     background: url($crowdplaces_images_path+"logo.png") left top no-repeat
     text-indent: -9999em
@@ -28,8 +22,7 @@
       text-decoration: none
     &.actions
       +grid(4)
-      +grid-prefix(4)
-      margin-top: 20px
+      margin-top: 40px
       a
         color: $crowdplaces_white
         text-transform: capitalize
@@ -38,14 +31,14 @@
         &:last-child
           margin-right: 0
         &:hover
-          text-decoration: underline
+          color: $crowdplaces_blue
         &.explore
-          text-indent: 30px
+          text-indent: 20px
         &.submit_project
-          text-indent: 30px
+          text-indent: 20px
     &.menu
       +grid(4)
-      margin-top: 20px
+      margin-top: 40px
       a
         font-family: "Lato-Regular"
         text-transform: lowercase
@@ -79,10 +72,10 @@
         &:last-child
           margin-right: none
         &:hover
-          color: $pink
+          color: $crowdplaces_green
   .search
     +grid(4)
-    margin-top: 18px
+    margin-top: 37px
     form
       width: 220px
       height: 22px

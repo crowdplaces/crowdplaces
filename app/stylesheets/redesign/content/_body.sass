@@ -1,13 +1,12 @@
 body
-  background: $crowdplaces_yellow url($crowdplaces_images_path+'wallpaper.jpg') center 70px no-repeat
+  background: $crowdplaces_ice url($crowdplaces_images_path+'wallpaper.jpg') center 70px no-repeat
+  background: url($crowdplaces_images_path+'wallpaper.jpg') center 104px no-repeat, url($crowdplaces_images_path+'bg.jpg')
 
   #page_content
     .container
       +grid-system(16)
-      +border-radius(4px)
       padding: 0 10px 0 10px
-      background: $crowdplaces_yellow
-      border: 1px $df_gryn solid
+      background: url($crowdplaces_images_path+'bg.jpg')
       margin-bottom: 40px
 
       .main
@@ -21,24 +20,20 @@ body
         float: left
 
       .list_title
-        margin: 0 0 15px -30px
+        margin: 0 0 15px 0
         float: left
         clear: both
         width: 100%
         .title
           float: left
-          min-width: 103px
-          max-width: 236px
-          height: 30px
-          padding: 5px 10px 5px 9px
-          background: url($images_path+"title_component241x40.png") left top no-repeat
-          // position: absolute
+          background: url($crowdplaces_images_path+"list_title.png") left top no-repeat
+          min-height: 59px
           h2
-            margin-left: 20px
+            margin: 16px 6px
             float: left
-            color: white
-            font-family: "Lato-Regular"
-            font-size: 18px
+            color: $crowdplaces_yellow
+            font-family: 'Bevan', serif
+            font-size: 20px
       .projects
         padding-top: 20px
   #logos

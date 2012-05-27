@@ -41,14 +41,14 @@ en:
       contact: Contact
   main:
     links:
-      selected: "explore more projects selected"
+      selected: "explore more selected projects"
       expiring: "explore more expiring projects"
       recents: "explore more recent projects"
   sidebar:
     titles:
       blog: blog
-      facebook: "have enjoyed our face?"
-      twitter: "@catarse_"
+      facebook: "liked our facebook?"
+      twitter: "@crowdplaces"
       newsletter: "want to receive news?"
       faq: "have any doubt?"
       schedule: calendar
@@ -56,13 +56,13 @@ en:
       newsletter: submit
   sections:
     selection:
-      title: selection
+      title: Selection
     expiring:
-      title: expiring
+      title: Expiring
     recents:
-      title: recents
+      title: Recent
     partners:
-      title: partners
+      title: Partners
   "no": "No"
   "yes": "Yes"
   accept_terms_html: "I have read and accepted the %{link}."
