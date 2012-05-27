@@ -451,7 +451,7 @@ pt:
       waiting_confirmation: aguardando
   projects:
     box:
-      by: "por "
+      by: "por"
     admin_fields:
       title: "Campos para o admin"
     back_project:

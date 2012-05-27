@@ -42,33 +42,31 @@
         &:hover
           background: $crowdplaces_yellow
           color: $crowdplaces_black
-
-    .partners
-      padding-top: 20px
-      padding-bottom: 10px
-      .title
-        margin-left: 10px
-      h2
-        background: url($images_path+"partners_icon26x26.png") left top no-repeat
-        text-indent: 35px
-        padding-bottom: 9px
-        margin-top: -5px
-        padding-top: 5px
-      .channels_list_widget
-        ul
-          width: 100%
-          li
-            width: 220px
-            margin-bottom: 20px
-            margin-right: 10px
-            margin-left: 10px
-            float: left
-            border: none
-            +transition(all, 0.5s)
-            &:hover
-              +border-radius(10px)
-              +box-shadow(rgba(black, 0.3) 0px 3px 10px)
-              img
-                +border-radius(10px)
-
-
+#partners
+  .partners
+    padding-top: 20px
+    padding-bottom: 10px
+    .title
+      margin-left: 10px
+    h2
+      width: 220px
+      font-family: "Candal"
+      font-size: 20px
+      line-height: 200%
+      margin-top: -35px
+      margin-bottom: 20px
+      background: $crowdplaces_yellow
+      text-align: center
+    .channels_list_widget
+      ul
+        width: 100%
+        li
+          width: 220px
+          margin-bottom: 20px
+          margin-right: 10px
+          margin-left: 10px
+          float: left
+          border: 1px solid $crowdplaces_gray
+          +transition(all, 0.5s)
+          &:hover
+            border: 1px solid $crowdplaces_dark_gray

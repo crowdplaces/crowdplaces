@@ -447,7 +447,7 @@ en:
       waiting_confirmation: waiting
   projects:
     box:
-      by: by
+      by: "by"
     admin_fields:
       title: "Admin fields"
     back_project:
