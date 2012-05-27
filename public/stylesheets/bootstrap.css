@@ -275,7 +275,7 @@ div.project {
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  height: 407px;
+  height: 411px;
   overflow: hidden;
 }
 /* line 10, ../../app/stylesheets/redesign/miv/_projects.sass */
@@ -9890,7 +9890,7 @@ body #logos .power a {
 /* line 1, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar {
   border-left: 1px #dfdfdf solid;
-  height: 1623px;
+  height: 1636px;
 }
 /* line 4, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content {
