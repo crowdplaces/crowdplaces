@@ -35,10 +35,10 @@ pt:
       active_projects: "Projetos no ar agora"
     links:
       how_works: "Como funciona"
-      faq: F.A.Q./Ajuda
+      faq: FAQ/ Ajuda
       terms: "Termos de Uso"
       policy: "Política de Privacidade"
-      contact: Contato
+      contact: "Diga olá!"
   main:
     links:
       selected: "explore mais projetos selecionados"
@@ -369,9 +369,9 @@ pt:
     footer:
       blog: "Leia o blog"
       comum: "Grupo Comum"
-      email: Contato
+      email: "Diga olá!"
       facebook: "Curta no Facebook"
-      faq: FAQ/Ajuda
+      faq: FAQ/ Ajuda
       guidelines: "Como funciona?"
       privacy: "Política de privacidade"
       terms: "Termos de uso"

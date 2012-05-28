@@ -35,10 +35,10 @@ en:
       active_projects: "Projects on air now"
     links:
       how_works: "How It works"
-      faq: F.A.Q./Help
+      faq: FAQ/ Help
       terms: "Terms of use"
       policy: "Privacy Policy"
-      contact: Contact
+      contact: "Say hi!"
   main:
     links:
       selected: "explore more selected projects"
@@ -369,9 +369,9 @@ en:
     footer:
       blog: "Our blog"
       comum: "Grupo Comum"
-      email: Contact
+      email: "Say hi!"
       facebook: "Our Facebook"
-      faq: FAQ/Help
+      faq: FAQ/ Help
       guidelines: "How does it work?"
       privacy: "Privacy policy"
       terms: "Terms of use"

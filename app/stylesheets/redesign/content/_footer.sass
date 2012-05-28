@@ -1,5 +1,5 @@
 #footer
-  background: $crowdplaces_black
+  background: url($crowdplaces_images_path+'bg_footer.png')
 .footer
   +grid-system(16)
   +border-radius(4px)
@@ -14,23 +14,55 @@
       padding-bottom: 40px
       padding-top: 5px
     .info
-      +grid(4)
-      +grid-suffix(1)
       h3
-        background: url($images_path+'faq_icon18x18.png') left 5px no-repeat
-        text-indent: 34px
+        +grid(4)
+        img
+          margin-top: -20px
+          margin-left: -20px
       ul
+        +grid(12)
+        margin-top: 80px
         li
-          margin-bottom: 32px
+          float: left
+          padding: 0 48px 0 10px
+          height: 40px
+          &:nth-child(1)
+            border-left: 4px solid $crowdplaces_blue
+            width: 100px
+            a:hover
+              color: $crowdplaces_yellow
+          &:nth-child(2)
+            border-left: 4px solid $crowdplaces_pink
+            width: 70px
+            a:hover
+              color: $crowdplaces_green
+          &:nth-child(3)
+            border-left: 4px solid $crowdplaces_yellow
+            width: 80px
+            a:hover
+              color: $crowdplaces_orange
+          &:nth-child(4)
+            border-left: 4px solid $crowdplaces_green
+            width: 126px
+            a:hover
+              color: $crowdplaces_blue
+          &:last-child
+            border-left: 4px solid $crowdplaces_orange
+            width: 60px
+            padding-right: 0
+            a:hover
+              color: $crowdplaces_pink
           a
-            font-family: "Lato-Regular"
+            font-family: "Candal"
             font-size: 18px
             font-weight: lighter
             color: white
             text-decoration: none
-            &:hover
-              color: $pink
-
+      .power
+        float: right
+        margin-top: 100px
+        img
+          width: 150px
     .opendata
       +grid(5)
       +grid-suffix(1)
