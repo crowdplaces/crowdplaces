@@ -7906,7 +7906,7 @@ input.error, textarea.error {
 /* line 1, ../../app/stylesheets/redesign/content/_body.sass */
 body {
   background: #f2f2f2 url("/images/crowdplaces/wallpaper.jpg") center 70px no-repeat;
-  background: url("/images/crowdplaces/wallpaper.jpg") center 104px no-repeat, url("/images/crowdplaces/bg.jpg");
+  background: url("/images/crowdplaces/wallpaper.jpg") center 82px no-repeat, url("/images/crowdplaces/bg.jpg");
 }
 /* line 6, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container {
@@ -9001,7 +9001,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
 /* line 1, ../../app/stylesheets/redesign/content/_header.sass */
 #header_container {
   background: black;
-  height: 104px;
+  height: 82px;
   margin-bottom: 62px;
 }
 
@@ -9348,7 +9348,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
   margin-left: 10px;
   margin-right: 10px;
   width: 220px;
-  height: 90px;
+  height: 67px;
   border: none;
   background: url("/images/crowdplaces/logo.png") left top no-repeat;
   text-indent: -9999em;
@@ -9366,14 +9366,14 @@ body #partners_container_container #partners_container #partners .pull_15 {
   margin-left: 10px;
   margin-right: 10px;
   width: 220px;
-  margin-top: 40px;
+  margin-top: 32px;
 }
 /* line 26, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.actions a {
   color: white;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 18px;
-  margin-right: 27px;
+  margin-right: 36px;
 }
 /* line 31, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.actions a:last-child {
@@ -9384,23 +9384,15 @@ body #partners_container_container #partners_container #partners .pull_15 {
   color: #4daefb;
 }
 /* line 35, ../../app/stylesheets/redesign/content/_header.sass */
-#header nav.actions a.explore {
-  text-indent: 20px;
-}
-/* line 37, ../../app/stylesheets/redesign/content/_header.sass */
-#header nav.actions a.submit_project {
-  text-indent: 0px;
-}
-/* line 39, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 220px;
-  margin-top: 40px;
+  margin-top: 32px;
 }
-/* line 42, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 38, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a {
   font-family: "Lato-Regular";
   font-style: normal;
@@ -9410,14 +9402,14 @@ body #partners_container_container #partners_container #partners .pull_15 {
   font-size: 14px;
   margin-right: 12px;
 }
-/* line 50, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 46, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link {
   width: 130px;
   display: block;
   float: right;
   margin-right: 0;
 }
-/* line 56, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 52, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link img.profile_picture {
   border: 1px #333333;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 2px;
@@ -9437,42 +9429,42 @@ body #partners_container_container #partners_container #partners .pull_15 {
   margin-top: -14px;
   margin-right: 5px;
 }
-/* line 65, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 61, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link img.profile_picture:hover {
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   -o-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
 }
-/* line 67, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 63, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link .current_user_name {
   float: left;
   margin-right: 5px;
 }
-/* line 70, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 66, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a.my_profile_link .dropdown_arrow {
   float: left;
   position: relative;
   margin-top: 7px;
 }
-/* line 74, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 70, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a:last-child {
   margin-right: none;
 }
-/* line 76, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 72, ../../app/stylesheets/redesign/content/_header.sass */
 #header nav.menu a:hover {
   color: #fc3082;
 }
-/* line 78, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 74, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 220px;
-  margin-top: 37px;
+  margin-top: 29px;
 }
-/* line 81, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 77, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form {
   width: 220px;
   height: 22px;
@@ -9485,17 +9477,17 @@ body #partners_container_container #partners_container #partners .pull_15 {
   border: 1px #cccccc solid;
   background: white;
 }
-/* line 88, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 84, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="text"] {
   border: none;
   width: 190px;
   float: left;
 }
-/* line 92, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 88, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="text"]:focus {
   outline: none;
 }
-/* line 94, ../../app/stylesheets/redesign/content/_header.sass */
+/* line 90, ../../app/stylesheets/redesign/content/_header.sass */
 #header .search form input[type="submit"] {
   background: url("/images/crowdplaces/search.png") left top no-repeat;
   width: 15px;

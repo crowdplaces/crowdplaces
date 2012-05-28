@@ -1,6 +1,6 @@
 #header_container
   background: $crowdplaces_black
-  height: 104px
+  height: 82px
   margin-bottom: 62px
 
 #header
@@ -11,7 +11,7 @@
   display: block
   .logo
     +grid(4)
-    height: 90px
+    height: 67px
     border: none
     background: url($crowdplaces_images_path+"logo.png") left top no-repeat
     text-indent: -9999em
@@ -22,23 +22,19 @@
       text-decoration: none
     &.actions
       +grid(4)
-      margin-top: 40px
+      margin-top: 32px
       a
         color: $crowdplaces_white
-        text-transform: capitalize
+        text-transform: uppercase
         font-size: 18px
-        margin-right: 27px
+        margin-right: 36px
         &:last-child
           margin-right: 0
         &:hover
           color: $crowdplaces_blue
-        &.explore
-          text-indent: 20px
-        &.submit_project
-          text-indent: 0px
     &.menu
       +grid(4)
-      margin-top: 40px
+      margin-top: 32px
       a
         font-family: "Lato-Regular"
         font-style: normal
@@ -77,7 +73,7 @@
           color: $crowdplaces_pink
   .search
     +grid(4)
-    margin-top: 37px
+    margin-top: 29px
     form
       width: 220px
       height: 22px
