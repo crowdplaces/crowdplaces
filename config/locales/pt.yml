@@ -41,7 +41,7 @@ pt:
       contact: "Diga olá!"
   main:
     links:
-      selected: "explore mais projetos selecionados"
+      selected: "explore mais projetos recomendados"
       expiring: "explore mais projetos na reta final"
       recents: "explore mais projetos recentes"
   sidebar:

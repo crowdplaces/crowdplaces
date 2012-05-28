@@ -41,7 +41,7 @@ en:
       contact: "Say hi!"
   main:
     links:
-      selected: "explore more selected projects"
+      selected: "explore more recommended projects"
       expiring: "explore more expiring projects"
       recents: "explore more recent projects"
   sidebar:

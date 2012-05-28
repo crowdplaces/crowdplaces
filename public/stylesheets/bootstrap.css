@@ -10927,11 +10927,16 @@ body #partners_container_container #partners_container #partners .pull_15 {
   text-decoration: none;
   display: block;
   text-align: center;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
 }
-/* line 42, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 43, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 [data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link a:hover {
-  background: #ffe401;
-  color: black;
+  background: #4daefb;
 }
 
 /* line 46, ../../app/stylesheets/redesign/resources/projects/_index.sass */
