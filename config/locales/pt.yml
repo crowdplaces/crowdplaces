@@ -60,7 +60,7 @@ pt:
     expiring:
       title: "Na reta final"
     recents:
-      title: "Novos e fresquinhos"
+      title: "Recentes"
     partners:
       title: Parceiros
   "no": Não
@@ -596,7 +596,7 @@ pt:
       recent:
         explore: "Explore mais projetos recentes"
         subtitle: "Projetos recém-chegados no Catarse. Cheiro de que saiu do forno agorinha..."
-        title: "Novos e fresquinhos"
+        title: "Recentes"
       successful:
         explore: "Explore mais projetos bem-sucedidos"
         subtitle: "Conheça nossos mais novos orgulhos :) amanhã seu projeto pode estar aqui!"

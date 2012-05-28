@@ -10994,8 +10994,8 @@ body #partners_container_container #partners_container #partners .pull_15 {
   -webkit-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
-  opacity: 0.9;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
 }
 /* line 80, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul li:hover {
