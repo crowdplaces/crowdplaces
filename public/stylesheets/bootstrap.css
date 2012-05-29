@@ -7917,7 +7917,7 @@ body #page_content .container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  padding: 10px 10px 40px 10px;
+  padding: 10px 10px 30px 10px;
   background: white;
 }
 /* line 35, ../../../../.rvm/gems/ruby-1.9.2-p290@crowdplaces/gems/compass-960-plugin-0.10.4/stylesheets/960/_grid.sass */
@@ -9507,12 +9507,11 @@ body #partners_container_container #partners_container #partners .pull_15 {
 
 /* line 1, ../../app/stylesheets/redesign/content/_footer.sass */
 #footer {
-  background: url("/images/crowdplaces/bg.png"), url("/images/crowdplaces/bg_footer.png");
+  background: url("/images/crowdplaces/bg_footer.png");
 }
 
 /* line 3, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer {
-  background: url("/images/crowdplaces/bg_footer.png");
   margin-left: auto;
   margin-right: auto;
   width: 960px;
@@ -9848,12 +9847,12 @@ body #partners_container_container #partners_container #partners .pull_15 {
 .footer .pull_15 {
   left: -900px;
 }
-/* line 8, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 7, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-/* line 11, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 10, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -9861,7 +9860,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
   padding-bottom: 40px;
   padding-top: 5px;
 }
-/* line 18, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 17, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info h3 {
   display: inline;
   float: left;
@@ -9869,12 +9868,12 @@ body #partners_container_container #partners_container #partners .pull_15 {
   margin-right: 10px;
   width: 220px;
 }
-/* line 20, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 19, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info h3 img {
   margin-top: -20px;
   margin-left: -20px;
 }
-/* line 23, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 22, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul {
   display: inline;
   float: left;
@@ -9883,59 +9882,59 @@ body #partners_container_container #partners_container #partners .pull_15 {
   width: 700px;
   margin-top: 80px;
 }
-/* line 26, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 25, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li {
   float: left;
   padding: 0 48px 0 10px;
   height: 40px;
 }
-/* line 30, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 29, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:nth-child(1) {
   border-left: 4px solid #0094bf;
   width: 100px;
 }
-/* line 33, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 32, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:nth-child(1) a:hover {
   color: #ffe401;
 }
-/* line 35, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 34, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:nth-child(2) {
   border-left: 4px solid #fc3082;
   width: 70px;
 }
-/* line 38, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 37, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:nth-child(2) a:hover {
   color: #339933;
 }
-/* line 40, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 39, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:nth-child(3) {
   border-left: 4px solid #ffe401;
   width: 80px;
 }
-/* line 43, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 42, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:nth-child(3) a:hover {
   color: #ff9900;
 }
-/* line 45, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 44, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:nth-child(4) {
   border-left: 4px solid #339933;
   width: 126px;
 }
-/* line 48, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 47, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:nth-child(4) a:hover {
   color: #0094bf;
 }
-/* line 50, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 49, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:last-child {
   border-left: 4px solid #ff9900;
   width: 60px;
   padding-right: 0;
 }
-/* line 54, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 53, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li:last-child a:hover {
   color: #fc3082;
 }
-/* line 56, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 55, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info ul li a {
   font-family: "Candal";
   font-size: 18px;
@@ -9943,16 +9942,16 @@ body #partners_container_container #partners_container #partners .pull_15 {
   color: white;
   text-decoration: none;
 }
-/* line 62, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 61, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info .power {
   float: right;
   margin-top: 100px;
 }
-/* line 65, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 64, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .info .power img {
   width: 150px;
 }
-/* line 67, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 66, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .opendata {
   display: inline;
   float: left;
@@ -9961,22 +9960,22 @@ body #partners_container_container #partners_container #partners .pull_15 {
   width: 280px;
   padding-right: 60px;
 }
-/* line 70, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 69, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .opendata h3 {
   background: url("/images/catarse/opendata_icon26x26.png") left top no-repeat;
   text-indent: 44px;
 }
-/* line 73, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 72, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .opendata ul {
   display: block;
 }
-/* line 75, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 74, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .opendata ul li {
   width: 100%;
   float: left;
   margin-bottom: 20px;
 }
-/* line 79, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 78, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .opendata ul li h5 {
   float: left;
   font-family: "Lato-Bold";
@@ -9984,7 +9983,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
   color: white;
   padding-right: 10px;
 }
-/* line 85, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 84, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .opendata ul li p {
   padding-top: 3px;
   float: left;
@@ -9995,7 +9994,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 94, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 93, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .social {
   display: inline;
   float: left;
@@ -10003,22 +10002,22 @@ body #partners_container_container #partners_container #partners .pull_15 {
   margin-right: 10px;
   width: 280px;
 }
-/* line 96, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 95, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .social h3 {
   background: url("/images/catarse/heart_icon17x14.png") left 6px no-repeat;
   text-indent: 32px;
 }
-/* line 99, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 98, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .social h3.newsletter {
   padding-top: 30px;
   padding-bottom: 20px;
   background: url("/images/catarse/newsletter_icon18x15.png") left 32px no-repeat;
 }
-/* line 103, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 102, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .social .twitter {
   margin-bottom: 20px;
 }
-/* line 106, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 105, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .social form input[type="text"] {
   float: left;
   width: 170px;
@@ -10032,13 +10031,13 @@ body #partners_container_container #partners_container #partners .pull_15 {
   border: 1px #dfdfdf solid;
   border-right: none;
 }
-/* line 113, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 112, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .social form input[type="text"]:focus {
   outline: none;
   border: 1px #e75297 solid;
   border-right: none;
 }
-/* line 117, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 116, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .social form input[type="submit"] {
   float: left;
   background: #e75297;
@@ -10064,7 +10063,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 129, ../../app/stylesheets/redesign/content/_footer.sass */
+/* line 128, ../../app/stylesheets/redesign/content/_footer.sass */
 .footer .content .social form input[type="submit"]:active {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
