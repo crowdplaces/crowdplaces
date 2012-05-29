@@ -1,14 +1,12 @@
 body
-  background: $crowdplaces_ice url($crowdplaces_images_path+'wallpaper.jpg') center 70px no-repeat
-  background: url($crowdplaces_images_path+'wallpaper.jpg') center 82px no-repeat, url($crowdplaces_images_path+'bg_wall.jpg') top left
+  background: url($crowdplaces_images_path+'wallpaper.jpg') center 82px
 
   #page_content
+    background: url($crowdplaces_images_path+'bg.jpg')
     .container
       +grid-system(16)
-      padding: 0 10px 0 10px
-      background: url($crowdplaces_images_path+'bg.jpg')
-      margin-bottom: 40px
-      border: 1px solid $crowdplaces_light_gray
+      padding: 10px 10px 40px 10px
+      //border: 1px solid $crowdplaces_light_gray
 
       .main
         padding-top: 17px

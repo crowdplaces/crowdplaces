@@ -7910,18 +7910,18 @@ input.error, textarea.error {
 
 /* line 1, ../../app/stylesheets/redesign/content/_body.sass */
 body {
-  background: #f2f2f2 url("/images/crowdplaces/wallpaper.jpg") center 70px no-repeat;
-  background: url("/images/crowdplaces/wallpaper.jpg") center 82px no-repeat, url("/images/crowdplaces/bg_wall.jpg") top left;
+  background: url("/images/crowdplaces/wallpaper.jpg") center 82px;
+}
+/* line 4, ../../app/stylesheets/redesign/content/_body.sass */
+body #page_content {
+  background: url("/images/crowdplaces/bg.jpg");
 }
 /* line 6, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  padding: 0 10px 0 10px;
-  background: url("/images/crowdplaces/bg.jpg");
-  margin-bottom: 40px;
-  border: 1px solid #cdcdcd;
+  padding: 10px 10px 40px 10px;
 }
 /* line 35, ../../../../.rvm/gems/ruby-1.9.2-p290@crowdplaces/gems/compass-960-plugin-0.10.4/stylesheets/960/_grid.sass */
 body #page_content .container .grid_1, body #page_content .container .grid_2, body #page_content .container .grid_3, body #page_content .container .grid_4, body #page_content .container .grid_5, body #page_content .container .grid_6, body #page_content .container .grid_7, body #page_content .container .grid_8, body #page_content .container .grid_9, body #page_content .container .grid_10, body #page_content .container .grid_11, body #page_content .container .grid_12, body #page_content .container .grid_13, body #page_content .container .grid_14, body #page_content .container .grid_15, body #page_content .container .grid_16 {
@@ -8247,7 +8247,7 @@ body #page_content .container .push_15 {
 body #page_content .container .pull_15 {
   left: -900px;
 }
-/* line 13, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 11, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container .main {
   padding-top: 17px;
   display: inline;
@@ -8256,7 +8256,7 @@ body #page_content .container .main {
   margin-right: 10px;
   width: 700px;
 }
-/* line 16, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 14, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container .sidebar {
   display: inline;
   float: left;
@@ -8265,24 +8265,24 @@ body #page_content .container .sidebar {
   width: 220px;
   margin-right: 0;
 }
-/* line 20, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 18, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container .list {
   float: left;
 }
-/* line 25, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 23, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container .list_title .title h2 {
   font-family: "Candal";
   font-size: 20px;
 }
-/* line 28, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 26, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container .projects {
   padding-top: 20px;
 }
-/* line 30, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 28, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos_container {
   background: white;
 }
-/* line 32, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 30, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos {
   margin-left: auto;
   margin-right: auto;
@@ -8623,7 +8623,7 @@ body #logos .push_15 {
 body #logos .pull_15 {
   left: -900px;
 }
-/* line 38, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 36, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .multide {
   display: inline;
   float: left;
@@ -8632,11 +8632,11 @@ body #logos .multide {
   width: 100px;
   padding-right: 240px;
 }
-/* line 41, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 39, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .multide a {
   margin-left: 10px;
 }
-/* line 43, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 41, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .comum {
   display: inline;
   float: left;
@@ -8645,13 +8645,13 @@ body #logos .comum {
   width: 160px;
   padding-right: 180px;
 }
-/* line 46, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 44, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .comum a {
   float: left;
   margin-top: 5px;
   margin-left: 10px;
 }
-/* line 50, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 48, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .power {
   display: inline;
   float: left;
@@ -8660,19 +8660,19 @@ body #logos .power {
   width: 220px;
   padding-left: 720px;
 }
-/* line 53, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 51, ../../app/stylesheets/redesign/content/_body.sass */
 body #logos .power a {
   float: right;
 }
-/* line 55, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 53, ../../app/stylesheets/redesign/content/_body.sass */
 body #partners_container_container {
   background: url("/images/crowdplaces/bg_partners.png") repeat-x;
 }
-/* line 59, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 57, ../../app/stylesheets/redesign/content/_body.sass */
 body #partners_container_container #partners_container {
   background: url("/images/crowdplaces/bg_paint.png") bottom center no-repeat;
 }
-/* line 62, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 60, ../../app/stylesheets/redesign/content/_body.sass */
 body #partners_container_container #partners_container #partners {
   margin-left: auto;
   margin-right: auto;
