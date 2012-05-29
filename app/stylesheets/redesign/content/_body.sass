@@ -1,12 +1,11 @@
 body
-  background: $crowdplaces_gray url($crowdplaces_images_path+'wallpaper.jpg') center 82px no-repeat
+  background: url($crowdplaces_images_path+'bg.png'), url($crowdplaces_images_path+'wallpaper.jpg') center 82px no-repeat
 
   #page_content
-    background: url($crowdplaces_images_path+'bg.jpg')
     .container
       +grid-system(16)
       padding: 10px 10px 40px 10px
-
+      background: $crowdplaces_white
       .main
         padding-top: 17px
         +grid(12)
@@ -50,12 +49,9 @@ body
       a
         float:  right
   #partners_container_container
-    //background: $crowdplaces_white
-    //line-height: 4px
-    background: url($crowdplaces_images_path+'bg_partners.png') repeat-x
+    background: url($crowdplaces_images_path+'bg_paint.png') bottom center no-repeat, url($crowdplaces_images_path+'bg.png'), url($crowdplaces_images_path+'bg_partners.png') repeat-x
     #partners_container
-      //border-top: 1px solid $crowdplaces_ice
-      background: url($crowdplaces_images_path+'bg_paint.png') bottom center no-repeat
       #partners
+        background: url($crowdplaces_images_path+'bg_paint.png') bottom center no-repeat, url($crowdplaces_images_path+'bg_partners.png') repeat-x
         +grid-system(16)
         padding: 0 10px 0 10px
