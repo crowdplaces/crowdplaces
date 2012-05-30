@@ -1,6 +1,7 @@
 #locales class=("notify" if flash[:locale])
   ul
     - I18n.available_locales.select{ |l| l != :pt }.map(&:to_s).sort.each do |locale|
-      li
+      li class=(locale.to_sym == I18n.locale ? "selected" : nil)
         = link_to replace_locale(locale) do
-          = image_tag "locales/#{locale}.png"
+          = locale
+          span.separator ·

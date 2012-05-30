@@ -396,7 +396,7 @@ en:
       my_credits: "My credits"
       my_profile: "My profile"
   not_informed: "not informed"
-  notify_locale: "We identified your language by your browser. If you prefer another one, click on one of the flags on the right."
+  notify_locale: "We identified your language by your browser. If you prefer another one, click on one of the options at the top."
   on_the_spot:
     cancel: Cancel
     ok: OK

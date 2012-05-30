@@ -7,28 +7,30 @@
     +box-shadow(rgba(0,132,185,.2), 0px, 0px, 12px)
 
 #locales
-  +opacity(0.7)
-  position: fixed
-  right: -32px
-  top: 50%
-  margin-top: -94px
-  z-index: 450
-  background-color: $crowdplaces_black
-  border-right: none
-  +border-top-left-radius(3px)
-  +border-bottom-left-radius(3px)
-  padding: 12px
-  padding-bottom: 4px
-  +transition(all,0.3s)
-  &:hover
-    right: 0
-    +opacity(1)
+  background-color: $crowdplaces_ice
+  font-family: "Lato-Regular"
+  text-align: right
+  +clearfix
+  padding: 4px 0 6px 0
   &.notify
-    right: 0
-    +opacity(1)
-    -webkit-animation: pulse 1.5s infinite ease-in-out
-  img
-    width: 32px
-    +transition(all,0.3s)
-    &:hover
-      +scale(1.1)
+    ul
+      -webkit-animation: pulse 1.5s infinite ease-in-out
+  ul
+    +grid-container
+    +grid-system(16)
+    text-transform: uppercase
+    li
+      float: right
+      margin-left: 8px
+      a
+        text-decoration: none
+        color: $crowdplaces_gray
+      &.selected
+        a
+          color: $crowdplaces_black
+      .separator
+        color: $crowdplaces_gray
+        margin-left: 8px
+      &:first-child
+        .separator
+          display: none

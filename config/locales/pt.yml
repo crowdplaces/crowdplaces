@@ -396,7 +396,7 @@ pt:
       my_credits: "Meus créditos"
       my_profile: "Meu perfil"
   not_informed: "não informado"
-  notify_locale: "Identificamos seu idioma pelo seu navegador. Caso você prefira outro, clique em uma das bandeiras à direita."
+  notify_locale: "Identificamos seu idioma pelo seu navegador. Caso você prefira outro, clique em uma das opções no topo."
   on_the_spot:
     cancel: Cancelar
     ok: OK
