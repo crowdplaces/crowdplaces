@@ -8213,7 +8213,7 @@ input.error, textarea.error {
 
 /* line 1, ../../app/stylesheets/redesign/content/_body.sass */
 body {
-  background: url("/images/crowdplaces/bg.png"), url("/images/crowdplaces/wallpaper.jpg") center 118px no-repeat;
+  background: url("/images/crowdplaces/bg.png");
 }
 /* line 5, ../../app/stylesheets/redesign/content/_body.sass */
 body #page_content .container {
@@ -11167,50 +11167,54 @@ body #partners_container_container #partners_container #partners .pull_15 {
   box-shadow: black 0px 0px 15px inset !important;
 }
 
-/* line 3, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .selected_projects .list_title .title {
+/* line 1, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] {
+  background: url("/images/crowdplaces/bg.png"), url("/images/crowdplaces/wallpaper.jpg") center 118px no-repeat;
+}
+/* line 4, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .selected_projects .list_title .title {
   color: #ffe401;
   background: url("/images/crowdplaces/balloon.png") top left no-repeat;
   width: 220px;
   height: 62px;
   text-align: center;
 }
-/* line 9, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .selected_projects .list_title .title h2 {
+/* line 10, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .selected_projects .list_title .title h2 {
   line-height: 220%;
 }
-/* line 11, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .expiring_projects .list_title .title {
+/* line 12, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .expiring_projects .list_title .title {
   color: #ffe401;
   background: url("/images/crowdplaces/balloon.png") top left no-repeat;
   width: 220px;
   height: 62px;
   text-align: center;
 }
-/* line 17, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .expiring_projects .list_title .title h2 {
+/* line 18, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .expiring_projects .list_title .title h2 {
   line-height: 220%;
 }
-/* line 19, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .recents_projects .list_title .title {
+/* line 20, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .recents_projects .list_title .title {
   color: #ffe401;
   background: url("/images/crowdplaces/balloon.png") top left no-repeat;
   width: 220px;
   height: 62px;
   text-align: center;
 }
-/* line 25, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .recents_projects .list_title .title h2 {
+/* line 26, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .recents_projects .list_title .title h2 {
   line-height: 220%;
 }
-/* line 27, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link {
+/* line 28, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link {
   padding-top: 20px;
   padding-bottom: 30px;
   float: left;
 }
-/* line 31, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link hr {
+/* line 32, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link hr {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -11221,8 +11225,8 @@ body #partners_container_container #partners_container #partners .pull_15 {
   margin-right: 0;
   padding-top: 2px;
 }
-/* line 37, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link a {
+/* line 38, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link a {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -11244,21 +11248,21 @@ body #partners_container_container #partners_container #partners .pull_15 {
   -khtml-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 49, ../../app/stylesheets/redesign/resources/projects/_index.sass */
-[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link a:hover {
+/* line 50, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link a:hover {
   background: #0094bf;
 }
 
-/* line 52, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 53, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners {
   padding-top: 20px;
   padding-bottom: 40px;
 }
-/* line 55, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 56, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .title {
   margin-left: 10px;
 }
-/* line 57, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 58, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners h2 {
   color: #ffe401;
   width: 200px;
@@ -11271,11 +11275,11 @@ body #partners_container_container #partners_container #partners .pull_15 {
   background: url("/images/crowdplaces/stain.png") top left no-repeat;
   text-indent: 32px;
 }
-/* line 69, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 70, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul {
   width: 100%;
 }
-/* line 71, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 72, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul li {
   height: 144px;
   width: 220px;
@@ -11294,7 +11298,7 @@ body #partners_container_container #partners_container #partners .pull_15 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 80, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 81, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul li:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
