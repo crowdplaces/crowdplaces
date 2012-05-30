@@ -35,7 +35,7 @@ pt:
       active_projects: "Projetos no ar agora"
     links:
       how_works: "Como funciona"
-      faq: FAQ/ Ajuda
+      faq: "F.A.Q./Ajuda"
       terms: "Termos de Uso"
       policy: "Política de Privacidade"
       contact: "Diga olá!"
@@ -56,13 +56,13 @@ pt:
       newsletter: assinar
   sections:
     selection:
-      title: "Super seleção"
+      title: seleção
     expiring:
-      title: "Na reta final"
+      title: "na reta final"
     recents:
-      title: "Recentes"
+      title: "novos e fresquinhos"
     partners:
-      title: Parceiros
+      title: parceiros
   "no": Não
   "yes": Sim
   accept_terms_html: "Eu li e estou de acordo com os %{link}."
@@ -527,6 +527,8 @@ pt:
       subtitle: "Conheça os projetos que nos causaram uma Catarse :) cada dia uma nova seleção."
       title: "Nossa seleção catártica!"
     index:
+      crowdmap:
+        title: "A turnê mundial de urbanismo mágico"
       expiring: "Na reta final"
       recent: "Projetos recentes"
       recommended: "Projetos recomendados"
