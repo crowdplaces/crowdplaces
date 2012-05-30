@@ -532,16 +532,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-decoration: none;
   color: #8d8d8d;
 }
-/* line 29, ../../app/stylesheets/redesign/miv/_locales.sass */
-#locales ul li.selected a {
+/* line 28, ../../app/stylesheets/redesign/miv/_locales.sass */
+#locales ul li a:hover {
   color: black;
 }
 /* line 31, ../../app/stylesheets/redesign/miv/_locales.sass */
+#locales ul li.selected a {
+  color: black;
+}
+/* line 33, ../../app/stylesheets/redesign/miv/_locales.sass */
 #locales ul li .separator {
   color: #8d8d8d;
   margin-left: 8px;
 }
-/* line 35, ../../app/stylesheets/redesign/miv/_locales.sass */
+/* line 37, ../../app/stylesheets/redesign/miv/_locales.sass */
 #locales ul li:first-child .separator {
   display: none;
 }
