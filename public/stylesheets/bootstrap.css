@@ -9300,17 +9300,13 @@ body #partners_container_container #partners_container #partners .push_15 {
 body #partners_container_container #partners_container #partners .pull_15 {
   left: -900px;
 }
-/* line 58, ../../app/stylesheets/content/_body.sass */
-body #crowdmap_container {
-  background: #8d8d8d url("/images/crowdplaces/bg.png");
-}
-/* line 60, ../../app/stylesheets/content/_body.sass */
+/* line 59, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
   padding: 0 10px;
-  background: #8d8d8d;
+  background: url("/images/crowdplaces/bg_crowdmap.jpg") top center no-repeat;
   overflow: hidden;
   *zoom: 1;
 }
@@ -9638,33 +9634,32 @@ body #crowdmap_container #crowdmap .push_15 {
 body #crowdmap_container #crowdmap .pull_15 {
   left: -900px;
 }
-/* line 65, ../../app/stylesheets/content/_body.sass */
+/* line 64, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap h2 {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 280px;
-  padding-left: 60px;
+  width: 340px;
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: "Candal";
   font-size: 48px;
+  text-indent: -9999em;
 }
-/* line 72, ../../app/stylesheets/content/_body.sass */
+/* line 71, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap .map {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 520px;
-  padding-left: 60px;
+  width: 580px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 77, ../../app/stylesheets/content/_body.sass */
+/* line 75, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap .map iframe {
-  border: 5px solid #fc3082;
+  border: 5px solid #25819e;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   -o-border-radius: 4px;

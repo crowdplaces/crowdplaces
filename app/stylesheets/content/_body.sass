@@ -56,24 +56,22 @@ body
         +grid-system(16)
         padding: 0 10px 0 10px
   #crowdmap_container
-    background: $crowdplaces_gray url($crowdplaces_images_path+'bg.png')
     #crowdmap
       +grid-system(16)
       padding: 0 10px
-      background: $crowdplaces_gray
+      background: url($crowdplaces_images_path+'bg_crowdmap.jpg') top center no-repeat
       +clearfix
       h2
-        +grid(5)
-        +grid-prefix(1)
+        +grid(6)
         padding-top: 20px
         padding-bottom: 20px
         font-family: "Candal"
         font-size: 48px
+        text-indent: -9999em
       .map
-        +grid(9)
-        +grid-prefix(1)
+        +grid(10)
         padding-top: 20px
         padding-bottom: 20px
         iframe
-          border: 5px solid $crowdplaces_pink
+          border: 5px solid $crowdplaces_dark_blue
           +border-radius(4px)
