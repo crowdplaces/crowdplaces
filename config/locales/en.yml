@@ -38,12 +38,12 @@ en:
       faq: FAQ/ Help
       terms: "Terms of use"
       policy: "Privacy Policy"
-      contact: "Say hi!"
+      contact: "Contact us"
   main:
     links:
-      selected: "explore more recommended projects"
+      selected: "explore more super projects"
       expiring: "explore more expiring projects"
-      recents: "explore more recent projects"
+      recents: "explore more new arrivals"
   sidebar:
     titles:
       blog: blog
@@ -58,11 +58,11 @@ en:
     selection:
       title: "Super selection"
     expiring:
-      title: Expiring
+      title: In the final sprint
     recents:
-      title: Recent
+      title: New arrivals
     partners:
-      title: Partners
+      title: Crowdplaces clan
   "no": "No"
   "yes": "Yes"
   accept_terms_html: "I have read and accepted the %{link}."
@@ -198,8 +198,8 @@ en:
     index:
       title: "Curated pages"
     show:
-      backed: backed
-      reached: reached
+      backed: commited
+      reached: of the goal
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."
@@ -348,6 +348,8 @@ en:
     api_test: "no text"
   layouts:
     application:
+      crowdmap:
+        title: "The magical urbanism world tour"
       menu:
         explore: "Explore the projects"
         login: "Sign in"
@@ -356,16 +358,16 @@ en:
       notifications:
         new_curated_pages: "Now we have cathartic channels, <a href='#curated_pages' id='curated_link'>check out</a>!"
     header:
-      blog: blog
+      blog: map
       help: help
       signup: "sign up"
       signin: login
       explore: explore
-      submit_project: submit
+      submit_project: create
       profile: "my profile"
     recommended_header:
-      sugest_for_you: "suggested for you"
-      highlight_project: "Featured project"
+      sugest_for_you: "Recommended for you"
+      highlight_project: "Super project"
     footer:
       blog: "Our blog"
       comum: "Grupo Comum"
@@ -528,8 +530,8 @@ en:
       recommended: "Recommended projects"
       successful: "Successful projects"
     index_header:
-      subtitle_html: "Fund projects collaboratively and become part of something bigger.<br/>Promote a collective catharsis! You're the missing part in this story."
-      title: "Make the projects you believe in happen"
+      subtitle_html: "Fund + activate<br/><span class='first'>block</span> / <span class='second'>neighborhood</span> / <span class='third'>city</span> projects and be part of a micro-urban revolution. Make neighborhoods inspiring."
+      title: "Make neighborhoods more awesome."
     index_meta_tags:
       description: "Fund projects collaboratively and become part of something bigger. Promote a collective catharsis! You're the missing part in this story."
     new:
@@ -573,8 +575,8 @@ en:
     press:
       title: "Check out what they're saying about Catarse in the press"
     project:
-      backed: backed
-      reached: reached
+      backed: commited
+      reached: of the goal
     project_backers:
       empty: "Nobody backed this project so far. How about being the first one?"
     project_comments:
@@ -662,8 +664,8 @@ en:
       site_title: "Sign up"
       submit: "Sign Up"
       title: "Sign up using you email"
-  remaining_plural: left
-  remaining_singular: left
+  remaining_plural: to go
+  remaining_singular: to go
   remove: remove
   require_admin: "You must be admin to perform this action."
   require_login: "You must be logged in to perform this action."

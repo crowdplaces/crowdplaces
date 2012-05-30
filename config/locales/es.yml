@@ -35,15 +35,15 @@ es:
       active_projects: "Projetos no ar agora"
     links:
       how_works: "Como funciona"
-      faq: FAQ/ Ajuda
-      terms: "Termos de Uso"
-      policy: "Política de Privacidade"
-      contact: "Diga olá!"
+      faq: FAQ/ Ayuda
+      terms: "Términos de Uso"
+      policy: "Política de Privacidad"
+      contact: "Contácta- nos"
   main:
     links:
-      selected: "explore mais projetos recomendados"
-      expiring: "explore mais projetos na reta final"
-      recents: "explore mais projetos recentes"
+      selected: "descubre más super proyectos"
+      expiring: "descubre más proyectos acabando"
+      recents: "descubre más recién llegados"
   sidebar:
     titles:
       blog: blog
@@ -56,13 +56,13 @@ es:
       newsletter: assinar
   sections:
     selection:
-      title: "Super seleção"
+      title: "Super selección"
     expiring:
-      title: "Na reta final"
+      title: "En la recta final"
     recents:
-      title: "Recentes"
+      title: "Recién llegados"
     partners:
-      title: Parceiros
+      title: Crowdplaces clan
   "no": Não
   "yes": Sim
   accept_terms_html: "Eu li e estou de acordo com os %{link}."
@@ -198,8 +198,8 @@ es:
     index:
       title: "Páginas curadas"
     show:
-      backed: levantados
-      reached: atingido
+      backed: acumulados
+      reached: de la meta
   devise:
     confirmations:
       confirmed: "Sua conta foi confirmada com sucesso. Você está logado a partir de agora."
@@ -348,6 +348,8 @@ es:
     api_test: "no text"
   layouts:
     application:
+      crowdmap:
+        title: "El tour mundial de urbanismo mágico"
       menu:
         explore: "Explore os projetos"
         login: Login
@@ -356,16 +358,16 @@ es:
       notifications:
         new_curated_pages: "Já conhece os Canais Catárticos? <a href='#curated_pages' id='curated_link'>Olha aqui</a>!"
     header:
-      blog: blog
-      help: ajuda
-      signup: cadastre-se
+      blog: mapa
+      help: ayuda
+      signup: regístrate
       signin: login
-      explore: explore
-      submit_project: envie
-      profile: "meu perfil"
+      explore: descubre
+      submit_project: crea
+      profile: "mi perfil"
     recommended_header:
-      sugest_for_you: "sugerido para você"
-      highlight_project: "Projeto em destaque"
+      sugest_for_you: "Recomendado para ti"
+      highlight_project: "Super proyecto"
     footer:
       blog: "Leia o blog"
       comum: "Grupo Comum"
@@ -532,8 +534,8 @@ es:
       recommended: "Projetos recomendados"
       successful: "Projetos bem-sucedidos"
     index_header:
-      subtitle_html: "Financie projetos de maneira colaborativa e torne-se parte de algo maior.<br/>Promova uma catarse coletiva! Você é a peça que falta nesta história."
-      title: "Faça acontecer os projetos em que você acredita"
+      subtitle_html: "Financia + activa proyectos de una <span class='first'>calle</span> / <span class='second'>manzana</span> / <span class='third'>ciudad</span> y forma parte de una micro-revolución urbana. Muévete por transformar barrios en lugares inspiradores."
+      title: "Transforma barrios en superbarrios."
     index_meta_tags:
       description: "Financie projetos de maneira colaborativa e torne-se parte de algo maior. Promova uma catarse coletiva! Você é a peça que falta nesta história."
     new:
@@ -577,8 +579,8 @@ es:
     press:
       title: "Confira o que estão falando do Catarse na imprensa"
     project:
-      backed: levantados
-      reached: atingido
+      backed: acumulados
+      reached: de la meta
     project_backers:
       empty: "Ninguém apoiou este projeto ainda. Que tal ser o primeiro?"
     project_comments:
@@ -666,8 +668,8 @@ es:
       site_title: Cadastre-se
       submit: "Efetuar cadastro"
       title: "Criar uma conta utilizando o seu endereço de email"
-  remaining_plural: restantes
-  remaining_singular: restante
+  remaining_plural: quedan
+  remaining_singular: queda
   remove: remover
   require_admin: "Você precisa ser admin para realizar esta ação."
   require_login: "Você precisa estar autenticado para realizar esta ação."
@@ -855,8 +857,8 @@ es:
         one: "mais de 1 ano"
         other: "mais de %{count} anos"
       x_days:
-        one: "1 dia"
-        other: "%{count} dias"
+        one: "1 día"
+        other: "%{count} días"
       x_minutes:
         one: "1 minuto"
         other: "%{count} minutos"
@@ -867,7 +869,7 @@ es:
         one: "1 segundo"
         other: "%{count} segundos"
     prompts:
-      day: Dia
+      day: Día
       hour: Hora
       minute: Minuto
       month: Mês
