@@ -59,17 +59,19 @@ body
     background: $crowdplaces_gray url($crowdplaces_images_path+'bg.png')
     #crowdmap
       +grid-system(16)
-      padding: 20px 10px
+      padding: 0 10px
       background: $crowdplaces_gray
       +clearfix
       h2
         +grid(5)
         +grid-prefix(1)
+        padding: 20px 0
         font-family: "Candal"
         font-size: 48px
       .map
         +grid(9)
         +grid-prefix(1)
+        padding: 20px 0
         iframe
           border: 5px solid $crowdplaces_pink
           +border-radius(4px)

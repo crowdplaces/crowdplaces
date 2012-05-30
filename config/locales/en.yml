@@ -348,8 +348,6 @@ en:
     api_test: "no text"
   layouts:
     application:
-      crowdmap:
-        title: "The magical urbanism world tour"
       menu:
         explore: "Explore the projects"
         login: "Sign in"
@@ -525,6 +523,8 @@ en:
       subtitle: "Discover the projects that caused us a Catharsis :) every day a new selection."
       title: "Our cathartic selection!"
     index:
+      crowdmap:
+        title: "The magical urbanism world tour"
       expiring: "Final countdown"
       recent: "Recent projects"
       recommended: "Recommended projects"

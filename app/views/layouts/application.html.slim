@@ -37,9 +37,7 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
           = yield :partners
     #crowdmap_container
       #crowdmap
-        h2= t('.crowdmap.title')
-        .map
-          iframe src="https://crowdplaces.crowdmap.com/iframemap" width="510px" height="432px"
+        = yield :crowdmap
     #footer
       .container.footer
         .content

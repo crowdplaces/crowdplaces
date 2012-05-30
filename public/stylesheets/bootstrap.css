@@ -9309,7 +9309,7 @@ body #crowdmap_container #crowdmap {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  padding: 20px 10px;
+  padding: 0 10px;
   background: #8d8d8d;
   overflow: hidden;
   *zoom: 1;
@@ -9646,10 +9646,11 @@ body #crowdmap_container #crowdmap h2 {
   margin-right: 10px;
   width: 280px;
   padding-left: 60px;
+  padding: 20px 0;
   font-family: "Candal";
   font-size: 48px;
 }
-/* line 70, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 71, ../../app/stylesheets/redesign/content/_body.sass */
 body #crowdmap_container #crowdmap .map {
   display: inline;
   float: left;
@@ -9657,8 +9658,9 @@ body #crowdmap_container #crowdmap .map {
   margin-right: 10px;
   width: 520px;
   padding-left: 60px;
+  padding: 20px 0;
 }
-/* line 73, ../../app/stylesheets/redesign/content/_body.sass */
+/* line 75, ../../app/stylesheets/redesign/content/_body.sass */
 body #crowdmap_container #crowdmap .map iframe {
   border: 5px solid #fc3082;
   -moz-border-radius: 4px;
@@ -10979,13 +10981,12 @@ body #crowdmap_container #crowdmap .map iframe {
 /* line 1, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar {
   border-left: 1px #dfdfdf solid;
-  height: 1632px;
 }
-/* line 4, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 3, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content {
   padding: 33px 0 0 22px;
 }
-/* line 7, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 6, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -10994,15 +10995,15 @@ body #crowdmap_container #crowdmap .map iframe {
   color: black;
   padding-bottom: 25px;
 }
-/* line 15, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 14, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li {
   padding-bottom: 30px;
 }
-/* line 17, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 16, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li:last-child {
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 19, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 18, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 {
   float: left;
   width: 100%;
@@ -11010,16 +11011,16 @@ body #crowdmap_container #crowdmap .map iframe {
   font-size: 14px;
   padding-top: 4px;
 }
-/* line 25, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 24, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 a {
   color: #333333;
   text-decoration: none;
 }
-/* line 28, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 27, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 a:hover {
   color: #e75297;
 }
-/* line 30, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 29, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 img {
   margin-top: -4px;
   margin-right: 10px;
@@ -11027,7 +11028,7 @@ body #crowdmap_container #crowdmap .map iframe {
   width: 48px;
   height: 39px;
 }
-/* line 36, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 35, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li p.author {
   clear: both;
   font-family: Arial;
@@ -11035,23 +11036,23 @@ body #crowdmap_container #crowdmap .map iframe {
   color: #333333;
   padding: 8px 0 10px 0;
 }
-/* line 42, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 41, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li a.resume {
   font-family: Arial;
   font-size: 12px;
   color: #333333;
   text-decoration: none;
 }
-/* line 47, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 46, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li a.resume:hover {
   color: #e75297;
 }
-/* line 49, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 48, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .facebook {
   padding-bottom: 30px;
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 52, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 51, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .facebook h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11061,12 +11062,12 @@ body #crowdmap_container #crowdmap .map iframe {
   padding-top: 6px;
   padding-bottom: 40px;
 }
-/* line 61, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 60, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .twitter {
   margin-top: 30px;
   padding-bottom: 30px;
 }
-/* line 64, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 63, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .twitter h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11076,7 +11077,7 @@ body #crowdmap_container #crowdmap .map iframe {
   padding-top: 6px;
   padding-bottom: 40px;
 }
-/* line 72, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 71, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .twitter p {
   font-family: Arial;
   font-size: 12px;
@@ -11084,14 +11085,14 @@ body #crowdmap_container #crowdmap .map iframe {
   line-height: 133%;
   margin-bottom: 20px;
 }
-/* line 79, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 78, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter {
   float: left;
   padding-bottom: 30px;
   margin-top: 30px;
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 84, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 83, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11100,7 +11101,7 @@ body #crowdmap_container #crowdmap .map iframe {
   color: black;
   padding-bottom: 25px;
 }
-/* line 92, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 91, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter form input[type='text'] {
   width: 183px;
   height: 27px;
@@ -11113,7 +11114,7 @@ body #crowdmap_container #crowdmap .map iframe {
   -khtml-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 98, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 97, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter form input[type="submit"] {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -11131,14 +11132,14 @@ body #crowdmap_container #crowdmap .map iframe {
   font-family: "Lato-Regular";
   font-size: 16px;
 }
-/* line 109, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 108, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter form input[type="submit"]:active {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
 }
-/* line 112, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 111, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .faq {
   display: block;
   clear: both;
@@ -11146,7 +11147,7 @@ body #crowdmap_container #crowdmap .map iframe {
   padding-bottom: 30px;
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 118, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 117, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .faq h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11155,14 +11156,14 @@ body #crowdmap_container #crowdmap .map iframe {
   color: black;
   padding-bottom: 15px;
 }
-/* line 126, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 125, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule {
   display: block;
   clear: both;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* line 131, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 130, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11172,7 +11173,7 @@ body #crowdmap_container #crowdmap .map iframe {
   padding-top: 4px;
   padding-bottom: 25px;
 }
-/* line 140, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 139, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li {
   width: 100%;
   margin-bottom: 25px;
@@ -11180,21 +11181,21 @@ body #crowdmap_container #crowdmap .map iframe {
   float: left;
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 146, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 145, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li:last-child {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 150, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 149, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a {
   text-decoration: none;
 }
-/* line 153, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 152, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a:hover h4, .sidebar .content .schedule ul.events li a:hover p {
   color: #e75297 !important;
 }
-/* line 155, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 154, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a h4 {
   float: left;
   color: black;
@@ -11202,13 +11203,13 @@ body #crowdmap_container #crowdmap .map iframe {
   font-size: 20px;
   margin-right: 10px;
 }
-/* line 161, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 160, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a h4 span {
   display: block;
   font-family: Arial;
   font-size: 12px;
 }
-/* line 165, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 164, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a p {
   padding-top: 4px;
   font-family: Arial;
@@ -11554,7 +11555,11 @@ body #crowdmap_container #crowdmap .map iframe {
 body[data-namespace="null"][data-controller="projects"][data-action="index"] {
   background: url("/images/crowdplaces/bg.png"), url("/images/crowdplaces/wallpaper.jpg") center 118px no-repeat;
 }
-/* line 4, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 3, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+body[data-namespace="null"][data-controller="projects"][data-action="index"] .sidebar {
+  min-height: 1660px;
+}
+/* line 6, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .selected_projects .list_title .title {
   color: #ffe401;
   background: url("/images/crowdplaces/balloon.png") top left no-repeat;
@@ -11562,11 +11567,11 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   height: 62px;
   text-align: center;
 }
-/* line 10, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 12, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .selected_projects .list_title .title h2 {
   line-height: 220%;
 }
-/* line 12, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 14, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .expiring_projects .list_title .title {
   color: #ffe401;
   background: url("/images/crowdplaces/balloon.png") top left no-repeat;
@@ -11574,11 +11579,11 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   height: 62px;
   text-align: center;
 }
-/* line 18, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 20, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .expiring_projects .list_title .title h2 {
   line-height: 220%;
 }
-/* line 20, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 22, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .recents_projects .list_title .title {
   color: #ffe401;
   background: url("/images/crowdplaces/balloon.png") top left no-repeat;
@@ -11586,17 +11591,17 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   height: 62px;
   text-align: center;
 }
-/* line 26, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 28, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .recents_projects .list_title .title h2 {
   line-height: 220%;
 }
-/* line 28, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 30, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link {
   padding-top: 20px;
   padding-bottom: 30px;
   float: left;
 }
-/* line 32, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 34, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link hr {
   display: inline;
   float: left;
@@ -11608,7 +11613,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   margin-right: 0;
   padding-top: 2px;
 }
-/* line 38, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 40, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link a {
   display: inline;
   float: left;
@@ -11631,21 +11636,21 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   -khtml-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 50, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 52, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link a:hover {
   background: #0094bf;
 }
 
-/* line 53, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 55, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners {
   padding-top: 20px;
   padding-bottom: 40px;
 }
-/* line 56, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 58, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .title {
   margin-left: 10px;
 }
-/* line 58, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 60, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners h2 {
   color: #ffe401;
   width: 273px;
@@ -11658,11 +11663,11 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   background: url("/images/crowdplaces/stain.png") top left no-repeat;
   text-indent: 16px;
 }
-/* line 70, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 72, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul {
   width: 100%;
 }
-/* line 72, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 74, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul li {
   height: 144px;
   width: 220px;
@@ -11681,7 +11686,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 81, ../../app/stylesheets/redesign/resources/projects/_index.sass */
+/* line 83, ../../app/stylesheets/redesign/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul li:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;

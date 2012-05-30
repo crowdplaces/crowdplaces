@@ -348,8 +348,6 @@ es:
     api_test: "no text"
   layouts:
     application:
-      crowdmap:
-        title: "El tour mundial de urbanismo mágico"
       menu:
         explore: "Explore os projetos"
         login: Login
@@ -529,6 +527,8 @@ es:
       subtitle: "Conheça os projetos que nos causaram uma Catarse :) cada dia uma nova seleção."
       title: "Nossa seleção catártica!"
     index:
+      crowdmap:
+        title: "El tour mundial de urbanismo mágico"
       expiring: "Na reta final"
       recent: "Projetos recentes"
       recommended: "Projetos recomendados"
