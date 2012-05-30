@@ -1,7 +1,6 @@
 #header_container
-  background: $crowdplaces_black
-  +background-image(linear-gradient(top, $crowdplaces_dark_gray, $crowdplaces_black))
-  height: 82px
+  background: $crowdplaces_black url($crowdplaces_images_path+"bg_header.png")
+  height: 92px
   margin-bottom: 62px
 
 #header
@@ -12,7 +11,7 @@
   display: block
   .logo
     +grid(4)
-    height: 67px
+    height: 71px
     border: none
     background: url($crowdplaces_images_path+"logo.png") left top no-repeat
     text-indent: -9999em
@@ -27,7 +26,7 @@
       a
         color: $crowdplaces_white
         text-transform: capitalize
-        font-size: 18px
+        font-size: 20px
         margin-right: 36px
         &:last-child
           margin-right: 0
