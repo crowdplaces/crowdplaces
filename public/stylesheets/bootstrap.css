@@ -10980,13 +10980,14 @@ body #crowdmap_container #crowdmap .map iframe {
 
 /* line 1, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar {
+  min-height: 1635px;
   border-left: 1px #dfdfdf solid;
 }
-/* line 3, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 4, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content {
   padding: 33px 0 0 22px;
 }
-/* line 6, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 7, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -10995,15 +10996,15 @@ body #crowdmap_container #crowdmap .map iframe {
   color: black;
   padding-bottom: 25px;
 }
-/* line 14, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 15, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li {
   padding-bottom: 30px;
 }
-/* line 16, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 17, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li:last-child {
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 18, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 19, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 {
   float: left;
   width: 100%;
@@ -11011,16 +11012,16 @@ body #crowdmap_container #crowdmap .map iframe {
   font-size: 14px;
   padding-top: 4px;
 }
-/* line 24, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 25, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 a {
   color: #333333;
   text-decoration: none;
 }
-/* line 27, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 28, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 a:hover {
   color: #e75297;
 }
-/* line 29, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 30, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 img {
   margin-top: -4px;
   margin-right: 10px;
@@ -11028,7 +11029,7 @@ body #crowdmap_container #crowdmap .map iframe {
   width: 48px;
   height: 39px;
 }
-/* line 35, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 36, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li p.author {
   clear: both;
   font-family: Arial;
@@ -11036,23 +11037,23 @@ body #crowdmap_container #crowdmap .map iframe {
   color: #333333;
   padding: 8px 0 10px 0;
 }
-/* line 41, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 42, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li a.resume {
   font-family: Arial;
   font-size: 12px;
   color: #333333;
   text-decoration: none;
 }
-/* line 46, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 47, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .blog ul li a.resume:hover {
   color: #e75297;
 }
-/* line 48, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 49, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .facebook {
   padding-bottom: 30px;
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 51, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 52, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .facebook h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11062,12 +11063,12 @@ body #crowdmap_container #crowdmap .map iframe {
   padding-top: 6px;
   padding-bottom: 40px;
 }
-/* line 60, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 61, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .twitter {
   margin-top: 30px;
   padding-bottom: 30px;
 }
-/* line 63, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 64, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .twitter h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11077,7 +11078,7 @@ body #crowdmap_container #crowdmap .map iframe {
   padding-top: 6px;
   padding-bottom: 40px;
 }
-/* line 71, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 72, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .twitter p {
   font-family: Arial;
   font-size: 12px;
@@ -11085,14 +11086,14 @@ body #crowdmap_container #crowdmap .map iframe {
   line-height: 133%;
   margin-bottom: 20px;
 }
-/* line 78, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 79, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter {
   float: left;
   padding-bottom: 30px;
   margin-top: 30px;
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 83, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 84, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11101,7 +11102,7 @@ body #crowdmap_container #crowdmap .map iframe {
   color: black;
   padding-bottom: 25px;
 }
-/* line 91, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 92, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter form input[type='text'] {
   width: 183px;
   height: 27px;
@@ -11114,7 +11115,7 @@ body #crowdmap_container #crowdmap .map iframe {
   -khtml-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 97, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 98, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter form input[type="submit"] {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -11132,14 +11133,14 @@ body #crowdmap_container #crowdmap .map iframe {
   font-family: "Lato-Regular";
   font-size: 16px;
 }
-/* line 108, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 109, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .newsletter form input[type="submit"]:active {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
 }
-/* line 111, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 112, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .faq {
   display: block;
   clear: both;
@@ -11147,7 +11148,7 @@ body #crowdmap_container #crowdmap .map iframe {
   padding-bottom: 30px;
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 117, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 118, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .faq h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11156,14 +11157,14 @@ body #crowdmap_container #crowdmap .map iframe {
   color: black;
   padding-bottom: 15px;
 }
-/* line 125, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 126, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule {
   display: block;
   clear: both;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* line 130, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 131, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
@@ -11173,7 +11174,7 @@ body #crowdmap_container #crowdmap .map iframe {
   padding-top: 4px;
   padding-bottom: 25px;
 }
-/* line 139, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 140, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li {
   width: 100%;
   margin-bottom: 25px;
@@ -11181,21 +11182,21 @@ body #crowdmap_container #crowdmap .map iframe {
   float: left;
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-/* line 145, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 146, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li:last-child {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 149, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 150, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a {
   text-decoration: none;
 }
-/* line 152, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 153, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a:hover h4, .sidebar .content .schedule ul.events li a:hover p {
   color: #e75297 !important;
 }
-/* line 154, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 155, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a h4 {
   float: left;
   color: black;
@@ -11203,13 +11204,13 @@ body #crowdmap_container #crowdmap .map iframe {
   font-size: 20px;
   margin-right: 10px;
 }
-/* line 160, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 161, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a h4 span {
   display: block;
   font-family: Arial;
   font-size: 12px;
 }
-/* line 164, ../../app/stylesheets/redesign/content/_sidebar.sass */
+/* line 165, ../../app/stylesheets/redesign/content/_sidebar.sass */
 .sidebar .content .schedule ul.events li a p {
   padding-top: 4px;
   font-family: Arial;
