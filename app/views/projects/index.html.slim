@@ -85,15 +85,20 @@
     .clearfix
 
 - content_for :partners do
-  .container.partners
-    .list_title
-      .title
-        h2= t('sections.partners.title')
-    = render :partial => 'curated_pages_list', :locals => {:curated_pages => @curated_pages} unless @curated_pages.empty?
-    .clearfix
+  #partners_container
+    #partners
+      .container.partners
+        .list_title
+          .title
+            h2= t('sections.partners.title')
+        = render :partial => 'curated_pages_list', :locals => {:curated_pages => @curated_pages} unless @curated_pages.empty?
+        .clearfix
 - content_for :crowdmap do
-  h2
-    = t('.crowdmap.title_html')
-    span= image_tag('crowdplaces/place_pink.png')
-  .map
-    iframe src="https://crowdplaces.crowdmap.com/iframemap" width="510px" height="432px"
+  #crowdmap_container_container
+    #crowdmap_container
+      #crowdmap
+        h2
+          = t('.crowdmap.title_html')
+          span= image_tag('crowdplaces/place_pink.png')
+        .map
+          iframe src="https://crowdplaces.crowdmap.com/iframemap" width="510px" height="432px"

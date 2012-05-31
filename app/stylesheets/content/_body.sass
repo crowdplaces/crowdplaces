@@ -6,6 +6,8 @@ body
       +grid-system(16)
       padding: 10px 10px 30px 10px
       background: $crowdplaces_white
+      border: 1px solid $crowdplaces_light_gray
+      margin-bottom: 30px
       .main
         padding-top: 17px
         +grid(12)
@@ -49,21 +51,24 @@ body
       a
         float:  right
   #partners_container
-    background: $crowdplaces_beige
-    border-top: 1px solid lighten($crowdplaces_green, 40%)
-    border-bottom: 1px solid lighten($crowdplaces_pink, 25%)
     #partners
       +grid-system(16)
       padding: 0 10px 0 10px
+      background: $crowdplaces_white
+      border: 1px solid $crowdplaces_light_gray
+      margin-bottom: 30px
   #crowdmap_container_container
     background: url($crowdplaces_images_path+'bg_paint.png') bottom center repeat-x, url($crowdplaces_images_path+'bg_wall.png') repeat
-    padding: 40px 0
+    padding: 30px 0
   #crowdmap_container
     +grid-system(16)
+    padding: 0 10px 0 10px
     border: 1px solid $crowdplaces_black
     +clearfix
     #crowdmap
       +grid(16)
+      +alpha
+      padding: 0 10px 0 10px
       background: $crowdplaces_pink
       margin-top: 10px
       margin-bottom: 10px
@@ -92,8 +97,3 @@ body
         +omega
         padding-top: 20px
         padding-bottom: 20px
-        //iframe
-          //+opacity(0.8)
-          //+transition(all, 0.5s)
-          //&:hover
-            //+opacity(1)

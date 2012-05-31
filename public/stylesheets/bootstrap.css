@@ -8219,6 +8219,8 @@ body #page_content .container {
   width: 960px;
   padding: 10px 10px 30px 10px;
   background: white;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 30px;
 }
 /* line 35, ../../../../.rvm/gems/ruby-1.9.2-p290@crowdplaces/gems/compass-960-plugin-0.10.4/stylesheets/960/_grid.sass */
 body #page_content .container .grid_1, body #page_content .container .grid_2, body #page_content .container .grid_3, body #page_content .container .grid_4, body #page_content .container .grid_5, body #page_content .container .grid_6, body #page_content .container .grid_7, body #page_content .container .grid_8, body #page_content .container .grid_9, body #page_content .container .grid_10, body #page_content .container .grid_11, body #page_content .container .grid_12, body #page_content .container .grid_13, body #page_content .container .grid_14, body #page_content .container .grid_15, body #page_content .container .grid_16 {
@@ -8544,7 +8546,7 @@ body #page_content .container .push_15 {
 body #page_content .container .pull_15 {
   left: -900px;
 }
-/* line 9, ../../app/stylesheets/content/_body.sass */
+/* line 11, ../../app/stylesheets/content/_body.sass */
 body #page_content .container .main {
   padding-top: 17px;
   display: inline;
@@ -8553,7 +8555,7 @@ body #page_content .container .main {
   margin-right: 10px;
   width: 700px;
 }
-/* line 12, ../../app/stylesheets/content/_body.sass */
+/* line 14, ../../app/stylesheets/content/_body.sass */
 body #page_content .container .sidebar {
   display: inline;
   float: left;
@@ -8562,24 +8564,24 @@ body #page_content .container .sidebar {
   width: 220px;
   margin-right: 0;
 }
-/* line 16, ../../app/stylesheets/content/_body.sass */
+/* line 18, ../../app/stylesheets/content/_body.sass */
 body #page_content .container .list {
   float: left;
 }
-/* line 21, ../../app/stylesheets/content/_body.sass */
+/* line 23, ../../app/stylesheets/content/_body.sass */
 body #page_content .container .list_title .title h2 {
   font-family: "Candal";
   font-size: 20px;
 }
-/* line 24, ../../app/stylesheets/content/_body.sass */
+/* line 26, ../../app/stylesheets/content/_body.sass */
 body #page_content .container .projects {
   padding-top: 20px;
 }
-/* line 26, ../../app/stylesheets/content/_body.sass */
+/* line 28, ../../app/stylesheets/content/_body.sass */
 body #logos_container {
   background: white;
 }
-/* line 28, ../../app/stylesheets/content/_body.sass */
+/* line 30, ../../app/stylesheets/content/_body.sass */
 body #logos {
   margin-left: auto;
   margin-right: auto;
@@ -8920,7 +8922,7 @@ body #logos .push_15 {
 body #logos .pull_15 {
   left: -900px;
 }
-/* line 34, ../../app/stylesheets/content/_body.sass */
+/* line 36, ../../app/stylesheets/content/_body.sass */
 body #logos .multide {
   display: inline;
   float: left;
@@ -8929,11 +8931,11 @@ body #logos .multide {
   width: 100px;
   padding-right: 240px;
 }
-/* line 37, ../../app/stylesheets/content/_body.sass */
+/* line 39, ../../app/stylesheets/content/_body.sass */
 body #logos .multide a {
   margin-left: 10px;
 }
-/* line 39, ../../app/stylesheets/content/_body.sass */
+/* line 41, ../../app/stylesheets/content/_body.sass */
 body #logos .comum {
   display: inline;
   float: left;
@@ -8942,13 +8944,13 @@ body #logos .comum {
   width: 160px;
   padding-right: 180px;
 }
-/* line 42, ../../app/stylesheets/content/_body.sass */
+/* line 44, ../../app/stylesheets/content/_body.sass */
 body #logos .comum a {
   float: left;
   margin-top: 5px;
   margin-left: 10px;
 }
-/* line 46, ../../app/stylesheets/content/_body.sass */
+/* line 48, ../../app/stylesheets/content/_body.sass */
 body #logos .power {
   display: inline;
   float: left;
@@ -8957,22 +8959,19 @@ body #logos .power {
   width: 220px;
   padding-left: 720px;
 }
-/* line 49, ../../app/stylesheets/content/_body.sass */
+/* line 51, ../../app/stylesheets/content/_body.sass */
 body #logos .power a {
   float: right;
 }
-/* line 51, ../../app/stylesheets/content/_body.sass */
-body #partners_container {
-  background: #f5f2ed;
-  border-top: 1px solid #b3e6b3;
-  border-bottom: 1px solid #ff80b2;
-}
-/* line 55, ../../app/stylesheets/content/_body.sass */
+/* line 54, ../../app/stylesheets/content/_body.sass */
 body #partners_container #partners {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
   padding: 0 10px 0 10px;
+  background: white;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 30px;
 }
 /* line 35, ../../../../.rvm/gems/ruby-1.9.2-p290@crowdplaces/gems/compass-960-plugin-0.10.4/stylesheets/960/_grid.sass */
 body #partners_container #partners .grid_1, body #partners_container #partners .grid_2, body #partners_container #partners .grid_3, body #partners_container #partners .grid_4, body #partners_container #partners .grid_5, body #partners_container #partners .grid_6, body #partners_container #partners .grid_7, body #partners_container #partners .grid_8, body #partners_container #partners .grid_9, body #partners_container #partners .grid_10, body #partners_container #partners .grid_11, body #partners_container #partners .grid_12, body #partners_container #partners .grid_13, body #partners_container #partners .grid_14, body #partners_container #partners .grid_15, body #partners_container #partners .grid_16 {
@@ -9298,16 +9297,17 @@ body #partners_container #partners .push_15 {
 body #partners_container #partners .pull_15 {
   left: -900px;
 }
-/* line 58, ../../app/stylesheets/content/_body.sass */
+/* line 60, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container_container {
   background: url("/images/crowdplaces/bg_paint.png") bottom center repeat-x, url("/images/crowdplaces/bg_wall.png") repeat;
-  padding: 40px 0;
+  padding: 30px 0;
 }
-/* line 61, ../../app/stylesheets/content/_body.sass */
+/* line 63, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
+  padding: 0 10px 0 10px;
   border: 1px solid black;
   overflow: hidden;
   *zoom: 1;
@@ -9636,18 +9636,20 @@ body #crowdmap_container .push_15 {
 body #crowdmap_container .pull_15 {
   left: -900px;
 }
-/* line 65, ../../app/stylesheets/content/_body.sass */
+/* line 68, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 940px;
+  margin-left: 0;
+  padding: 0 10px 0 10px;
   background: #ff0066;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 70, ../../app/stylesheets/content/_body.sass */
+/* line 75, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap h2 {
   display: inline;
   float: left;
@@ -9658,7 +9660,7 @@ body #crowdmap_container #crowdmap h2 {
   padding-bottom: 20px;
   font-family: "fckaiser";
 }
-/* line 75, ../../app/stylesheets/content/_body.sass */
+/* line 80, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap h2 span {
   font-size: 82px;
   text-transform: uppercase;
@@ -9669,14 +9671,14 @@ body #crowdmap_container #crowdmap h2 span {
   margin-right: 12px;
   padding: 8px;
 }
-/* line 84, ../../app/stylesheets/content/_body.sass */
+/* line 89, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap h2 span img {
   height: 72px;
   vertical-align: top;
   margin-top: 8px;
   padding: 0 16px;
 }
-/* line 89, ../../app/stylesheets/content/_body.sass */
+/* line 94, ../../app/stylesheets/content/_body.sass */
 body #crowdmap_container #crowdmap .map {
   display: inline;
   float: left;
@@ -9693,7 +9695,7 @@ body #crowdmap_container #crowdmap .map {
 #header_container {
   background: black url("/images/crowdplaces/bg_header.png");
   height: 92px;
-  margin-bottom: 62px;
+  margin-bottom: 30px;
 }
 
 /* line 6, ../../app/stylesheets/content/_header.sass */
@@ -10759,7 +10761,7 @@ body #crowdmap_container #crowdmap .map {
 /* line 2, ../../app/stylesheets/content/_recommended_header.sass */
 #recommended_header {
   width: 980px;
-  margin: 15px auto 72px;
+  margin: 62px auto 72px;
   display: block;
   clear: both;
   -moz-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
