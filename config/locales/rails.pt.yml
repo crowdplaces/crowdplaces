@@ -140,7 +140,7 @@ pt:
         separator: ","
         significant: false
         strip_insignificant_zeros: false
-        unit: R$
+        unit: USD
     format:
       delimiter: "."
       precision: 3

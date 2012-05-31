@@ -2,4 +2,4 @@ en:
   number:
     currency:
       format:
-        unit: R$
+        unit: USD

@@ -1,0 +1,45 @@
+es:
+  active_admin:
+    dashboard: "Panel administrativo"
+    dashboard_welcome:
+      welcome: "Bienvenido al Active Admin. Esta es la página estándar de paneles."
+      call_to_action: "Para anãdir secciones al panel, edita 'app/admin/dashboards.rb'"
+    view: Visualizar
+    edit: Editar
+    delete: Borrar
+    delete_confirmation: "Estás seguro que desea borrar este elemento?"
+    new_model: "Nuevo(a) %{model}"
+    create_model: "Nuevo(a) %{model}"
+    edit_model: "Editar %{model}"
+    update_model: "Actualizar %{model}"
+    delete_model: "Borrar %{model}"
+    details: "Detalles del(a) %{model}"
+    cancel: Cancelar
+    empty: Vacío
+    previous: Anterior
+    next: Próximo
+    download: "Bajar:"
+    has_many_new: "Añadir Nuevo(a) %{model}"
+    has_many_delete: Borrar
+    filter: Filtrar
+    clear_filters: "Limpiar Filtros"
+    search_field: "Buscar %{field}"
+    equal_to: "Igual A"
+    greater_than: "Mayor Que"
+    less_than: "Menor Que"
+    main_content: "Por favor implementa %{model}#main_content para mostrar contenido."
+    logout: Salir
+    sidebars:
+      filters: Filtros
+    pagination:
+      empty: "Ninguno(a) %{model} encontrado(a)"
+      one: "Mostrando <b>1</b> %{model}"
+      one_page: "Mostrando <b>todos(as) los(as) %{n}</b> %{model}"
+      multiple: "Mostrando %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> de un total de <b>%{total}</b>"
+      entry:
+        one: registro
+        other: registros
+    any: Qualquiera
+    blank_slate:
+      content: "No existen %{resource_name} todavía."
+      link: "Crea uma"

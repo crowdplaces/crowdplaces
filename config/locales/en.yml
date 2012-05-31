@@ -1,14 +1,14 @@
 en:
   or: or
-  newsletter_ok_header: ~
-  newsletter_ok_body: ~
-  newsletter_error_header: ~
-  newsletter_error_body: ~
+  newsletter_ok_header: Registered!
+  newsletter_ok_body: "Your email was successfully registered. Thanks!"
+  newsletter_error_header: "Ooops! There was an error."
+  newsletter_error_body: "Your email was not registered. Please, try again later."
   views:
     pagination:
-      next: ~
-      last: ~
-      truncate: ~
+      next: next
+      last: last
+      truncate: "..."
   statistics:
     backers:
       subtitle: backers
@@ -35,7 +35,7 @@ en:
       active_projects: "Projects on air now"
     links:
       how_works: "How It works"
-      faq: FAQ/ Help
+      faq: "FAQ/ Help"
       terms: "Terms of use"
       policy: "Privacy Policy"
       contact: "Contact us"
@@ -58,11 +58,11 @@ en:
     selection:
       title: "Super selection"
     expiring:
-      title: In the final sprint
+      title: "In the final sprint"
     recents:
-      title: New arrivals
+      title: "New arrivals"
     partners:
-      title: Crowdplaces clan
+      title: "Crowdplaces clan"
   "no": "No"
   "yes": "Yes"
   accept_terms_html: "I have read and accepted the %{link}."
@@ -72,7 +72,7 @@ en:
         user:
           attributes:
             email:
-              not_found: ~
+              not_found: "Your email is not signed up. Check the email address or create a new account"
     attributes:
       backer:
         value: Value
@@ -100,7 +100,7 @@ en:
         current_password: "Current password"
         email: Email
         full_name: "Full name"
-        name: ~
+        name: Name
         password: Password
         password_confirmation: "Password Confirmation"
         phone_number: "Mobile phone number"
@@ -150,7 +150,7 @@ en:
       title: "Curated pages"
     show:
       backed: commited
-      reached: of the goal
+      reached: "of the goal"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."
@@ -315,9 +315,9 @@ en:
       title: "Thank you"
   project:
     start:
-      email_subject: ~
-      email_text: ~
-      notification_text: ~
+      email_subject: "Your project was received by our team"
+      email_text: "Thanks for trusting us and sending your project :)<br><br>We know you must expect a prompt response, but, I admit, we take up to 4 days to answer each of the projects, ok? That's because we have a short staff and a lot of projects coming. Anyway, it can happen that we answer faster. So, keep an eye on yout inbox.<br><br>In the meantime, it's a good idea to check our live projects (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any - back them! This is the best way to show you believe in the new culture we're building and develop the ecosystem that is emerging around Crowdplaces.<br><br>Besides, it's also a good way to get inspired for your project...<br><br>Stay tuned following our <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, contact us at %{email}"
+      notification_text: "Your project was received by our team"
     finish:
       successful:
         email_subject: "Hooray! The project you backed was successful on Catarse!"
@@ -339,7 +339,7 @@ en:
       waiting_confirmation: waiting
   projects:
     box:
-      by: "by"
+      by: by
     admin_fields:
       title: "Admin fields"
     back_project:
@@ -421,7 +421,7 @@ en:
       no_projects: "No projects found."
       order: Order
       project: Project
-      slug: ~
+      slug: Slug
       recommended: Recommended?
       rejected: Rejected?
       submit: Search
@@ -449,7 +449,7 @@ en:
       value: Value
     project:
       backed: commited
-      reached: of the goal
+      reached: "of the goal"
     project_backers:
       empty: "Nobody backed this project so far. How about being the first one?"
     project_header:
@@ -459,10 +459,10 @@ en:
     project_updates:
       empty: "This project didn't have updates yet. But wait and see =D"
       submit: "Send update"
-      comment: ~
+      comment: "Text of the update"
       title: "Title of the update"
-      destroy: ~
-      destroy_confirmation: ~
+      destroy: "Remove update"
+      destroy_confirmation: "Do you want to remove this update?"
     project_warning:
       rejected: "This project was not selected to participate on Catarse. Maybe next time! :)"
       waiting: "This project is waiting for approval and soon we'll know if it will go online on Catarse ;)"
@@ -494,7 +494,7 @@ en:
       links: "Where can we find more about you and your project?"
       links_hint: "Leave us as many links as you have, so we can get to know your work and your project better. Doesn't have to be something formal or fancy, just a few useful links."
       video: "Your project already have a video?"
-      video_hint: ~
+      video_hint: "A vimeo link"
       twitter: "Have twitter account?"
       facebook: "Have facebook account?"
       blog: "Have a blog about the project?"
@@ -521,8 +521,8 @@ en:
       site_title: "Sign up"
       submit: "Sign Up"
       title: "Sign up using you email"
-  remaining_plural: to go
-  remaining_singular: to go
+  remaining_plural: "to go"
+  remaining_singular: "to go"
   remove: remove
   require_admin: "You must be admin to perform this action."
   require_login: "You must be logged in to perform this action."
@@ -540,18 +540,18 @@ en:
     failure:
       error: "There was an error while loggin in. Please try again."
   site:
-    host: catarse.me
-    base_url: "http://catarse.me"
-    blog: "http://blog.catarse.me/"
+    host: crowdplaces.org
+    base_url: "http://crowdplaces.org"
+    blog: "https://crowdplaces.crowdmap.com/"
     email:
-      contact: contato@catarse.me
-      payments: financeiro@catarse.me
-      projects: projetos@catarse.me
-      system: system@catarse.me
-    facebook: "http://www.facebook.com/Catarse.me"
-    name: Catarse
-    title: "The first crowdfunding platform from Brazil"
-    twitter: Catarse_
+      contact: contact@crowdplaces.org
+      payments: payments@crowdplaces.org
+      projects: projects@crowdplaces.org
+      system: system@crowdplaces.org
+    facebook: "http://www.facebook.com/crowdplaces"
+    name: Crowdplaces
+    title: "Make neighborhoods more awesome"
+    twitter: crowdplaces
   static:
     faq:
       title: "Frequent asked questions"
@@ -588,7 +588,7 @@ en:
       title_current_user: "Projects I've backed"
       your_reward: "Your reward"
     current_user_fields:
-      updated: ~
+      updated: "Your information have been updated"
       update_social_info: "Update info"
       social_info: "Contact info"
       twitter: "twitter ( username )"
