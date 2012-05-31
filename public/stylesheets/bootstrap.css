@@ -10769,7 +10769,7 @@ body #crowdmap_container #crowdmap .map {
 /* line 2, ../../app/stylesheets/content/_recommended_header.sass */
 #recommended_header {
   width: 980px;
-  margin: 62px auto 72px;
+  margin: 92px auto 72px;
   display: block;
   clear: both;
   -moz-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
