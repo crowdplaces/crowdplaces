@@ -9688,24 +9688,6 @@ body #crowdmap_container #crowdmap .map {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 95, ../../app/stylesheets/content/_body.sass */
-body #crowdmap_container #crowdmap .map iframe {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  -moz-transition-property: all;
-  -webkit-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-/* line 98, ../../app/stylesheets/content/_body.sass */
-body #crowdmap_container #crowdmap .map iframe:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
 
 /* line 1, ../../app/stylesheets/content/_header.sass */
 #header_container {
