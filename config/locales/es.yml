@@ -363,6 +363,7 @@ es:
       explore: descubre
       submit_project: crea
       profile: "mi perfil"
+      account: "mi cuenta"
     recommended_header:
       sugest_for_you: "Recomendado para ti"
       highlight_project: "Super proyecto"
