@@ -48,30 +48,52 @@ body
       +grid-prefix(12)
       a
         float:  right
-  #partners_container_container
-    background: url($crowdplaces_images_path+'bg_paint.png') bottom center no-repeat, url($crowdplaces_images_path+'bg.png'), url($crowdplaces_images_path+'bg_partners.png') repeat-x
-    #partners_container
-      #partners
-        background: url($crowdplaces_images_path+'bg_paint.png') bottom center no-repeat, url($crowdplaces_images_path+'bg_partners.png') repeat-x
-        +grid-system(16)
-        padding: 0 10px 0 10px
-  #crowdmap_container
-    #crowdmap
+  #partners_container
+    background: $crowdplaces_beige
+    border-top: 1px solid lighten($crowdplaces_green, 40%)
+    border-bottom: 1px solid lighten($crowdplaces_pink, 25%)
+    #partners
       +grid-system(16)
-      padding: 0 10px
-      background: url($crowdplaces_images_path+'bg_crowdmap.jpg') top center no-repeat
-      +clearfix
+      padding: 0 10px 0 10px
+  #crowdmap_container_container
+    background: url($crowdplaces_images_path+'bg_paint.png') bottom center repeat-x, url($crowdplaces_images_path+'bg_wall.png') repeat
+    padding: 40px 0
+  #crowdmap_container
+    +grid-system(16)
+    border: 1px solid $crowdplaces_black
+    +clearfix
+    #crowdmap
+      +grid(16)
+      background: $crowdplaces_pink
+      margin-top: 10px
+      margin-bottom: 10px
       h2
-        +grid(6)
+        +grid(7)
         padding-top: 20px
         padding-bottom: 20px
-        font-family: "Candal"
-        font-size: 48px
-        text-indent: -9999em
+        font-family: "fckaiser"
+        span
+          font-size: 82px
+          text-transform: uppercase
+          background: $crowdplaces_yellow
+          color: $crowdplaces_pink
+          display: inline-block
+          margin-bottom: 12px
+          margin-right: 12px
+          padding: 8px
+          img
+            height: 72px
+            vertical-align: top
+            margin-top: 8px
+            padding: 0 16px
       .map
-        +grid(10)
+        +grid(8)
+        +alpha
+        +omega
         padding-top: 20px
         padding-bottom: 20px
         iframe
-          border: 5px solid $crowdplaces_dark_blue
-          +border-radius(4px)
+          +opacity(0.8)
+          +transition(all, 0.5s)
+          &:hover
+            +opacity(1)

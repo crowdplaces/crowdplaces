@@ -528,7 +528,7 @@ es:
       title: "Nossa seleção catártica!"
     index:
       crowdmap:
-        title: "El tour mundial de urbanismo mágico"
+        title_html: "<span>El tour mundial</span><span>de urbanismo</span><span>mágico</span>"
       expiring: "Na reta final"
       recent: "Projetos recentes"
       recommended: "Projetos recomendados"
