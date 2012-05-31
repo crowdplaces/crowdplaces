@@ -11652,8 +11652,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   font-family: "Lato-Regular";
   font-size: 13px;
   line-height: 200%;
-  background: black;
-  color: white;
+  color: #ff0066;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -11664,21 +11663,21 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   -khtml-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 52, ../../app/stylesheets/resources/projects/_index.sass */
+/* line 51, ../../app/stylesheets/resources/projects/_index.sass */
 body[data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .explore_link a:hover {
-  background: #0094bf;
+  color: #ff9900;
 }
 
-/* line 55, ../../app/stylesheets/resources/projects/_index.sass */
+/* line 54, ../../app/stylesheets/resources/projects/_index.sass */
 #partners .partners {
   padding-top: 30px;
   padding-bottom: 40px;
 }
-/* line 58, ../../app/stylesheets/resources/projects/_index.sass */
+/* line 57, ../../app/stylesheets/resources/projects/_index.sass */
 #partners .partners .title {
   margin-left: 10px;
 }
-/* line 60, ../../app/stylesheets/resources/projects/_index.sass */
+/* line 59, ../../app/stylesheets/resources/projects/_index.sass */
 #partners .partners h2 {
   color: #ffe401;
   background: url("/images/crowdplaces/balloon.png") top left no-repeat;
@@ -11691,11 +11690,11 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   margin-bottom: 40px;
   text-align: center;
 }
-/* line 72, ../../app/stylesheets/resources/projects/_index.sass */
+/* line 71, ../../app/stylesheets/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul {
   width: 100%;
 }
-/* line 74, ../../app/stylesheets/resources/projects/_index.sass */
+/* line 73, ../../app/stylesheets/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul li {
   height: 144px;
   width: 220px;
@@ -11714,7 +11713,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 83, ../../app/stylesheets/resources/projects/_index.sass */
+/* line 82, ../../app/stylesheets/resources/projects/_index.sass */
 #partners .partners .channels_list_widget ul li:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
