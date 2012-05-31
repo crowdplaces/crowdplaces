@@ -2434,12 +2434,20 @@ table .span12 {
   padding: 0 10px;
 }
 /* line 19, ../../app/stylesheets/miv/_dropdown.sass */
+.dropdown li a {
+  color: #333333 !important;
+}
+/* line 21, ../../app/stylesheets/miv/_dropdown.sass */
+.dropdown li a:hover {
+  color: #ff0066 !important;
+}
+/* line 23, ../../app/stylesheets/miv/_dropdown.sass */
 .dropdown li .small {
   font-family: Lato-Bold;
   font-size: 11px;
   color: #59af6d;
 }
-/* line 23, ../../app/stylesheets/miv/_dropdown.sass */
+/* line 27, ../../app/stylesheets/miv/_dropdown.sass */
 .dropdown li.divider {
   border-bottom: 1px #e3e2dc solid;
   margin-bottom: 5px;
@@ -10122,33 +10130,33 @@ body #crowdmap_container #crowdmap .map {
   margin-top: -14px;
   margin-right: 5px;
 }
-/* line 61, ../../app/stylesheets/content/_header.sass */
+/* line 60, ../../app/stylesheets/content/_header.sass */
 #header nav.menu a.my_profile_link img.profile_picture:hover {
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   -o-box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
   box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 2px inset;
 }
-/* line 63, ../../app/stylesheets/content/_header.sass */
+/* line 62, ../../app/stylesheets/content/_header.sass */
 #header nav.menu a.my_profile_link .current_user_name {
   float: left;
   margin-right: 5px;
 }
-/* line 66, ../../app/stylesheets/content/_header.sass */
+/* line 65, ../../app/stylesheets/content/_header.sass */
 #header nav.menu a.my_profile_link .dropdown_arrow {
   float: left;
   position: relative;
   margin-top: 7px;
 }
-/* line 70, ../../app/stylesheets/content/_header.sass */
+/* line 69, ../../app/stylesheets/content/_header.sass */
 #header nav.menu a:last-child {
   margin-right: none;
 }
-/* line 72, ../../app/stylesheets/content/_header.sass */
+/* line 71, ../../app/stylesheets/content/_header.sass */
 #header nav.menu a:hover {
   color: #ff0066;
 }
-/* line 74, ../../app/stylesheets/content/_header.sass */
+/* line 73, ../../app/stylesheets/content/_header.sass */
 #header .search {
   display: inline;
   float: left;
@@ -10157,7 +10165,7 @@ body #crowdmap_container #crowdmap .map {
   width: 220px;
   margin-top: 29px;
 }
-/* line 77, ../../app/stylesheets/content/_header.sass */
+/* line 76, ../../app/stylesheets/content/_header.sass */
 #header .search form {
   width: 220px;
   height: 22px;
@@ -10170,18 +10178,18 @@ body #crowdmap_container #crowdmap .map {
   border: 1px #cccccc solid;
   background: white;
 }
-/* line 84, ../../app/stylesheets/content/_header.sass */
+/* line 82, ../../app/stylesheets/content/_header.sass */
 #header .search form input[type="text"] {
   font-size: 14px;
   border: none;
   width: 190px;
   float: left;
 }
-/* line 89, ../../app/stylesheets/content/_header.sass */
+/* line 87, ../../app/stylesheets/content/_header.sass */
 #header .search form input[type="text"]:focus {
   outline: none;
 }
-/* line 91, ../../app/stylesheets/content/_header.sass */
+/* line 89, ../../app/stylesheets/content/_header.sass */
 #header .search form input[type="submit"] {
   background: url("/images/crowdplaces/search.png") left top no-repeat;
   width: 15px;
@@ -10537,7 +10545,7 @@ body #crowdmap_container #crowdmap .map {
 /* line 7, ../../app/stylesheets/content/_footer.sass */
 .footer .content {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 /* line 10, ../../app/stylesheets/content/_footer.sass */
 .footer .content h3 {
