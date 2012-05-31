@@ -10101,7 +10101,7 @@ body #crowdmap_container #crowdmap .map {
   text-transform: lowercase;
   color: white;
   font-size: 14px;
-  margin-right: 12px;
+  margin-right: 10px;
 }
 /* line 46, ../../app/stylesheets/content/_header.sass */
 #header nav.menu a.my_profile_link {
@@ -10127,7 +10127,7 @@ body #crowdmap_container #crowdmap .map {
   transition-duration: 0.5s;
   position: relative;
   float: left;
-  margin-top: -14px;
+  margin-top: -6px;
   margin-right: 5px;
 }
 /* line 60, ../../app/stylesheets/content/_header.sass */
