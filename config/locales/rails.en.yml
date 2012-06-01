@@ -3,3 +3,6 @@ en:
     currency:
       format:
         unit: $
+  time:
+    formats:
+      updates: "%d %b %Y"

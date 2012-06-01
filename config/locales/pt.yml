@@ -39,6 +39,7 @@ pt:
       terms: "Termos de Uso"
       policy: "Política de Privacidade"
       contact: "Diga olá!"
+    build: "feito por"
   main:
     links:
       selected: "explore mais projetos recomendados"
@@ -267,6 +268,8 @@ pt:
   i_backed: "Eu apoiei o projeto %{name} no @Catarse_"
   i_just_backed: "Eu acabei de apoiar o projeto %{name} no @Catarse_"
   layouts:
+    locales:
+      title: "choose language"
     login:
       login_with_facebook: "entre com sua conta do facebook"
       remember_me: "Lembre-se de mim e mantenha-me conectado."

@@ -36,18 +36,19 @@ en:
     links:
       how_works: "How It works"
       faq: "FAQ/ Help"
-      terms: "Terms of use"
+      terms: "Terms + privacy"
       policy: "Privacy Policy"
       contact: "Contact us"
+    build: "built by"
   main:
     links:
-      selected: "explore more super projects"
-      expiring: "explore more expiring projects"
-      recents: "explore more new arrivals"
+      selected: "more super projects"
+      expiring: "more in the final sprint"
+      recents: "more new arrivals"
   sidebar:
     titles:
       blog: blog
-      facebook: "Our facebook"
+      facebook: Facebook
       twitter: "@crowdplaces"
       newsletter: "want to receive news?"
       faq: "have any doubt?"
@@ -267,6 +268,8 @@ en:
   i_backed: "I backed the project %{name} on @Catarse_"
   i_just_backed: "I just backed the project %{name} on @Catarse_"
   layouts:
+    locales:
+      title: "cambia el idioma"
     login:
       login_with_facebook: "sign in with your facebook account"
       remember_me: "Remember me and keep me connected."

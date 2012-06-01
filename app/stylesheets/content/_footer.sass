@@ -20,7 +20,8 @@
           margin-top: 40px
           margin-left: -20px
       ul
-        +grid(12)
+        +grid(11)
+        +grid-prefix(1)
         margin-top: 80px
         li
           float: left
@@ -28,7 +29,7 @@
           height: 40px
           &:nth-child(1)
             border-left: 4px solid $crowdplaces_blue
-            width: 90px
+            width: 80px
             a:hover
               color: $crowdplaces_yellow
           &:nth-child(2)
@@ -38,15 +39,15 @@
               color: $crowdplaces_green
           &:nth-child(3)
             border-left: 4px solid $crowdplaces_yellow
-            width: 80px
-            a:hover
-              color: $crowdplaces_orange
-          &:nth-child(4)
-            border-left: 4px solid $crowdplaces_green
             width: 110px
             a:hover
+              color: $crowdplaces_pink
+          &:nth-child(4)
+            border-left: 4px solid $crowdplaces_green
+            width: 100px
+            a:hover
               color: $crowdplaces_blue
-          &:last-child
+          &:nth-child(5)
             border-left: 4px solid $crowdplaces_orange
             width: 60px
             padding-right: 0
@@ -58,10 +59,21 @@
             font-weight: lighter
             color: white
             text-decoration: none
+            text-transform: lowercase
       .power
         float: right
         margin-top: 100px
+        position: relative
+        .build
+          font-family: "Lato-Regular"
+          text-transform: lowercase
+          font-size: 12px
+          position: absolute
+          color: #444
+          top: 0
+          left: 0
         img
+          margin-top: 2px
           width: 150px
     .opendata
       +grid(5)

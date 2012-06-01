@@ -36,18 +36,19 @@ es:
     links:
       how_works: "Cómo funciona"
       faq: "FAQ/ Ayuda"
-      terms: "Términos de uso"
+      terms: "Términos + privacidad"
       policy: "Política de privacidad"
-      contact: "Contácta- nos"
+      contact: Contacto
+    build: "hecho por"
   main:
     links:
-      selected: "descubre más super proyectos"
-      expiring: "descubre más proyectos acabando"
-      recents: "descubre más recién llegados"
+      selected: "más super proyectos"
+      expiring: "más en la recta final"
+      recents: "más recién llegados"
   sidebar:
     titles:
       blog: blog
-      facebook: "Nuestro facebook"
+      facebook: Facebook
       twitter: "@crowdplaces"
       newsletter: "quieres novedades?"
       faq: "tienes dudas?"
@@ -58,7 +59,7 @@ es:
     selection:
       title: "Super selección"
     expiring:
-      title: "El la recta final"
+      title: "En la recta final"
     recents:
       title: "Recién llegados"
     partners:
@@ -267,6 +268,8 @@ es:
   i_backed: ~
   i_just_backed: ~
   layouts:
+    locales:
+      title: "choose language"
     login:
       login_with_facebook: ~
       remember_me: ~
@@ -405,7 +408,7 @@ es:
       submit: ~
     index:
       crowdmap:
-        title_html: "<span>El tour mundial</span><span>de urbanismo</span><span>mágico</span>"
+        title_html: "<span>El tour</span><span>de urbanismo</span><span>mágico</span>"
     index_header:
       subtitle_html: "Financia + activa proyectos de una <span class='first'>calle</span> / <span class='second'>manzana</span> / <span class='third'>ciudad</span> y forma parte de una micro-revolución urbana. Muévete por transformar barrios en lugares inspiradores."
       title: "Transforma barrios en superbarrios."

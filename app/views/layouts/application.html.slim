@@ -41,9 +41,11 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
               li= link_to t('footer.links.how_works'), guidelines_path
               li= link_to t('footer.links.faq'), faq_path
               li= link_to t('footer.links.terms'), terms_path
-              li= link_to t('footer.links.policy'), privacy_path
-              li= mail_to t('site.email.contact'), t('footer.links.contact'), :target => :_blank
+              /li= link_to t('footer.links.policy'), privacy_path
+              li
+                = mail_to t('site.email.contact'), t('footer.links.contact'), :target => :_blank
             .power
+              .build= t('footer.build')
               = link_to 'http://engage.is', :target => '_blank' do
                 = image_tag('catarse/power_logo200x43.png', :alt => 'POWER TO THE CROWD')
 
