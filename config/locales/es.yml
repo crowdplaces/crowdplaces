@@ -567,8 +567,9 @@ es:
   terms: ~
   user:
     backs_text:
-      one: ~
-      other: ~
+      many: "Apoió este y otros %{total} proyectos"
+      one: "Apoyó solamente este proyecto hasta ahora"
+      two: "Apoyó este y 1 otro proyecto"
     no_name: ~
   users:
     show:
