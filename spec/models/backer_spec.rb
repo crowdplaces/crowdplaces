@@ -95,12 +95,12 @@ describe Backer do
   describe "#display_value" do
     context "when the value has decimal places" do
       subject{ Factory.build(:backer, :value => 99.99).display_value }
-      it{ should == "R$ 100" }
+      it{ should == "$ 100" }
     end
 
     context "when the value does not have decimal places" do
       subject{ Factory.build(:backer, :value => 1).display_value }
-      it{ should == "R$ 1" }
+      it{ should == "$ 1" }
     end
   end
 
@@ -140,11 +140,11 @@ describe Backer do
     end
 
     it 'with default tax 7.5%'do
-      @backer.display_platform_fee.should == 'R$ 7,50'
+      @backer.display_platform_fee.should == '$ 7,50'
     end
 
     it 'with another tax'do
-      @backer.display_platform_fee(5).should == 'R$ 5,00'
+      @backer.display_platform_fee(5).should == '$ 5,00'
     end
   end
 

@@ -193,10 +193,10 @@ class User < ActiveRecord::Base
     Digest::MD5.new.update("#{self.provider}###{self.uid}").to_s
   end
   def display_credits
-    number_to_currency credits, :unit => 'R$', :precision => 0, :delimiter => '.'
+    number_to_currency credits, :unit => '$', :precision => 0, :delimiter => '.'
   end
   def display_total_of_backs
-    number_to_currency backs.confirmed.sum(:value), :unit => 'R$', :precision => 0, :delimiter => '.'
+    number_to_currency backs.confirmed.sum(:value), :unit => '$', :precision => 0, :delimiter => '.'
   end
   def merge_into!(new_user)
     self.primary = new_user

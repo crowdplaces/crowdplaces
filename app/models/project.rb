@@ -77,11 +77,11 @@ class Project < ActiveRecord::Base
   end
 
   def display_pledged
-    number_to_currency pledged, :unit => 'R$', :precision => 0, :delimiter => '.'
+    number_to_currency pledged, :unit => '$', :precision => 0, :delimiter => '.'
   end
 
   def display_goal
-    number_to_currency goal, :unit => 'R$', :precision => 0, :delimiter => '.'
+    number_to_currency goal, :unit => '$', :precision => 0, :delimiter => '.'
   end
 
   def pledged

@@ -35,7 +35,7 @@ end
 def post_moip_params
   {
     :id_transacao => 'ABCD',
-    :valor => 2190, #=> R$ 21,90
+    :valor => 2190, #=> $ 21,90
     :status_pagamento => 3,
     :cod_moip => 12345123,
     :forma_pagamento => 1,

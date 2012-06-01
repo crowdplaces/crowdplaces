@@ -12,9 +12,9 @@ describe PaymentDetail do
 
   describe "instance_methods" do
     subject { create(:payment_detail) }
-    its(:display_service_tax) { should == 'R$ 19,37' }
-    its(:display_total_amount) { should == 'R$ 999,00' }
-    its(:display_net_amount) { should == 'R$ 979,63' }
+    its(:display_service_tax) { should == '$ 19,37' }
+    its(:display_total_amount) { should == '$ 999,00' }
+    its(:display_net_amount) { should == '$ 979,63' }
     its(:display_payment_date) { should == '30/09/2011, 09:33 h'}
   end
 
