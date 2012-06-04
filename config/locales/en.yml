@@ -42,9 +42,9 @@ en:
     build: "built by"
   main:
     links:
-      selected: "more super projects"
-      expiring: "more in the final sprint"
-      recents: "more new arrivals"
+      selected: "more super projects »"
+      expiring: "more in the final sprint »"
+      recents: "more new arrivals »"
   sidebar:
     titles:
       blog: blog

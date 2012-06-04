@@ -11,29 +11,46 @@
   font-family: "Lato-Regular"
   text-align: right
   +clearfix
-  padding: 4px 0 6px 0
+  padding: 6px 0
+  font-size: 12px
+  line-height: 120%
   ul
     +grid-container
     +grid-system(16)
     text-transform: uppercase
     li
       float: right
-      margin-left: 8px
+      border: 1px solid $crowdplaces_light_gray
+      +background-image(linear-gradient(top, $crowdplaces_white, $crowdplaces_ice))
+      padding: 4px 12px
+      &:hover
+        +background-image(linear-gradient(bottom, $crowdplaces_white, $crowdplaces_ice))
       a
         text-decoration: none
         color: $crowdplaces_gray
         &:hover
           color: $crowdplaces_black
       &.selected
+        +background-image(linear-gradient(bottom, $crowdplaces_white, $crowdplaces_ice))
         a
           color: $crowdplaces_black
       .separator
+        display: none
         color: $crowdplaces_gray
         margin-left: 8px
       &:first-child
+        +border-top-right-radius(8px)
+        +border-bottom-right-radius(8px)
+        border-left: none
         .separator
           display: none
+      &:nth-child(2)
+        +border-top-left-radius(8px)
+        +border-bottom-left-radius(8px)
+      &:last-child
+        background: $crowdplaces_ice
+        border: none
       &.title
         text-transform: lowercase
-        color: $crowdplaces_lighter_gray
+        color: $crowdplaces_gray
         margin-right: 8px

@@ -8,21 +8,20 @@
   // margin-bottom: 30px
   nav
     a
-      +border-radius(5px 5px 0 0)
+      //+border-radius(5px 5px 0 0)
       margin-left: 10px
       margin-right: 5px
       padding: 6px 15px
-      background: $pink
+      background: $crowdplaces_orange
       color: white
-      font-family: Arial
+      font-family: "Lato-Regular"
       font-size: 11px
       text-transform: uppercase
       text-decoration: none
-      +transition(all, 0.4s)
       &:hover
-        +box-shadow(rgba(black, 0.4) 0px 0px 10px inset)
+        background: $crowdplaces_blue
       &.selected
-        color: black
+        color: $crowdplaces_orange
         background: white
         border: 1px $df_gryn solid
         border-bottom: 2px white solid

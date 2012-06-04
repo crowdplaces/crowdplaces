@@ -20,7 +20,7 @@
             font-family: "Lato-Regular"
             color: $ultra_gryn
           p
-            font-family: Arial
+            font-family: "Lato-Regular"
             padding: 5px 0
             font-size: 17px
             color: $_6f_gryn
@@ -30,7 +30,7 @@
           img
             max-width: 600px
           a
-            font-family: Arial
+            font-family: "Lato-Regular"
             color: $ultra_gryn
             text-decoration: none
             &:hover
@@ -55,12 +55,12 @@
       padding-bottom: 10px
       h1
         color: $ultra_gryn
-        font-family: "Lato-Regular"
-        font-size: 28px
+        font-family: "Candal"
+        font-size: 24px
         padding: 5px 0
       h4
         color: rgba($ultra_gryn, 0.7)
-        font-family: Arial
+        font-family: "Lato-Regular"
         font-size: 16px
         a
           color: $ultra_gryn
@@ -90,40 +90,41 @@
               &.embed
                 margin-right: 15px
                 a
-                  background: rgba($ultra_gryn, 0.2)
-                  padding: 2px 10px
+                  padding: 2px 8px
                   text-decoration: none
                   color: black
-                  font-family: Lato
+                  font-family: "Lato-Bold"
                   font-size: 12px
                   +border-radius(5px)
+                  border: 2px solid $crowdplaces_green
                   +transition(all, 0.3s)
                   img
                     padding: 0 7px 0 0
                   &:hover
-                    +box-shadow(rgba(black, 0.5) 0 0 4px inset)
-                  &:active
-                    +box-shadow(rgba(black, 0.5) 0 0 10px inset)
+                    color: $crowdplaces_green
               &.link
                 input[type="text"]
-                  margin-top: -2px
+                  margin-top: -3px
                   color: black
-                  font-family: Lato
+                  font-family: "Lato-Bold"
                   font-size: 12px
-                  border: 1px $minimal_gryn solid
+                  border: 2px solid $crowdplaces_green
+                  width: 130px
                   +border-radius(5px)
-                  padding: 1px 3px 1px 20px
+                  padding: 3px 3px 1px 24px
                   text-align: center
                   background: url($images_path+'link_icon14x14.png') 6px 1px no-repeat
 
       #project_about
         .text
-          font-family: Arial
+          font-family: "Lato-Regular"
           font-size: 16px
           color: rgba(black, 0.6)
           h5
-            font-weight: bold
-            padding-bottom: 20px
+            padding-bottom: 10px
+            font-size: 24px
+            font-family: "Lato-Regular"
+            color: $crowdplaces_black
           p
             line-height: 140%
             margin: 10px 0
@@ -154,7 +155,7 @@
               float: left
               #text
                 a
-                  font-family: Arial
+                  font-family: "Lato-Regular"
                   font-size: 14px
                   font-weight: bold
                   color: $ultra_gryn
@@ -165,7 +166,7 @@
                 padding-top: 8px
               #confirmed, #backed
                 padding-top: 2px
-                font-family: Arial
+                font-family: "Lato-Regular"
                 font-size: 12px
                 color: $ultra_gryn
             .reward
@@ -207,14 +208,14 @@
             background: url($images_path+'social_icons.png') left -54px no-repeat
       #rewards
         .box
-          background: $ed_gryn
+          background: $crowdplaces_beige
           width: 240px
           padding: 20px
-          margin-top: 3px
+          margin-top: 6px
           float: left
           +transition(all, 0.3s)
           &.clickable:hover
-            background: rgba($light_green, 0.3)
+            box-shadow(rgba(0,0,0,0.5), 2px, 0, 0)
           h2
             font-family: "Lato-Bold"
             font-size: 18px
@@ -224,7 +225,7 @@
           em
             background: url($images_path+"reward_count_icon18x17.png") left top no-repeat
             color: $_4d_gryn
-            font-family: Arial
+            font-family: "Lato-Regular"
             font-weight: bold
             font-size: 11px
             padding: 3px 3px 10px 25px
@@ -233,7 +234,7 @@
             display: block
           p, .on_the_spot_editing
             color: $ultra_gryn
-            font-family: Arial
+            font-family: "Lato-Regular"
             font-size: 16px
             line-height: 130%
             padding-bottom: 10px
@@ -244,69 +245,56 @@
                 text-decoration: underline
           .maximum_backers
             color: $_4d_gryn
-            font-family: Arial
+            font-family: "Lato-Regular"
             font-weight: bold
             font-size: 11px
             text-transform: uppercase
       .info
-        #pledge
-          background: $ed_gryn
+        #statistics
+          background: $crowdplaces_beige
+          +clearfix
         .statistics
-          background: $ed_gryn
           width: 240px
           padding: 20px
+          padding-bottom: 0
           .item
-            font-family: Arial
+            font-family: "Lato-Regular"
             font-size: 16px
-            color: rgba(black, 0.8)
-            padding-left: 55px
+            color: #666
             margin-bottom: 20px
+            text-transform: uppercase
             p
-              font-family: "Lato-Bold"
-              font-size: 34px
-              color: black
-            &.backers
-              background: url($images_path+"sidebar_backers_icon26x19.png") 4px center no-repeat
-            &.goal
-              background: url($images_path+"goal_icon36x17.png") left center no-repeat
-            &.time
-              background: url($images_path+"time_icon19x30.png") 10px center no-repeat
+              font-family: "fckaiser"
+              font-size: 55px
+              color: #666
         #condition
-          background: $_6f_gryn
+          border-top: 1px dotted $crowdplaces_gray
+          border-bottom: 1px dotted $crowdplaces_gray
           width: 240px
-          padding: 10px 20px
-          &.successful
-            background: $green
-          &.expired
-            background: $red
+          padding: 12px 20px
+          margin-bottom: 10px
           p
             line-height: 130%
-            font-family: Arial
-            font-size: 11px
-            text-transform: uppercase
-            color: white
+            font-family: "Lato-Regular"
+            font-size: 15px
         #pledge
           width: 280px
-          padding-top: 20px
-          padding-bottom: 20px
+          padding-bottom: 10px
           input[type="submit"][disabled="disabled"]
             +opacity(0.6)
-            background: url($images_path+"submit_back_icon25x22.png") 6px center no-repeat $ultra_gryn
           input[type="submit"]
+            +background-image(linear-gradient(top, $crowdplaces_pink, lighten($crowdplaces_pink, 5%)))
+            background: $crowdplaces_pink
             display: block
             margin: 0 auto
-            background: url($images_path+"submit_back_icon25x22.png") 6px center no-repeat $light_green
-            width: 266px
+            width: 246px
             height: 55px
             border: none
-            text-indent: 28px
-            +border-radius(10px)
+            +border-radius(3px)
             +transition(all, 0.5s)
-            +text-shadow(rgba(black, 0.3) 1px 1px 1px)
             +box-shadow(rgba(black, 0.3) 1px 1px 1px)
-            text-transform: uppercase
-            font-family: "Lato-Bold"
-            font-size: 15px
+            font-family: "Candal"
+            font-size: 20px
             color: white
             &:hover
               +box-shadow(rgba(black, 0.3) 0 0 4px inset)
@@ -345,7 +333,7 @@
                 color: $pink
                 text-decoration: none
             p
-              font-family: Arial
+              font-family: "Lato-Regular"
               font-size: 12px
               color: $ultra_gryn
               line-height: 140%
@@ -354,7 +342,7 @@
             +alpha
             p
               padding: 10px 0
-              font-family: Arial
+              font-family: "Lato-Regular"
               font-size: 12px
               color: $ultra_gryn
               line-height: 140%
@@ -367,7 +355,7 @@
           font-size: 15px
           color: rgba(0, 0, 0, 0.8)
       #show_formatting_tips
-        font-family: Arial
+        font-family: "Lato-Regular"
         text-align: left !important
         color: #666
         font-size: 16px
@@ -378,7 +366,7 @@
           &:hover
             color: $pink
       #formatting_tips
-        font-family: Arial
+        font-family: "Lato-Regular"
         display: none
         text-align: left
         color: #666

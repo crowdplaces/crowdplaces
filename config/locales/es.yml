@@ -1,30 +1,30 @@
 es:
   or: o
-  newsletter_ok_header: ~
-  newsletter_ok_body: ~
-  newsletter_error_header: ~
-  newsletter_error_body: ~
+  newsletter_ok_header: "¡Estás registrado!"
+  newsletter_ok_body: "Tu mail se registró exitosamente, gracias."
+  newsletter_error_header: "¡Ups! Ocurrió un error"
+  newsletter_error_body: "Tu email no pudo ser registrado. Por favor, inténtalo más tarde."
   views:
     pagination:
-      next: ~
+      next: siguiente
       last: última
       truncate: "..."
   statistics:
     backers:
-      subtitle: apoyadores
+      subtitle: colaboradores
     goal:
-      subtitle: ~
+      subtitle: "total de %{total}"
   project_by: "proyecto por"
-  tell_about_this_back: "Cuente a todo el mundo sobre tu apoyo!"
+  tell_about_this_back: "¡Cuéntale a todo el mundo sobre tu apoyo!"
   share_my_backs: ~
-  tell_about_this_project: "Cuente a todo el mundo sobre tu proyecto!"
+  tell_about_this_project: "¡Cuéntale a todo el mundo sobre tu proyecto!"
   share_my_projects: ~
   count_backed_projects: "Apoyó %{total} proyectos"
   footer:
     titles:
       info: "informaciones útiles"
       opendata: "estadísticas divertidas"
-      social: "Nuestro facebook"
+      social: facebook
       newsletter: "Reciba nuestra newsletter"
     stats:
       backers: Apoyadores
@@ -42,19 +42,19 @@ es:
     build: "hecho por"
   main:
     links:
-      selected: "más super proyectos"
-      expiring: "más en la recta final"
-      recents: "más recién llegados"
+      selected: "más super proyectos »"
+      expiring: "más en la recta final »"
+      recents: "más recién llegados »"
   sidebar:
     titles:
       blog: blog
       facebook: Facebook
       twitter: "@crowdplaces"
-      newsletter: "quieres novedades?"
-      faq: "tienes dudas?"
+      newsletter: "¿quieres novedades?"
+      faq: "¿tienes dudas?"
       schedule: agenda
     buttons:
-      newsletter: ~
+      newsletter: enviar
   sections:
     selection:
       title: "Super selección"
@@ -73,79 +73,79 @@ es:
         user:
           attributes:
             email:
-              not_found: ~
+              not_found: "No haz iniciado sesión. Chequea la dirección de correo electrónico o crea una nueva cuenta"
     attributes:
       backer:
         value: Valor
       project:
         category: Categoría
         expires_at: Plazo
-        headline: "Frase de efecto"
+        headline: Encabezado
         image_url: "URL de la imagen"
         name: Nombre
         user_id: "Id del usuario"
         video_url: "URL del video"
       reward:
         description: Descripción
-        maximum_backers: "Maximo de apoyadores"
+        maximum_backers: "Maximo de colaboradores"
         minimum_value: "Valor minimo"
       user:
         address_city: Ciudad
-        address_complement: ~
+        address_complement: Complemento
         address_neighbourhood: Barrio
-        address_number: Numero
-        address_state: ~
-        address_street: ~
-        address_zip_code: ~
-        cpf: ~
-        current_password: ~
-        email: ~
-        full_name: ~
-        name: ~
-        password: ~
-        password_confirmation: ~
-        phone_number: ~
+        address_number: Número
+        address_state: Estado
+        address_street: Calle
+        address_zip_code: "Código postal"
+        cpf: CPF
+        current_password: "Contraseña actual"
+        email: "Correo electrónico"
+        full_name: "Nombre completo"
+        name: Nombre
+        password: Contraseña
+        password_confirmation: "Confirmación de la contraseña"
+        phone_number: "Teléfono movil"
     models:
-      backer: ~
-      category: ~
-      project: ~
-      reward: ~
+      backer: Colaborador
+      category: Categoría
+      project: Proyecto
+      reward: Recompensa
   backer:
-    display_confirmed_at: ~
-    reward_must_be_from_project: ~
-    should_not_back_if_maximum_backers_been_reached: ~
-    value_must_be_at_least_rewards_value: ~
-  backer_plural: ~
-  backer_singular: ~
-  click_here: ~
-  clicking_here: ~
+    display_confirmed_at: "%{time_ago} transcurrido"
+    reward_must_be_from_project: "debe ser del mismo proyecto"
+    should_not_back_if_maximum_backers_been_reached: "alcanzó el máximo de colaboradores"
+    value_must_be_at_least_rewards_value: "debe ser al menos %{minimum_value} para la recompensa seleccionada"
+  backer_plural: colaboradores
+  backer_singular: colaborador
+  click_here: "Haz click acá"
+  clicking_here: "Haciendo click acá"
   comment:
-    display_time: ~
+    display_time: "%{time_ago} transcurrido"
   credits:
     index:
-      back_date: ~
-      current_credits_html: ~
-      important_html: ~
-      project: ~
-      refund_expration_date: ~
-      refunded: ~
-      refunds_title: ~
-      request_refund: ~
-      requested_refund: ~
-      status: ~
-      title: ~
-      value: ~
+      back_date: "Día que será financiado"
+      current_credits_html: "Tu saldo actual es de <span id=\"current_credits\">%{credits}</span> en créditos."
+      important_html: "Tienes <strong>180 días después del día de pagoe</strong> para solicitar un reembolso. Si solicitas un reembolso, el valor a pagar será deducido de tus créditos."
+      project: Proyecto
+      refund_expration_date: "Plazo para reembolso"
+      refunded: "Dinero reembolsado"
+      refunds_title: "Pagos que pueden ser reembolsados"
+      request_refund: "Solicitar reembolso"
+      requested_refund: "Reembolso solicitado"
+      status: Estado
+      title: "Mis créditos"
+      value: Valor
     refund:
-      cannot_refund: ~
-      error: ~
-      no_credits: ~
-      refunded: ~
-      requested_refund: ~
-    title: ~
+      cannot_refund: "Este pago no puede ser reembolsado"
+      error: "Ups. Hubo un problema al solicitar el reembolso"
+      no_credits: "No tienes suficiente crédito como para solicitar este reembolso"
+      refunded: "Este pago fue reembolsado con anterioridad"
+      requested_refund: "Ya solicitaste el reembolso de este dinero"
+    title: "Mis créditos"
   credits_mailer:
     request_refund_from:
-      subject: ~
-      subject_html: ~
+      subject: "Reembolso solicitado por %{name}"
+      subject_html: "Usuario %{name} requested refund for the back %{backer_key} para el proyecto %{backer_project} in the amount of % {backer_value} hecho por %{backer_payment_service} gateway."
   curated_pages:
     index:
       title: ~
@@ -154,125 +154,125 @@ es:
       reached: "de la meta"
   devise:
     confirmations:
-      confirmed: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
+      confirmed: "¡Funcionó! Tienes una cuenta en Crowdplaces. Ahora te encuentras registrada(o)."
+      send_instructions: "Recibirás un correo electrónico con instrucciones para la confirmación de tu cuenta en pocos minutos."
+      send_paranoid_instructions: "Si tu correo electrónico existe en nuestra base de datos, recibirás un correo para recuperar tu clave."
     failure:
-      already_authenticated: ~
-      inactive: ~
-      invalid: ~
-      invalid_token: ~
-      locked: ~
-      timeout: ~
-      unauthenticated: ~
-      unconfirmed: ~
+      already_authenticated: "Ya estás registrado."
+      inactive: "Tu cuenta no ha sido activada."
+      invalid: "Contraseña o correo electrónico incorrecto."
+      invalid_token: "Token de autenticación incorrecto."
+      locked: "Tu cuenta está bloqueada."
+      timeout: "Tu sesión ha expirado, por favor entra nuevamente para continuar."
+      unauthenticated: "Necesitas registrarte o acceder a tu cuenta para continuar."
+      unconfirmed: "Tienes que validar tu cuenta antes de continuar."
     links:
-      forgot_password: ~
-      sign_in: ~
-      sign_up: ~
+      forgot_password: "¿Olvidaste tu clave?"
+      sign_in: "Inicia sesión"
+      sign_up: Regístrate
     mailer:
       confirmation_instructions:
-        subject: ~
+        subject: "Instrucciones de confirmación"
       reset_password_instructions:
-        subject: ~
-        alt: ~
+        subject: "Instrucciones para cambiar tu contraseña"
+        alt: "Instrucciones para cambiar tu contraseña"
       unlock_instructions:
-        subject: ~
+        subject: "Desbloquear instrucciones"
     omniauth_callbacks:
-      failure: ~
-      success: ~
+      failure: "No es posible autorizarte a %{kind} porque \"%{reason}\"."
+      success: "Autorizado exitosamente desde la %{kind} cuenta."
     passwords:
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      updated: ~
-      updated_not_active: ~
+      send_instructions: "Recibirás un correo electrónico con instrucciones para cambiar tu contraseña en poco minutos."
+      send_paranoid_instructions: "Si tu correo electrónico existe en nuestra base de datos, recibirás un correo para recuperar tu clave."
+      updated: "Tu clave ha sido modificada exitosamente. Has accedido a tu cuenta."
+      updated_not_active: "Tu clave ha sido modificada exitosamente. Has accedido a tu cuenta."
     registrations:
-      destroyed: ~
-      inactive_signed_up: ~
+      destroyed: "Hasta la próxima. Tu cuenta a sido cancelada exitosamente. Esperamos verte pronto."
+      inactive_signed_up: "Te registraste exitosamente pero no puedes acceder a tu cuenta debido a que %{reason}."
       reasons:
-        inactive: ~
-        locked: ~
-        unconfirmed: ~
-      signed_up: ~
-      updated: ~
+        inactive: inactivo
+        locked: bloqueado
+        unconfirmed: "no confirmado"
+      signed_up: "¡Bienvenido! Te has registrado correctamente."
+      updated: "Has actualizado exitosamente tu cuenta."
     sessions:
       new:
-        site_title: ~
-        submit: ~
-        title: ~
-        login_title: ~
-        login_subtitle: ~
-        register_title: ~
-        register_subtitle: ~
-        with_facebook: ~
-        with_facebook_subtitle: ~
-        with_another_social: ~
-        with_another_social_subtitle: ~
-      signed_in: ~
-      signed_out: ~
+        site_title: "Inicia Sesión"
+        submit: "Inicia Sesión"
+        title: "Inicia sesión usando tu email"
+        login_title: "Inicia Sesión"
+        login_subtitle: "Si ya tienes una cuenta"
+        register_title: Regístrate
+        register_subtitle: "Usa tu cuenta de correo electrónico"
+        with_facebook: "Accede con tu facebook"
+        with_facebook_subtitle: "Una forma rápida de acceder"
+        with_another_social: "¿Tienes una cuenta en facebook?"
+        with_another_social_subtitle: "Accede con otra red social"
+      signed_in: "Has accedido correctamente."
+      signed_out: "Has salido correctamente."
     unlocks:
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      unlocked: ~
-  error: ~
+      send_instructions: "Recibirás un correo electrónico con instrucciones para desbloquear tu cuenta en pocos minutos."
+      send_paranoid_instructions: "Si tu cuenta existe, recibirás un correo electrónico con instrucciones para desbloquear tu cuenta en pocos minutos."
+      unlocked: "Tu cuenta ha sido desbloqueada exitosamente. Has accedido a tu cuenta."
+  error: "¡Ups! Ocurrió un error. Por favor inténtalo de nuevo."
   explore:
     index:
-      categories: ~
-      expiring: ~
-      quick_explore: ~
-      recent: ~
-      recommended: ~
-      subtitle: ~
-      successful: ~
-      title: ~
-    title: ~
+      categories: Categorías
+      expiring: "En la recta final"
+      quick_explore: "Búsqueda rápida"
+      recent: "Recién llegados"
+      recommended: "Super selección"
+      subtitle: "¡Descubre nuevos proyectos y hazlos realidad!"
+      successful: Exitoso
+      title: "Descubre super proyectos"
+    title: "Descubre proyectos"
     project:
-      empty: ~
+      empty: "No encontramos ningún proyecto con esa búsqueda. ¿Quieres intentarlo con otras palabras?"
   formtastic:
     hints:
       backer:
-        credits: ~
-        value: ~
+        credits: "Tienes <strong>%{credits}</strong> en créditos para colaborar con un proyecto sin necesidad de efectuar un nuevo pago."
+        value: "Tu eliges el monto, empezando en US$10. ¡Cualquier aporte es bienvenido!"
       project:
-        about: ~
-        category: ~
-        expires_at: ~
-        goal: ~
-        headline: ~
-        name: ~
-        video_url: ~
+        about: "Cuéntanos acerca de tu proyecto y explícanos cuanto dinero necesitas para hacerlo realidad. Explicálo de la manera más precisa y resumida que puedas para que las personas puedan entender lo que propones. Asegurate de mostrar lo apasionado/a que estás por hacer esta idea realidad."
+        category: "Elige la categoría en la que quieres que tu proyecto aparezca. No te preocupes si crees que calza en más de una. ¡Elige la que prefieras!"
+        expires_at: "Elige el largo de la campaña. Esto es estratégico: si pones mucho tiempo, la gente perderá interés en el camino; si pones muy poco, quizás no alcances a juntar el mínimo en el tiempo establecido."
+        goal: "Piensa bien cual es el monto que pedirás. Debería ser el <strong>mínimo necesario para que el proyecto se pueda realizar</strong>. No más ni menos. Si pides mucho, la posibilidad de alcanzar el mínimo será menor. Si no pides lo suficiente, no serás capaz de realizar lo que propones y tu reputación se verá dañada, y no podrás realizar nuevas campañas."
+        headline: "Resume tu proyecto en 140 caractéres. Esta será el primer contacto que la gente tendrá con tu proyecto, incluso antes de ver el video. ¡Se creativo, claro y directo!"
+        name: "¿Cuál es el nombre de tu proyecto? Elígelo estratégicamente, ya que influirá en la posibilidad de que tu proyecto alcance la meta."
+        video_url: "Pega el URL de tu<a href=\"http://vimeo.com\" target=\"_blank\">video</a>en Vimeo. Elegimos Vimeo porque se ve mejor y no tiene avisos publicitarios. Tu proyecto se verá mejor<strong>Produce un video lo mejor que puedas y hazlo especialmente para la campaña</strong>. Si hay una cosa que diferencia un proyecto que alcanza la meta de uno que no lo hace es el video. ¡Observa!"
       reward:
-        description: ~
-        maximum_backers: ~
-        minimum_value: ~
+        description: "Crea y describe recompensas de manera que despierten interés en el proyecto. ¡Se creativo!"
+        maximum_backers: "Si la recompensa es limitada, cuéntanos cual es el máximo de colaboradores que pueden recibirla."
+        minimum_value: "Este es el monto mínimo para escoger esta recompensa."
     labels:
       backer:
-        anonymous: ~
-        credits: ~
-        reward: ~
-        value: ~
+        anonymous: "Quiero quedar en el anonimato con esta colaboración."
+        credits: "Quiero usar mis créditos en este proyecto."
+        reward: "Selecciona tu recompensa."
+        value: "¿Con cuánto quieres colaborar?"
       comment:
-        comment: ~
+        comment: "Deja tu comentario acerca de este proyecto."
       project:
-        about: ~
-        expires_at: ~
-        goal: ~
-        name: ~
-        video_url: ~
+        about: "Acerca de tu proyecto"
+        expires_at: "¿Cuál es la fecha límite para alcanzar la meta?"
+        goal: "¿Cuánto necesitas?"
+        name: "Nombre del proyecto"
+        video_url: Video
       reward:
-        maximum_backers: ~
-    optional: ~
-  found_plural: ~
-  found_singular: ~
-  here: ~
-  i_backed: ~
-  i_just_backed: ~
+        maximum_backers: "Máximo de colaboradores (opcional)"
+    optional: " (opcional)"
+  found_plural: Encontrados
+  found_singular: Encontrado
+  here: Aquí
+  i_backed: "Colaboré con el proyecto %{name} en @crowdplaces_"
+  i_just_backed: "Recién colaboré con el proyecto %{name} en @crowdplaces_"
   layouts:
     locales:
       title: "choose language"
     login:
-      login_with_facebook: ~
-      remember_me: ~
+      login_with_facebook: "entra con tu cuenta de facebook"
+      remember_me: "Recordarme y dejarme conectado(a)."
     header:
       blog: mapa
       help: ayuda
@@ -287,100 +287,100 @@ es:
       highlight_project: "Super proyecto"
     user:
       logout: Salir
-      my_credits: "Mis creditos"
-  not_informed: ~
-  notify_locale: ~
+      my_credits: "Mis créditos"
+  not_informed: "No informado"
+  notify_locale: "Identificamos tu idioma por tu browser. Si prefieres otro, selecciona una de las opciones arriba."
   on_the_spot:
-    cancel: ~
-    ok: ~
-    tooltip: ~
+    cancel: Cancelado
+    ok: OK
+    tooltip: "Haz click para editar..."
   passwords:
     edit:
-      label_new_password: ~
-      submit: ~
-      title: ~
-      site_title: ~
-      subtitle: ~
+      label_new_password: "Nueva clave"
+      submit: "Cambiar clave"
+      title: "Cambia tu clave"
+      site_title: "Cambiar clave"
+      subtitle: "Pediste cambiar tu clave. Escribe tu nueva clave abajo y haz click en \"Cambiar clave\". Si tu no pediste cambiar tu clave, no consideres esta página. Tu clave seguirá siendo la misma."
     email:
-      content_html: ~
-      title: ~
+      content_html: " <p>Alguien ha solicitado cambiar tu clave, y tu puedes hacer esto siguiendo el link aquí.</p><p>%{link}</p><p>Si tu no solicitaste un cambio de clave, por favor ignora este correo.</p><p>Tu clave no será cambiada a menos que accedas al link aquí proporcionado y crees una nueva. </p> "
+      title: "Instrucciones para cambiar tu contraseña"
     new:
-      submit: ~
-      title: ~
-      site_title: ~
+      submit: "Enviar instrucciones para cambiar mi clave"
+      title: "¿Olvidaste tu clave?"
+      site_title: "Recuperar clave"
   payment_stream:
     thank_you:
-      error: ~
-      header_subtitle: ~
-      header_title: ~
-      text_subtitle: ~
-      text_title_html: ~
-      title: ~
+      error: "¡Ups! Sólo puedes acceder a esta página después de haber colaborado con un proyecto."
+      header_subtitle: "Si ti probablemente este proyecto no sería posible. ¡Bienvenido al equipo!"
+      header_title: ¡Gracias!
+      text_subtitle: "Cuéntale a todo el mundo lo que recién hiciste"
+      text_title_html: "Eres ahora parte de un super grupo que hace todo para hacer que %{link} se haga realidad."
+      title: Gracias
   project:
     start:
-      email_subject: ~
-      email_text: ~
-      notification_text: ~
+      email_subject: "El proyecto fue recibido por nuestro equipo"
+      email_text: "Gracias por confiar en nosotros y enviarnos tu proyecto :)<br><br>Sabemos que esperas una pronta respuesta, pero te reconocemos que podemos demorarnos hasta 4 dias en responder por cada proyecto. ¿Está bien? Eso es porque tenemos un equipo pequeño y recibimos muchos proyectos. Igual puede ocurrir que nos demoremos menos.  Está atento(a) a tu bandeja de entrada.<br><br>Por mientras, es buena idea que revises los proyectos que tenemos publicados (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) y - si te gusta alguno- colabora con él. Esta es la mejor manera de demostrar que crees en la cultura que estamos construyendo juntos y desarrollar un ecosistema que emerge alrededor de Crowdplaces.<br><br>Además, es también una buena manera para inspirarte para tu proyecto...<br><br>Quédate conectado a nuestro <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> y nuestro <a href='%{blog}' style='color: #E75297 !important;'>mapa</a>.<br><br>Si tienes alguna duda, contáctanos acá %{email}"
+      notification_text: "Tu proyecto fue recibido por nuestro equipo"
     finish:
       successful:
-        email_subject: ~
-        email_text: ~
-        facebook_text: ~
-        notification_text: ~
-        reward_notification_text: ~
-        twitter_text: ~
+        email_subject: "¡Hurra! El proyecto con el cual colaboraste en Crowdplaces fue exitoso"
+        email_text: "¡El proyecto %{project_link}, con el cual colaboraste, se fiannció completamente en Crowdplaces! Es tiempo de celebrar :D<br><br>Muchas pero muchas gracias, por tu colaboración! Si ti esto no hubiese sido posible. Pronto, %{user_link} te contactará para entregarte tu recompensa. Por mientras, ¡comparte con todos este tremendo éxito!"
+        facebook_text: "¡Hurra! El proyecto '%{name}', con el que colaboré, fue exitoso en Crowdplaces"
+        notification_text: "¡Hurra! El proyecto %{link} con el cual colaboraste fue exitoso. ¡Corre la voz!"
+        reward_notification_text: "Pronto, %{link} te contactará para entregarte tu recompensa. ¡Disfrútala!"
+        twitter_text: "¡Hurra! El proyecto '%{name}', con el que colaboré, fue exitoso en Crowdplaces_ %{short_url}"
       unsuccessful:
-        email_subject: ~
-        email_text: ~
-        notification_text: ~
-        unsuccessful_text: ~
-    verify_if_video_exists_on_vimeo: ~
-    vimeo_regex_validation: ~
+        email_subject: "El proyecto con el cual colaboraste no logró llegar a la meta en Crowdplaces."
+        email_text: "El proyecto %{project_link} con el cual aportaste no logró el financiamento necesario. ¡Quizás la próxima vez!<br><br>Debido a esto recibirás <strong>%{value}<strong> en créditos para colaborar con otros proyectos. Si lo prefieres, puedes solicitar un reembolso %{credits_link}."
+        notification_text: "Recibirás %{value} en créditos para colaborar con otros proyectos. Si lo prefieres, puedes solicitar un reembolso %{link}."
+        unsuccessful_text: "El proyecto %{link} con el cual aportaste no logró el financiamento necesario. ¡Quizás la próxima vez!"
+    verify_if_video_exists_on_vimeo: "debe existir en Vimeo"
+    vimeo_regex_validation: "sólo se aceptan URLs de Vimeo"
     display_status:
-      expired: ~
-      successful: ~
-      waiting_confirmation: ~
+      expired: "no financiado"
+      successful: financiado
+      waiting_confirmation: esperando
   projects:
     box:
       by: por
     admin_fields:
-      title: ~
+      title: "Campos de administración"
     back_project:
       project_warning:
         not_successful:
-          expired: ~
-          not_expired: ~
+          expired: "Este proyecto no alcanzó la meta de %{goal} hasta el %{date} y no fue financiado"
+          not_expired: "Este proyecto sólo será financiado si al menos %{goal} reúne hasta el %{date}"
         successful:
-          expired: ~
-          not_expired: ~
-        waiting_confirmation: ~
-      reached_of: ~
-      submit: ~
+          expired: "Este proyecto fue exitoso y fue financiado el %{date}"
+          not_expired: "Este proyecto será financiado exitosamente el %{date}"
+        waiting_confirmation: "Esperando confirmación de pagos para saber si este proyecto será financiado."
+      reached_of: "Acumulados de"
+      submit: "Colaborar con este proyecto"
     backer:
-      anonymous_backer: ~
-      anonymous_description: ~
-      no_reward: ~
+      anonymous_backer: "Colaborador anónimo"
+      anonymous_description: "Opcionalmente permanece incognito"
+      no_reward: "Este colaborador no pidió recompensa"
     backers:
       checkout:
-        moip_error: ~
-        no_credits: ~
-        paypal_cancel: ~
-        paypal_description: ~
-        paypal_error: ~
-        success: ~
+        moip_error: "¡Ups! Hubo un error mientras se enviaba tu pago a MoIP. Por favor inténtalo otra vez."
+        no_credits: "No tienes créditos suficientes para colaborar con este proyecto."
+        paypal_cancel: "Tu pago via PayPal fue cancelado. Por favor inténtalo de nuevo."
+        paypal_description: "Colaboraste con el proyecto"
+        paypal_error: "¡Ups! Hubo un error al enviar tu pago a PayPal. Por favor inténtalo de nuevo."
+        success: "Tu colaboración fue realizada con éxito. ¡Muchísimas gracias!"
       new:
-        cannot_back: ~
+        cannot_back: "No es posible colaborar con este proyecto ahora. Por favor, colabora con otros proyectos."
         header:
-          subtitle: ~
-          title: ~
-        no_reward: ~
-        submit: ~
-        title: ~
+          subtitle: "Estás a pocos pasos de hacer la diferencia y formar parte de este proyecto."
+          title: ¡Logrado!
+        no_reward: "Gracias. Yo sólo quiero colaborar con el proyecto."
+        submit: "Revisa y termina de efectuar el pago"
+        title: "Colaborador %{name}"
       review:
-        credits_notice_html: ~
-        error: ~
+        credits_notice_html: "Esto será pagado con tus créditos. Después de confirmado el pago tendrás  <strong>%{credits}</strong> en créditos para colaborar con otros proyectos."
+        error: "Ups. Hubo un error al registrarte. Por favor inténtalo de nuevo."
         international:
-          description: ~
+          description: "Puedes usar PayPal para hacer pagos internacionales"
           important_html: ~
           submit: ~
           title: ~
@@ -557,33 +557,33 @@ es:
     twitter: crowdplaces
   static:
     faq:
-      title: ~
+      title: "Preguntas frecuentes"
     guidelines:
-      accept: ~
-      submit: ~
-      subtitle: ~
-      title: ~
+      accept: "He leído y entiendo cómo funciona Crowdplaces."
+      submit: "Quiero presentarles mi proyecto"
+      subtitle: "Antes de presentar tu proyecto, aprende cómo funciona Crowdplaces."
+      title: "¿Cómo funciona Crowdplaces?"
     privacy:
-      title: ~
+      title: "Política de privacidad"
     terms:
-      title: ~
-  terms: ~
+      title: "Términos de uso"
+  terms: "términos de uso"
   user:
     backs_text:
       many: "Apoió este y otros %{total} proyectos"
       one: "Apoyó solamente este proyecto hasta ahora"
       two: "Apoyó este y 1 otro proyecto"
-    no_name: ~
+    no_name: "Sin nombre"
   users:
     show:
       tabs:
-        backed_projects: ~
-        created_projects: ~
-        comments: ~
-        credits: ~
-        settings: ~
+        backed_projects: "Proyectos apoyados"
+        created_projects: "Proyectos creados"
+        comments: Comentarios
+        credits: Créditos
+        settings: Ajustes
     backs:
-      anonymous: ~
+      anonymous: "Colaborador anónimo."
       no_backs: ~
       no_backs_current_user_html: ~
       no_reward: ~
