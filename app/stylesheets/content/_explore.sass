@@ -12,14 +12,6 @@
             color: black
             font-family: "Lato-Bold"
             margin-bottom: 10px
-            text-transform: lowercase
-            padding-left: 20px
-          &.highlights
-            h2
-              background: url($images_path+'min_star12x11.png') left 3px no-repeat
-          &.categories
-            h2
-              background: url($images_path+'category_icon14x14.png') left 2px no-repeat
           ul
             margin-bottom: 20px
             li
@@ -27,22 +19,24 @@
               a
                 color: $ultra_gryn
                 font-size: 14px
+                line-height: 130%
                 font-family: "Lato-Regular"
                 background: rgba($minimal_gryn, 0.3)
                 display: block
-                padding: 1px 10px
+                padding: 4px 10px
                 text-decoration: none
                 +border-radius(5px)
                 &:hover, &.selected
-                  background: rgba($pink, 0.3)
+                  background: $crowdplaces_orange
+                  color: $crowdplaces_white
       .main
         .section_header
           +grid(16)
           +alpha
           padding-bottom: 60px
           h1
-            font-family: "Lato-Bold"
-            font-size: 28px
+            font-family: "Candal"
+            font-size: 24px
             color: $ultra_gryn
             padding-bottom: 5px
             span

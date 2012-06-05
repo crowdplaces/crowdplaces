@@ -1,7 +1,7 @@
 #project_embed
-  background: url($images_path+'bg_s3.png') left top repeat
-  border: 5px solid #fff
-  +border-radius(8px)
+  background: $crowdplaces_yellow
+  border: 5px solid $crowdplaces_yellow
+  +border-radius(2px)
   +box-shadow(rgba(black,0.75),4px,-4px,10px)
   position: absolute
   top: 50%
@@ -14,7 +14,6 @@
   padding: 20px
   text-align: center
   color: #fff
-  +text-shadow(black, 1px, 1px, 1px)
   h1
     font-family: "Lato-Bold"
     font-size: 24px
@@ -27,25 +26,23 @@
     color: #fff
   a.close
     font-family: 'Lato-Bold'
-    color: #fff
+    color: $crowdplaces_yellow
     text-decoration: none
     position: absolute
     width: 24px
     height: 24px
-    border: 3px solid #fff
+    border: 3px solid $crowdplaces_black
     +border-radius(24px)
     top: 0
     left: 100%
     margin-top: -15px
     margin-left: -15px
     line-height: 22px
-    background-color: $ultra_gryn
-    +box-shadow(rgba(black,0.75),4px,-4px,10px)
+    background-color: $crowdplaces_black
     font-weight: bold
     +transition(all, 0.3s)
   a.close:hover, a.close:focus
-    color: #fff
-    +scale(1.05)
+    +scale(1.02)
   #project_box_embed
     float: left
     textarea
@@ -53,7 +50,7 @@
       margin-top: 8px
       height: 48px
       width: 214px
-      background-color: $gryn
+      background-color: $crowdplaces_white
       font-size: 14px
   #project_video_embed
     float: right
@@ -64,7 +61,7 @@
       margin-top: 8px
       height: 48px
       width: 358px
-      background-color: $gryn
+      background-color: $crowdplaces_white
       font-size: 14px
 
 #embed
@@ -74,33 +71,35 @@
 #video_embed
   text-align: center
   padding: 0
+  background: $crowdplaces_black
+  height: 415px
   h1
-    font-family: "Lato-Bold"
-    font-size: 22px
+    font-family: "Candal"
+    font-size: 18px
     line-height: 22px
     padding: 12px 0 8px 0
     a
-      color: black
+      color: $crowdplaces_white
       text-decoration: none
       &:hover
-        color: $green
+        color: $crowdplaces_blue
   h2
     font-family: "Lato-Regular"
     font-size: 14px
-    line-height: 16px
-    color: #666
+    line-height: 200%
+    color: $crowdplaces_white
     padding: 0
     a
       text-decoration: none
-      color: $blue
+      color: $crowdplaces_pink
       +transition(all, 0.5s)
       &:hover
-        color: $pink
+        color: $crowdplaces_orange
   #platform_link
     h1
       font-family: "Lato-Regular"
       font-size: 28px
-      line-height: 30px
+      line-height: 150%
       padding: 0
       a
         color: #222
@@ -110,9 +109,9 @@
         +text-shadow(rgba(0,150,0,0.4), 1px, 1px, 10px)
   #video_embed_footer
     position: fixed
-    bottom: 4px
+    bottom: 12px
     left: 50%
     width: 220px
-    margin-left: -110px
+    margin-left: -105px
 
 

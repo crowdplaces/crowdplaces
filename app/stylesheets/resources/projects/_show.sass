@@ -96,7 +96,8 @@
                   font-family: "Lato-Bold"
                   font-size: 12px
                   +border-radius(5px)
-                  border: 2px solid $crowdplaces_green
+                  border: 2px solid $crowdplaces_beige
+                  background: $crowdplaces_beige
                   +transition(all, 0.3s)
                   img
                     padding: 0 7px 0 0
@@ -108,12 +109,12 @@
                   color: black
                   font-family: "Lato-Bold"
                   font-size: 12px
-                  border: 2px solid $crowdplaces_green
+                  border: 2px solid $crowdplaces_beige
                   width: 130px
                   +border-radius(5px)
                   padding: 3px 3px 1px 24px
                   text-align: center
-                  background: url($images_path+'link_icon14x14.png') 6px 1px no-repeat
+                  background: $crowdplaces_beige url($images_path+'link_icon14x14.png') 6px 1px no-repeat
 
       #project_about
         .text
@@ -149,11 +150,15 @@
             .backer_avatar
               float: left
               width: 59px
-              height: 61px
               margin-right: 15px
             .back_info
               float: left
               #text
+                .anon
+                  font-family: "Lato-Regular"
+                  font-size: 14px
+                  font-weight: bold
+                  color: $ultra_gryn
                 a
                   font-family: "Lato-Regular"
                   font-size: 14px
@@ -173,6 +178,7 @@
               clear: both
               padding: 10px
               font-size: 12px
+              line-height: 130%
               font-family: Lato-Regular
               background: $ed_gryn
               margin-top: 10px
@@ -208,47 +214,48 @@
             background: url($images_path+'social_icons.png') left -54px no-repeat
       #rewards
         .box
-          background: $crowdplaces_beige
+          background: $crowdplaces_beige url($images_path+"reward_count_icon18x17.png") 20px 22px no-repeat
+          
           width: 240px
           padding: 20px
           margin-top: 6px
           float: left
           +transition(all, 0.3s)
           &.clickable:hover
-            box-shadow(rgba(0,0,0,0.5), 2px, 0, 0)
+            +box-shadow(rgba(0,0,0,0.2), 0, 2px, 0)
           h2
-            font-family: "Lato-Bold"
-            font-size: 18px
-            color: rgba(black, 0.8)
+            font-family: "fckaiser"
+            font-size: 30px
+            color: $crowdplaces_medium_gray
             text-transform: uppercase
             padding-bottom: 5px
+            margin-left: 30px
           em
-            background: url($images_path+"reward_count_icon18x17.png") left top no-repeat
-            color: $_4d_gryn
+            margin-left: 30px
+            color: $crowdplaces_pink
             font-family: "Lato-Regular"
             font-weight: bold
-            font-size: 11px
-            padding: 3px 3px 10px 25px
-            text-transform: uppercase
+            font-size: 14px
+            padding: 3px 3px 10px 0
+            text-transform: lowercase
             clear: both
             display: block
           p, .on_the_spot_editing
-            color: $ultra_gryn
+            color: $crowdplaces_black
             font-family: "Lato-Regular"
-            font-size: 16px
+            font-size: 14px
             line-height: 130%
             padding-bottom: 10px
             a
-              color: $pink
+              color: $crowdplaces_green
               text-decoration: none
               &:hover
                 text-decoration: underline
           .maximum_backers
-            color: $_4d_gryn
+            color: $crowdplaces_gray
             font-family: "Lato-Regular"
             font-weight: bold
-            font-size: 11px
-            text-transform: uppercase
+            font-size: 12px
       .info
         #statistics
           background: $crowdplaces_beige
@@ -260,13 +267,13 @@
           .item
             font-family: "Lato-Regular"
             font-size: 16px
-            color: #666
+            color: $crowdplaces_medium_gray
             margin-bottom: 20px
             text-transform: uppercase
             p
               font-family: "fckaiser"
               font-size: 55px
-              color: #666
+              color: $crowdplaces_medium_gray
         #condition
           border-top: 1px dotted $crowdplaces_gray
           border-bottom: 1px dotted $crowdplaces_gray
@@ -310,18 +317,16 @@
             &:hover
               color: $pink
           h3
-            background: url($images_path+"profile_icon19x14.png") left 4px no-repeat
             color: $ultra_gryn
             font-family: "Lato-Bold"
-            font-size: 18px
-            padding-left: 30px
+            font-size: 16px
             display: block
-            padding-bottom: 15px
+            padding-bottom: 8px
+            border-bottom: 1px dotted $crowdplaces_gray
+            margin-bottom: 16px
           .avatar
             +grid(2)
             +alpha
-            img
-              +box-shadow(rgba(black, 0.8) 2px 2px 4px)
           .personal_info
             +grid(3)
             +omega
@@ -330,8 +335,10 @@
               a
                 font-family: "Lato-Bold"
                 font-size: 14px
-                color: $pink
+                color: $crowdplaces_green
                 text-decoration: none
+                &:hover
+                  color: $crowdplaces_blue
             p
               font-family: "Lato-Regular"
               font-size: 12px
@@ -357,7 +364,7 @@
       #show_formatting_tips
         font-family: "Lato-Regular"
         text-align: left !important
-        color: #666
+        color: $crowdplaces_medium_gray
         font-size: 16px
         margin-bottom: 15px
         a
@@ -369,7 +376,7 @@
         font-family: "Lato-Regular"
         display: none
         text-align: left
-        color: #666
+        color: $crowdplaces_medium_gray
         strong
           font-weight: bold
         em

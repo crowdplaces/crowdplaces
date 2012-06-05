@@ -10,8 +10,8 @@
           padding-bottom: 40px
           h1
             color: $ultra_gryn
-            font-family: "Lato-Regular"
-            font-size: 28px
+            font-family: "Candal"
+            font-size: 24px
             padding: 5px 0
           h2
             color: rgba($ultra_gryn, 0.7)
@@ -53,9 +53,7 @@
                 float: left
                 border-bottom: none
                 margin-top: 40px
-                background: url($images_path+'recompensa24x20.png') left top no-repeat
                 label
-                  padding-left: 34px
                   font-family: 'Lato-Regular'
                   color: $ultra_gryn
                   font-size: 24px
@@ -69,10 +67,10 @@
                   @include border-radius(5px)
                   background: rgba($minimal_white, 0.3)
                   &.selected
-                    background: rgba($light_green, 0.2)
+                    background: $crowdplaces_beige
                     @include box-shadow(rgba(black, 0.6) 0 0 3px)
                   .reward_minimum_value
-                    color: $green
+                    color: $crowdplaces_blue
                     font-family: 'Lato-Regular'
                     font-size: 20px
                     padding-bottom: 10px
@@ -89,6 +87,8 @@
                 vertical-align: top
         #backer_submit
           width: 100%
+          .btn
+            background: $crowdplaces_orange !important
         #back_info
           +grid(5)
           +omega
@@ -99,29 +99,29 @@
             font-family: 'Lato-Bold'
             font-size: 18px
             a
-              color: black
+              color: $crowdplaces_black
               text-decoration: none
               @include transition(all, 0.5s)
               &:hover
-                color: $pink
+                color: $crowdplaces_green
           .project_owner
             padding-top: 5px
             padding-bottom: 5px
             font-family: 'Lato-Regular'
             font-size: 14px
             a
-              color: $pink
+              color: $crowdplaces_pink
               text-decoration: none
               @include transition(all, 0.5s)
               &:hover
-                color: black
+                color: $crowdplaces_orange
           .project_expires_at
             font-family: 'Lato-Regular'
             font-size: 14px
             padding-bottom: 20px
         .back_faq
           h3
-            font-family: 'Lato-Bold'
+            font-family: 'Lato-Regular'
             font-size: 16px
             padding-bottom: 8px
             color: rgba(black, 0.8)
@@ -129,10 +129,14 @@
             cursor: pointer
             @include transition(all, 0.5s)
             &:hover
-              color: $pink
+              color: $crowdplaces_green
           p
             padding-bottom: 30px
             font-family: "Lato-Regular"
             line-height: 130%
             font-size: 14px
             color: rgba(black, 0.6)
+            a
+              color: $crowdplaces_pink
+              &:hover
+                color: $crowdplaces_orange

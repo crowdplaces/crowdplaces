@@ -28,14 +28,14 @@ CATARSE.BackersReviewView = Backbone.View.extend({
       if(!accepted_terms())
         all_ok = false
       if(all_ok){
-        $('#user_submit').attr('disabled', false)
+        $('.cc a').attr('disabled', false)
         if($('#back_with_credits').length < 1) {
-          $('#payment.hide').show();
+          //$('#payment.hide').show();
         }
       } else {
-        $('#payment.hide').hide();
+        //$('#payment.hide').hide();
         if($('#back_with_credits').length < 1) {
-          $('#user_submit').attr('disabled', true)
+          $('.cc a').attr('disabled', true)
         }
       }
     }
@@ -145,5 +145,12 @@ CATARSE.BackersReviewView = Backbone.View.extend({
     $('#accept_international').click(function(){
       $('#international_submit').attr('disabled', !$('#accept_international').is(':checked'))
     })
+    $('.cc a').click(function(event){
+      if($(this).attr('disabled')){
+        event.preventDefault()
+        return false
+      }
+    })
+    everything_ok()
   }
 })

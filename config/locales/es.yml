@@ -14,7 +14,7 @@ es:
       subtitle: colaboradores
     goal:
       subtitle: "total de %{total}"
-  project_by: "proyecto por"
+  project_by: "Proyecto por"
   tell_about_this_back: "¡Cuéntale a todo el mundo sobre tu apoyo!"
   share_my_backs: ~
   tell_about_this_project: "¡Cuéntale a todo el mundo sobre tu proyecto!"
@@ -383,7 +383,7 @@ es:
           description: "Puedes usar PayPal para hacer pagos internacionales"
           important_html: ~
           submit: ~
-          title: ~
+          title: "¿Quieres hacer un pago internacional?"
         review_with_reward_html: ~
         review_without_reward_html: ~
         submit:
@@ -404,7 +404,7 @@ es:
         content_html: ~
         help_link: ~
       rewards_description: ~
-      rewards_title: ~
+      rewards_title: Recompensas
       submit: ~
     index:
       crowdmap:
@@ -414,7 +414,7 @@ es:
       title: "Transforma barrios en superbarrios."
     new:
       subtitle: ~
-      title: ~
+      title: "Mándanos tu proyecto"
     pending:
       can_finish: ~
       finished: ~
@@ -529,19 +529,19 @@ es:
   remove: ~
   require_admin: ~
   require_login: ~
-  require_permission: ~
+  require_permission: "No tienes permiso para realizar esta acción"
   reward:
-    display_remaining: ~
-    dont_want: ~
-    limited: ~
-    sold_out: ~
+    display_remaining: "%{remaining} de %{maximum} disponible"
+    dont_want: "No necesito una recompensa"
+    limited: Limitadas
+    sold_out: Vendidos
   sessions:
     auth:
-      success: ~
+      success: "Entraste exitosamente. Bienvenido, %{name}"
     destroy:
-      success: ~
+      success: "Saliste con éxito. ¡Nos vemos!"
     failure:
-      error: ~
+      error: "Ocurrió un error al iniciar sesión. Por favor inténtalo otra vez."
   site:
     host: crowdplaces.org
     base_url: "http://crowdplaces.org"

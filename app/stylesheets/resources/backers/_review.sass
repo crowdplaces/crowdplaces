@@ -1,6 +1,9 @@
 [data-controller="backers"][data-namespace="projects"][data-action="review"]
   .hide
-    display: none
+    display: block
+  #payment
+    .title
+      display: none !important
   #page_content
     .container
       #project_review
@@ -33,14 +36,16 @@
           h1
             float: left
             width: 650px
-            font-family: 'Lato-Bold'
+            font-family: 'Lato-Regular'
             font-size: 22px
             line-height: 130%
             padding-bottom: 20px
             padding-top: 10px
             a
-              color: $green
+              color: $crowdplaces_green
               text-decoration: none
+              &:hover
+                color: $crowdplaces_blue
           #review_text
             height: 80px
             overflow: hidden
@@ -57,7 +62,6 @@
               font-weight: bold
             .reward
               font-size: 14px
-              font-style: italic
               display: block
               line-height: 120%
         #credits_notice
@@ -141,10 +145,13 @@
               .inline
                 font-family: 'Lato-Regular'
                 a
-                  color: $blue
+                  color: $crowdplaces_pink
+                  &:hover
+                    color: $crowdplaces_orange
         .choose_payment
           .or
             +grid(2)
+            display: none
             padding-top: 30px
             text-align: center
             span
@@ -154,9 +161,10 @@
             +grid(7)
             a
               display: block
-              background: $ed_gryn
+              +background-image(linear-gradient(top, $crowdplaces_white, $crowdplaces_ice))
               padding: 20px 10px 0px 30px
               @include border-radius(5px)
+              border: 1px solid $crowdplaces_light_gray
               font-size: 15px
               font-family: Lato-Regular
               color: black
@@ -168,8 +176,15 @@
                 float: left
                 margin-top: 15px
                 margin-left: 20px
+              &:hover
+                +background-image(linear-gradient(bottom, $crowdplaces_white, $crowdplaces_ice))
           .cc
+            +grid-prefix(5)
             +alpha
             +omega
+            a[disabled="disabled"]
+              background: $ed_gryn
+              cursor: default
           .boleto
             +omega
+            display: none
