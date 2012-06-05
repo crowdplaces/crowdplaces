@@ -11,8 +11,8 @@
           padding-bottom: 40px
           h1
             color: $ultra_gryn
-            font-family: "Lato-Regular"
-            font-size: 28px
+            font-family: "Candal"
+            font-size: 24px
             padding: 5px 0
           h2
             color: rgba($ultra_gryn, 0.7)
@@ -20,7 +20,7 @@
             font-size: 18px
             strong
               font-weight: bold
-              color: $green
+              color: $crowdplaces_green
         #pending_backers, #pending_projects
           fieldset
             float: left
@@ -49,7 +49,7 @@
             padding-top: 2px
             strong
               font-family: 'Lato-Bold'
-              color: $green
+              color: $crowdplaces_green
           .pagination
             text-align: right
             padding: 20px 0 40px
@@ -58,7 +58,10 @@
             span.page.current
               color: rgba(black, 0.3)
             a
-              color: $pink
+              color: $crowdplaces_pink
+              text-decoration: none
+              &:hover
+                color: $crowdplaces_orange
           .table
             thead
               th

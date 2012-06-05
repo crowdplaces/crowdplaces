@@ -11496,14 +11496,14 @@ body #crowdmap_container #crowdmap .map {
 }
 /* line 73, ../../app/stylesheets/content/_sessions.sass */
 [data-controller="sessions"][data-namespace="devise"][data-action="new"] .container .form_login .content_form p.forgot_link a {
-  color: #4383d1;
+  color: #ff0066;
   font-family: "Lato-Regular";
   font-size: 13px;
   text-decoration: none;
 }
 /* line 78, ../../app/stylesheets/content/_sessions.sass */
 [data-controller="sessions"][data-namespace="devise"][data-action="new"] .container .form_login .content_form p.forgot_link a:hover {
-  color: #e75297;
+  color: #ff9900;
 }
 /* line 80, ../../app/stylesheets/content/_sessions.sass */
 [data-controller="sessions"][data-namespace="devise"][data-action="new"] .container .form_register {
@@ -12448,8 +12448,8 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 /* line 17, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .start_content .title h1 {
   color: #333333;
-  font-family: "Lato-Regular";
-  font-size: 28px;
+  font-family: "Candal";
+  font-size: 24px;
   padding: 5px 0;
 }
 /* line 22, ../../app/stylesheets/resources/projects/_start.sass */
@@ -12465,37 +12465,51 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 }
 /* line 30, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container #project_warning .alert a {
-  color: #e75297;
+  color: #ff0066;
+  text-decoration: none;
 }
-/* line 34, ../../app/stylesheets/resources/projects/_start.sass */
+/* line 33, ../../app/stylesheets/resources/projects/_start.sass */
+[data-controller="projects"][data-action="start"] #page_content .container #project_warning .alert a:hover {
+  color: #ff9900;
+}
+/* line 37, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form .input {
   padding-bottom: 15px;
 }
-/* line 36, ../../app/stylesheets/resources/projects/_start.sass */
+/* line 39, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form .accept {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 39, ../../app/stylesheets/resources/projects/_start.sass */
+/* line 40, ../../app/stylesheets/resources/projects/_start.sass */
+[data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form .accept a {
+  color: #ff0066;
+  text-decoration: none;
+}
+/* line 43, ../../app/stylesheets/resources/projects/_start.sass */
+[data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form .accept a:hover {
+  color: #ff9900;
+}
+/* line 47, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form .accept input {
   display: inline;
 }
-/* line 41, ../../app/stylesheets/resources/projects/_start.sass */
+/* line 49, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form .accept label {
   display: inline;
 }
-/* line 43, ../../app/stylesheets/resources/projects/_start.sass */
+/* line 51, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form label {
   font-family: "Lato-Regular";
   font-size: 15px;
   color: rgba(0, 0, 0, 0.8);
 }
-/* line 47, ../../app/stylesheets/resources/projects/_start.sass */
+/* line 55, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form textarea {
   width: 100%;
   height: 80px;
 }
-/* line 50, ../../app/stylesheets/resources/projects/_start.sass */
+/* line 58, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form .inline-hints {
   font-size: 13px;
   font-family: "Lato-Regular";
@@ -12557,8 +12571,8 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 /* line 31, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .start_content .title h1 {
   color: #333333;
-  font-family: "Lato-Regular";
-  font-size: 28px;
+  font-family: "Candal";
+  font-size: 24px;
   padding: 5px 0;
 }
 /* line 36, ../../app/stylesheets/resources/projects/_new.sass */
@@ -12574,37 +12588,51 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 }
 /* line 44, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container #project_warning .alert a {
-  color: #e75297;
+  color: #ff0066;
+  text-decoration: none;
 }
 /* line 47, ../../app/stylesheets/resources/projects/_new.sass */
+[data-controller="projects"][data-action="new"] #page_content .container #project_warning .alert a:hover {
+  color: #ff9900;
+}
+/* line 50, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .formtastic.project .accept {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 50, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 53, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .formtastic.project .accept input {
   display: inline;
 }
-/* line 52, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 55, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .formtastic.project .accept label {
   display: inline;
 }
-/* line 54, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 57, ../../app/stylesheets/resources/projects/_new.sass */
+[data-controller="projects"][data-action="new"] #page_content .container .formtastic.project .accept a {
+  color: #ff0066;
+  text-decoration: none;
+}
+/* line 60, ../../app/stylesheets/resources/projects/_new.sass */
+[data-controller="projects"][data-action="new"] #page_content .container .formtastic.project .accept a:hover {
+  color: #ff9900;
+}
+/* line 62, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .formtastic.project label {
   font-family: "Lato-Regular";
   font-size: 15px;
   color: rgba(0, 0, 0, 0.8);
 }
-/* line 58, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 66, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .formtastic.project input[type="text"] {
   width: 99%;
 }
-/* line 60, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 68, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .formtastic.project textarea {
   width: 99%;
   height: 80px;
 }
-/* line 63, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 71, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .formtastic.project .inline-hints {
   font-size: 13px;
   font-family: "Lato-Regular";
@@ -12612,13 +12640,13 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   color: rgba(0, 0, 0, 0.6);
   padding-bottom: 20px;
 }
-/* line 70, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 78, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .remove_reward_wrapper a {
   margin-left: 843px;
   font-family: "Lato-Regular";
   font-size: 15px;
 }
-/* line 75, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 83, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container #add_reward_wrapper a {
   float: left;
   margin-left: 753px;
@@ -12626,28 +12654,28 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   font-family: "Lato-Regular";
   font-size: 15px;
 }
-/* line 81, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 89, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .reward {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-/* line 85, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 93, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .reward .left {
   float: left;
   width: 30%;
   margin-right: 5%;
 }
-/* line 89, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 97, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .reward .left input {
   width: 99%;
 }
-/* line 91, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 99, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .reward .right {
   float: left;
   width: 30%;
 }
-/* line 94, ../../app/stylesheets/resources/projects/_new.sass */
+/* line 102, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .reward .right input {
   width: 99%;
 }
@@ -12677,8 +12705,8 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content .title h1,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content .title h1 {
   color: #333333;
-  font-family: "Lato-Regular";
-  font-size: 28px;
+  font-family: "Candal";
+  font-size: 24px;
   padding: 5px 0;
 }
 /* line 17, ../../app/stylesheets/resources/projects/_pending_backers.sass */
@@ -12692,7 +12720,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content .title h2 strong,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content .title h2 strong {
   font-weight: bold;
-  color: #59af6d;
+  color: #339933;
 }
 /* line 25, ../../app/stylesheets/resources/projects/_pending_backers.sass */
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers fieldset, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects fieldset,
@@ -12755,7 +12783,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_backers #total_results strong,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_projects #total_results strong {
   font-family: "Lato-Bold";
-  color: #59af6d;
+  color: #339933;
 }
 /* line 53, ../../app/stylesheets/resources/projects/_pending_backers.sass */
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .pagination, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .pagination,
@@ -12776,9 +12804,16 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .pagination a, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .pagination a,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_backers .pagination a,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_projects .pagination a {
-  color: #e75297;
+  color: #ff0066;
+  text-decoration: none;
 }
-/* line 64, ../../app/stylesheets/resources/projects/_pending_backers.sass */
+/* line 63, ../../app/stylesheets/resources/projects/_pending_backers.sass */
+[data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .pagination a:hover, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .pagination a:hover,
+[data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_backers .pagination a:hover,
+[data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_projects .pagination a:hover {
+  color: #ff9900;
+}
+/* line 67, ../../app/stylesheets/resources/projects/_pending_backers.sass */
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .table thead th, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .table thead th,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_backers .table thead th,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_projects .table thead th {
@@ -12786,7 +12821,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   font-size: 13px;
   text-align: center;
 }
-/* line 70, ../../app/stylesheets/resources/projects/_pending_backers.sass */
+/* line 73, ../../app/stylesheets/resources/projects/_pending_backers.sass */
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .table tbody tr td, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .table tbody tr td,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_backers .table tbody tr td,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_projects .table tbody tr td {
@@ -12795,13 +12830,13 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   text-align: center;
   vertical-align: middle;
 }
-/* line 76, ../../app/stylesheets/resources/projects/_pending_backers.sass */
+/* line 79, ../../app/stylesheets/resources/projects/_pending_backers.sass */
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .table tbody tr td img.project_img, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .table tbody tr td img.project_img,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_backers .table tbody tr td img.project_img,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_projects .table tbody tr td img.project_img {
   width: 50px;
 }
-/* line 78, ../../app/stylesheets/resources/projects/_pending_backers.sass */
+/* line 81, ../../app/stylesheets/resources/projects/_pending_backers.sass */
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .table tbody tr td img.user_img, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .table tbody tr td img.user_img,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_backers .table tbody tr td img.user_img,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_projects .table tbody tr td img.user_img {
@@ -13513,8 +13548,8 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 /* line 11, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .title h1 {
   color: #333333;
-  font-family: "Lato-Regular";
-  font-size: 28px;
+  font-family: "Candal";
+  font-size: 24px;
   padding: 5px 0;
 }
 /* line 16, ../../app/stylesheets/resources/static/_default.sass */
@@ -13534,24 +13569,45 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 }
 /* line 25, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default #how_it_works.alert a {
-  color: #e75297;
+  color: #339933;
+  text-decoration: none;
 }
-/* line 27, ../../app/stylesheets/resources/static/_default.sass */
+/* line 28, ../../app/stylesheets/resources/static/_default.sass */
+[data-controller="static"] #page_content .container .static_default #how_it_works.alert a:hover {
+  color: #0094bf;
+}
+/* line 31, ../../app/stylesheets/resources/static/_default.sass */
+[data-controller="static"] #page_content .container .static_default #show_tips a {
+  color: #ff0066;
+  margin-top: 8px;
+  display: block;
+  text-decoration: none;
+}
+/* line 36, ../../app/stylesheets/resources/static/_default.sass */
+[data-controller="static"] #page_content .container .static_default #show_tips a:hover {
+  color: #ff9900;
+}
+/* line 38, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text {
   padding-top: 20px;
 }
-/* line 28, ../../app/stylesheets/resources/static/_default.sass */
+/* line 39, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text a {
-  color: #4383d1;
+  color: #ff0066;
+  text-decoration: none;
 }
-/* line 31, ../../app/stylesheets/resources/static/_default.sass */
+/* line 42, ../../app/stylesheets/resources/static/_default.sass */
+[data-controller="static"] #page_content .container .static_default .default_text a:hover {
+  color: #ff9900;
+}
+/* line 45, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text h2 {
   font-family: "Lato-Bold";
   font-size: 18px;
-  color: rgba(89, 175, 109, 0.9);
+  color: #339933;
   padding-bottom: 10px;
 }
-/* line 36, ../../app/stylesheets/resources/static/_default.sass */
+/* line 50, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text h3 {
   font-family: "Lato-Regular";
   font-weight: bold;
@@ -13559,7 +13615,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   color: rgba(0, 0, 0, 0.9);
   padding-bottom: 5px;
 }
-/* line 42, ../../app/stylesheets/resources/static/_default.sass */
+/* line 56, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text p, [data-controller="static"] #page_content .container .static_default .default_text ul, [data-controller="static"] #page_content .container .static_default .default_text ol {
   font-family: "Lato-Regular";
   font-size: 15px;
@@ -13567,37 +13623,37 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   padding-bottom: 15px;
   color: rgba(0, 0, 0, 0.7);
 }
-/* line 48, ../../app/stylesheets/resources/static/_default.sass */
+/* line 62, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text ol {
   padding: 10px 30px;
 }
-/* line 50, ../../app/stylesheets/resources/static/_default.sass */
+/* line 64, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text ol li {
   padding-bottom: 10px;
   list-style: decimal inside;
 }
-/* line 53, ../../app/stylesheets/resources/static/_default.sass */
+/* line 67, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text ul {
   padding: 10px 30px;
 }
-/* line 55, ../../app/stylesheets/resources/static/_default.sass */
+/* line 69, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text ul li {
   padding-bottom: 10px;
   list-style: disc inside;
 }
-/* line 58, ../../app/stylesheets/resources/static/_default.sass */
+/* line 72, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .center_form {
   text-align: center;
 }
-/* line 60, ../../app/stylesheets/resources/static/_default.sass */
+/* line 74, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .center_form .check {
   margin-bottom: 15px;
 }
-/* line 62, ../../app/stylesheets/resources/static/_default.sass */
+/* line 76, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .center_form .check input {
   display: inline;
 }
-/* line 64, ../../app/stylesheets/resources/static/_default.sass */
+/* line 78, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .center_form .check label {
   display: inline;
   font-family: "Lato-Regular";
@@ -13607,14 +13663,22 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 
 /* line 3, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content a {
-  color: #333333;
+  color: #ff0066;
   text-decoration: none;
 }
 /* line 6, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content a:hover {
-  color: #e75297;
+  color: #ff9900;
 }
 /* line 9, ../../app/stylesheets/resources/_curated_page.sass */
+[data-controller="curated_pages"][data-action="show"] #page_content .box a {
+  color: black;
+}
+/* line 11, ../../app/stylesheets/resources/_curated_page.sass */
+[data-controller="curated_pages"][data-action="show"] #page_content .box a:hover {
+  color: #339933;
+}
+/* line 14, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content {
   display: inline;
   float: left;
@@ -13623,21 +13687,21 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   width: 940px;
   padding-top: 20px;
 }
-/* line 12, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 17, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .curated_page_header {
   padding-bottom: 40px;
 }
-/* line 14, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 19, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .curated_page_header img {
   float: left;
   margin-right: 10px;
 }
-/* line 17, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 22, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .curated_project {
   float: left;
   margin-bottom: 20px;
 }
-/* line 20, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 25, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .curated_project_list {
   display: inline;
   float: left;
@@ -13648,7 +13712,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   margin-left: -10px;
   width: 960px !important;
 }
-/* line 25, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 30, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .project_curator_description {
   display: inline;
   float: left;
@@ -13657,7 +13721,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   width: 220px;
   margin-right: 0;
 }
-/* line 28, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 33, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .project_curator_description p {
   display: inline;
   float: left;
@@ -13671,21 +13735,20 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   font-size: 13px;
   line-height: 130%;
   padding-top: 30px;
-  font-style: italic;
 }
-/* line 39, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 43, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .curated_page_header .titles {
   float: left;
   width: 550px;
 }
-/* line 42, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 46, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .curated_page_header .titles h1 {
   color: #333333;
-  font-family: "Lato-Regular";
-  font-size: 28px;
+  font-family: "Candal";
+  font-size: 24px;
   padding: 5px 0;
 }
-/* line 47, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 51, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .curated_page_header .titles h2 {
   color: rgba(51, 51, 51, 0.7);
   font-family: "Lato-Regular";
@@ -13694,7 +13757,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   padding-bottom: 30px;
   padding-top: 10px;
 }
-/* line 54, ../../app/stylesheets/resources/_curated_page.sass */
+/* line 58, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content .curated_page_header .titles #facebook_share {
   width: 540px;
 }
@@ -13865,7 +13928,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 }
 /* line 92, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #user_profile #user_credits #current_credits {
-  color: #64cb64;
+  color: #ff0066;
 }
 /* line 94, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #user_profile #user_credits .table_title {
@@ -13888,7 +13951,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 /* line 107, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #user_profile #user_credits .table_content td a {
   text-decoration: none;
-  color: #4383d1;
+  color: #339933;
   -moz-transition-property: all;
   -webkit-transition-property: all;
   -o-transition-property: all;
@@ -13900,7 +13963,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 }
 /* line 111, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #user_profile #user_credits .table_content td a:hover {
-  color: #e75297;
+  color: #0094bf;
 }
 /* line 113, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #gravatar_hint.alert.alert-info {
@@ -13913,7 +13976,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 }
 /* line 119, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #gravatar_hint.alert.alert-info p a {
-  color: black;
+  color: #0094bf;
   text-decoration: none;
   font-family: Lato-Bold;
   -moz-transition-property: all;
@@ -13927,7 +13990,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 }
 /* line 124, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #gravatar_hint.alert.alert-info p a:hover {
-  color: #e75297;
+  color: #ff9900;
 }
 /* line 127, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #gravatar_hint.alert.alert-info a img {
@@ -13956,7 +14019,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 }
 /* line 143, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #my_data ul li .on_the_spot_editing, [data-namespace="null"][data-controller="users"][data-action="show"] #social_info ul li .on_the_spot_editing {
-  color: #e75297;
+  color: #339933;
 }
 /* line 145, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #my_data ul li .hint, [data-namespace="null"][data-controller="users"][data-action="show"] #social_info ul li .hint {

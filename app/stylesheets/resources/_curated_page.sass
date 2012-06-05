@@ -1,10 +1,15 @@
 [data-controller="curated_pages"][data-action="show"]
   #page_content
     a
-      color: $ultra_gryn
+      color: $crowdplaces_pink
       text-decoration: none
       &:hover
-        color: $pink
+        color: $crowdplaces_orange
+    .box    
+      a
+        color: $crowdplaces_black
+        &:hover
+          color: $crowdplaces_green
     .container
       .curated_content
         +grid(16)
@@ -34,15 +39,14 @@
             font-size: 13px
             line-height: 130%
             padding-top: 30px
-            font-style: italic
         .curated_page_header
           .titles
             float: left
             width: 550px
             h1
               color: $ultra_gryn
-              font-family: "Lato-Regular"
-              font-size: 28px
+              font-family: "Candal"
+              font-size: 24px
               padding: 5px 0
             h2
               color: rgba($ultra_gryn, 0.7)
