@@ -1,9 +1,9 @@
 en:
   or: or
-  newsletter_ok_header: Registered!
+  newsletter_ok_header: "You're registered!"
   newsletter_ok_body: "Your email was successfully registered. Thanks!"
-  newsletter_error_header: "Ooops! There was an error."
-  newsletter_error_body: "Your email was not registered. Please, try again later."
+  newsletter_error_header: "Oops! There was an error."
+  newsletter_error_body: "Your email was not registered. Please try again later."
   views:
     pagination:
       next: next
@@ -11,31 +11,31 @@ en:
       truncate: "..."
   statistics:
     backers:
-      subtitle: backers
+      subtitle: boosters
     goal:
       subtitle: "total of %{total}"
   project_by: "Project by"
   tell_about_this_back: "Tell the world about your support!"
-  share_my_backs: "See the projects that i support in Catarse!"
+  share_my_backs: "See the projects i boost on Crowdplaces! "
   tell_about_this_project: "Tell the world about your project!"
-  share_my_projects: "See my created projects in Catarse!"
-  count_backed_projects: "backed %{total} projects"
+  share_my_projects: "See all the places I'm making on Crowdplaces! "
+  count_backed_projects: "funded %{total} projects"
   footer:
     titles:
       info: "Useful Information"
-      opendata: "nice statistics"
-      social: "like the catarse?"
-      newsletter: "receive our newslatter"
+      opendata: "fun facts"
+      social: "like Crowdplaces?"
+      newsletter: "receive our newsletter"
     stats:
-      backers: Backers
-      backs: Backs
-      total_backed: Backed
+      backers: Boosters
+      backs: "Places funded"
+      total_backed: Funded
       users: Users
       funded_projects: "Successful projects"
-      active_projects: "Projects on air now"
+      active_projects: "Projects on the air now"
     links:
-      how_works: "How It works"
-      faq: "FAQ/ Help"
+      how_works: "How it works"
+      faq: "FAQ / Help"
       terms: "Terms + privacy"
       policy: "Privacy Policy"
       contact: "Contact us"
@@ -51,7 +51,7 @@ en:
       facebook: Facebook
       twitter: "@crowdplaces"
       newsletter: "want to receive news?"
-      faq: "have any doubt?"
+      faq: questions?
       schedule: calendar
     buttons:
       newsletter: submit
@@ -73,7 +73,7 @@ en:
         user:
           attributes:
             email:
-              not_found: "Your email is not signed up. Check the email address or create a new account"
+              not_found: "Your email is not registered. Check the email address or create a new account"
     attributes:
       backer:
         value: Value
@@ -83,48 +83,48 @@ en:
         headline: Headline
         image_url: "Image URL"
         name: Name
-        user_id: "User Id"
+        user_id: "User ID"
         video_url: "Video URL"
       reward:
         description: Description
-        maximum_backers: "Maximum backers"
+        maximum_backers: "Maximum boosters"
         minimum_value: "Minimum value"
       user:
         address_city: City
         address_complement: Complement
-        address_neighbourhood: Neighbourhood
+        address_neighbourhood: Neighborhood
         address_number: Number
         address_state: State
         address_street: Street
-        address_zip_code: "Zip code"
+        address_zip_code: "Zip/Postal code"
         cpf: CPF
         current_password: "Current password"
         email: Email
         full_name: "Full name"
         name: Name
         password: Password
-        password_confirmation: "Password Confirmation"
+        password_confirmation: "Password confirmation"
         phone_number: "Mobile phone number"
     models:
-      backer: Backer
+      backer: Booster
       category: Category
       project: Project
       reward: Reward
   backer:
     display_confirmed_at: "%{time_ago} ago"
     reward_must_be_from_project: "must be from the same project"
-    should_not_back_if_maximum_backers_been_reached: "has reached its maximum backers"
-    value_must_be_at_least_rewards_value: "must be at least %{minimum_value} for the selected reward"
-  backer_plural: backers
-  backer_singular: backer
+    should_not_back_if_maximum_backers_been_reached: "has reached the maximum boosters"
+    value_must_be_at_least_rewards_value: "must give at least %{minimum_value} for the selected reward"
+  backer_plural: boosters
+  backer_singular: booster
   click_here: "Click here"
   clicking_here: "clicking here"
   comment:
     display_time: "%{time_ago} ago"
   credits:
     index:
-      back_date: "Back date"
-      current_credits_html: "Your current balance is <span id=\"current_credits\">%{credits}</span> in credits."
+      back_date: "Funding date"
+      current_credits_html: "Your current balance is <span id=\"current_credits\">%{credits}</span> in credit."
       important_html: "You have <strong>up to 180 days after the payment date</strong> to ask for a refund. If you ask for a refund, the value of your payment will be deducted from your credits."
       project: Project
       refund_expration_date: "Refund deadline"
@@ -133,7 +133,7 @@ en:
       request_refund: "Request refund"
       requested_refund: "Requested refund"
       status: Status
-      title: "My credits"
+      title: "My credit"
       value: Value
     refund:
       cannot_refund: "This payment cannot be refunded."
@@ -141,7 +141,7 @@ en:
       no_credits: "You don't have enough credits to request this refund."
       refunded: "This payment has already been refunded."
       requested_refund: "You already requested a refund for this payment."
-    title: "My credits"
+    title: "My credit"
   credits_mailer:
     request_refund_from:
       subject: "Refund request by %{name}"
@@ -150,25 +150,25 @@ en:
     index:
       title: "Curated pages"
     show:
-      backed: commited
+      backed: committed
       reached: "of the goal"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."
-      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
-      send_paranoid_instructions: "If your e-mail exists on our database, you will receive a password recovery link on your e-mail"
+      send_instructions: "You will receive an email shortly with instructions for how to confirm your account."
+      send_paranoid_instructions: "If your e-mail is already in our database, you will receive a password recovery link in your e-mail"
     failure:
       already_authenticated: "You are already signed in."
-      inactive: "Your account was not activated yet."
+      inactive: "Your account has not been activated yet."
       invalid: "Invalid email or password."
       invalid_token: "Invalid authentication token."
       locked: "Your account is locked."
       timeout: "Your session expired, please sign in again to continue."
-      unauthenticated: "You need to sign up or sign in to continue."
+      unauthenticated: "You need to sign up or login to continue."
       unconfirmed: "You have to confirm your account before continuing."
     links:
       forgot_password: "Forgot your password?"
-      sign_in: "Sign in"
+      sign_in: Login
       sign_up: "Sign up"
     mailer:
       confirmation_instructions:
@@ -179,16 +179,16 @@ en:
       unlock_instructions:
         subject: "Unlock Instructions"
     omniauth_callbacks:
-      failure: "Could not authorize you from %{kind} because \"%{reason}\"."
+      failure: "We could not authorize you from %{kind} because \"%{reason}\"."
       success: "Successfully authorized from %{kind} account."
     passwords:
-      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
-      send_paranoid_instructions: "If your e-mail exists on our database, you will receive a password recovery link on your e-mail"
+      send_instructions: "You will receive an email in a few minutes with instructions about how to reset your password."
+      send_paranoid_instructions: "If we already have your e-mail, you will receive a password recovery link shortly."
       updated: "Your password was changed successfully. You are now signed in."
       updated_not_active: "Your password was changed successfully."
     registrations:
-      destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
-      inactive_signed_up: "You have signed up successfully. However, we could not sign you in because your account is %{reason}."
+      destroyed: "Bye! Your account was successfully cancelled. We hope to see you back here sometime soon."
+      inactive_signed_up: "You have signed up successfully. However, we could not log you in because your account is %{reason}."
       reasons:
         inactive: inactive
         locked: locked
@@ -197,62 +197,62 @@ en:
       updated: "You updated your account successfully."
     sessions:
       new:
-        site_title: "Sign in"
-        submit: "Sign in"
-        title: "Sign in using your email"
+        site_title: Login
+        submit: Login
+        title: "Login using your email"
         login_title: Login
         login_subtitle: "If already have an account"
         register_title: "Sign Up"
-        register_subtitle: "Use your e-mail account"
-        with_facebook: "Sign in with your facebook account"
+        register_subtitle: "Use your email account"
+        with_facebook: "Login with your Facebook account"
         with_facebook_subtitle: "A quick way to access"
-        with_another_social: "Don't have facebook account?"
-        with_another_social_subtitle: "Sign in with another social network"
+        with_another_social: "Don't have a Facebook account?"
+        with_another_social_subtitle: "Login using another social network"
       signed_in: "Signed in successfully."
       signed_out: "Signed out successfully."
     unlocks:
-      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
+      send_instructions: "You will receive an email in a few minutes with instructions for how to unlock your account."
+      send_paranoid_instructions: "If you have an account with us, you will receive an email in a few minutes with instructions for how to unlock it."
       unlocked: "Your account was successfully unlocked. You are now signed in."
-  error: "Ooops! There was an error. Please try again."
+  error: "Oops! There was an error. Please try again."
   explore:
     index:
       categories: Categories
       expiring: "Final countdown"
       quick_explore: "Quick search"
-      recent: Recent
-      recommended: Recommended
-      subtitle: "Explore the projects, find the ones that touch you, and make them happen!"
+      recent: "new arrivals"
+      recommended: "super selection"
+      subtitle: "Explore projects and make them happen!"
       successful: Successful
       title: "Discover amazing projects"
-    title: "Explore the projects"
+    title: "Explore projects"
     project:
-      empty: "Hey, we didn't find any project with the text you searched. Wanna try some new words? =D"
+      empty: "Hey, we actually didn't find any projects with the text you used to search. How about trying another search?"
   formtastic:
     hints:
       backer:
-        credits: "You have <strong>%{credits}</strong> in credits and can back with up to this amount without needing to make a new payment."
-        value: "You chose the amount ;) starting with $10, any amount is great."
+        credits: "You have <strong>%{credits}</strong> in credit and can boost up to this amount without needing to make a new payment."
+        value: "You chose to start with $10. Awesome! Any amount is great."
       project:
-        about: "Tell us a little about what you want to do, how much you need and what for. Be brief and punctual, but don't forget to give the readers something that moves them. After all, it's your creation and they need to see your passion taking place!"
-        category: "Choose in which category you want your project to appear. Don't worry if you think it fits in more than one. Choose the one where you want people to find your project."
-        expires_at: "Finally, choose how long you want your campaign to last. Again, this is a strategic choice: if you put a lot of time, people will lose interest along the way; if put too little, you may not reach the minimum in time."
-        goal: "Think hard about the amount you will ask for. It should be the <strong>minimum necessary for the project to happen</strong>. Nothing more, nothing less. If you ask too much, your chances of reaching the minimum will be lower; if you don't ask for enough, you won't be able to execute the project and consequently will have your reputation damaged, hindering future achievements."
-        headline: "Summarize your project in 140 characters. This sentence will be the first contact people will have with your project, before even seeing the video. Be creative, clear and direct :)"
-        name: "What's the name of your project? Choose with care, because this will influence the chances of your project reaching the goal."
-        video_url: "Paste the URL from a <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a> video. We chose Vimeo because it looks better and doesn't have ads. This way, your project will look better too! <strong>Produce your video the best you can and make a video specifically for your campaign</strong>. If there is a single thing that differentiates the projects that reach the goal from the others is the video. Observe ;)"
+        about: "Tell us a little about what you want to do, how much you need and how you will use it. Be brief, but be sure to also share something that tells a story and shows your passion!"
+        category: "Choose the category where your project fits best. No worries if you think it fits in more than one category. Choose the one where you want people to find your project."
+        expires_at: "Finally, choose how long you want your campaign to last. Again, this is a strategic choice: if you put a lot of time, people may lose interest along the way; if you put too little, you may not reach the goal in time."
+        goal: "Think hard about the amount you will ask for. It should be the <strong>minimum necessary for the project to happen</strong>. Not more, not less. If you ask for too much, your chances of reaching the minimum will be lower; if you don't ask for enough, you won't be able to execute the project and consequently will have your reputation damaged, hindering future achievements."
+        headline: "Summarize your project in 140 characters. This short clip will be the first contact people have with your project, before even seeing the video. Be creative, clear and direct."
+        name: "What is your project's name? Choose with care! This will influence the chances of your project reaching the goal."
+        video_url: "Paste the URL from a <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a> video. We use Vimeo because it looks better and doesn't have ads. This way, your project will look better too! <strong>Produce your video the best you can and make a video specifically for your campaign</strong>. If there is one single thing that differentiates the projects that reach their goal. it is the video. Observe and learn."
       reward:
-        description: "Describe your reward in a way that arouses people's interest to back the project. Don't be shy!"
-        maximum_backers: "If your reward is limited, tell us the maximum backers."
+        description: "Describe your reward in a way that sparks people's interest to boost the project. Be creative! Be bold! Be realistic."
+        maximum_backers: "If your reward is limited, tell us the maximum number of boosters."
         minimum_value: "This is the minimum amount to choose this reward."
     labels:
       backer:
-        anonymous: "I want my back to be anonymous."
-        credits: "I want to use my credits on this back."
+        anonymous: "I want my funding to be anonymous."
+        credits: "I want to use my credit for this funding."
         reward: "Select your reward"
-        value: "With how much do you want to back?"
+        value: "How much do you want to fund?"
       comment:
-        comment: "Leave your comment about this project"
+        comment: "Leave a comment about this project"
       project:
         about: "About your project"
         expires_at: "What's the deadline to reach your goal?"
@@ -260,18 +260,18 @@ en:
         name: "Name your project"
         video_url: Video
       reward:
-        maximum_backers: "Maximum backers (optional)"
+        maximum_backers: "Maximum boosters (optional)"
     optional: " (optional)"
   found_plural: Found
   found_singular: Found
   here: here
-  i_backed: "I backed the project %{name} on @Catarse_"
-  i_just_backed: "I just backed the project %{name} on @Catarse_"
+  i_backed: "I boosted the project %{name} on @Crowdplaces"
+  i_just_backed: "I just boosted the project %{name} on @Crowdplaces"
   layouts:
     locales:
-      title: "cambia el idioma"
+      title: "choose language"
     login:
-      login_with_facebook: "sign in with your facebook account"
+      login_with_facebook: "Login with your Facebook account"
       remember_me: "Remember me and keep me connected."
     header:
       blog: map
@@ -289,7 +289,7 @@ en:
       logout: Logout
       my_credits: "My credit"
   not_informed: "not informed"
-  notify_locale: "We identified your language by your browser. If you prefer another one, click on one of the options at the top."
+  notify_locale: "We picked your language based on your browser settings. If you prefer a different one, click on one of the language options up top."
   on_the_spot:
     cancel: Cancel
     ok: OK
@@ -300,9 +300,9 @@ en:
       submit: "Change password"
       title: "Reset password"
       site_title: "Change password"
-      subtitle: "You requested to reset your password. Fill your new password below and click \"Change Password\". If you did not request this password reset, just skip this page and your password will remain the same."
+      subtitle: "You requested to reset your password. Put your new password below and click \"Change Password\". If you did not request this password reset, just skip this page and your password will remain the same."
     email:
-      content_html: " <p>Someone has requested a link to change your password, and you can do this through the link below.</p><p>%{link}</p><p>If you didn't request this, please ignore this email.</p><p>Your password won't change until you access the link above and create a new one.</p> "
+      content_html: " <p>We have received a request to change your password. You can make this change through the link below.</p><p>%{link}</p><p>If you didn't make this request, please ignore this email.</p><p>Your password won't change until you access the link above and create a new one.</p> "
       title: "Reset password instructions."
     new:
       submit: "Send instructions to reset my password"
@@ -310,30 +310,30 @@ en:
       site_title: "Recover password"
   payment_stream:
     thank_you:
-      error: "Ooops. You can only access this page after backing a project."
-      header_subtitle: "Without you maybe this project wouldn't stand a chance. Welcome to the team!"
-      header_title: "Thank you! :D"
+      error: "Oops! You can only access this page after boosting a project."
+      header_subtitle: "Thanks! Without you and your fellow boosters, this project wouldn't stand a chance. Welcome to the team."
+      header_title: "Thank you!"
       text_subtitle: "Tell everyone what you just did"
-      text_title_html: "You are now part of the group that does everything to make %{link} happen."
+      text_title_html: "You are now part of the crew that is making %{link} happen."
       title: "Thank you"
   project:
     start:
       email_subject: "Your project was received by our team"
-      email_text: "Thanks for trusting us and sending your project :)<br><br>We know you must expect a prompt response, but, I admit, we take up to 4 days to answer each of the projects, ok? That's because we have a short staff and a lot of projects coming. Anyway, it can happen that we answer faster. So, keep an eye on yout inbox.<br><br>In the meantime, it's a good idea to check our live projects (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any - back them! This is the best way to show you believe in the new culture we're building and develop the ecosystem that is emerging around Crowdplaces.<br><br>Besides, it's also a good way to get inspired for your project...<br><br>Stay tuned following our <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, contact us at %{email}"
+      email_text: "Thanks for sending us your project. <br><br>We know you're excited and expect a prompt response. We will do our very best but it may take up to 4 days to answer each of the projects. We have a lot of projects coming in and our super staff is only human! We may just be speedier than that so keep an eye on your inbox.<br><br>In the meantime, check out the projects currently on the air (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any - boost them! This shows you believe in the new community we're building around Crowdplaces.<br><br>Plus, you may even get some inspiration for your project...<br><br>Keep in touch! Friend us on <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a>, our <a href='%{blog}' style='color: #E75297 !important;'>add to our crowdmap</a> or follow us on Twitter @crowdplaces.<br><br>And if any questions come up, give us a holler at %{email}"
       notification_text: "Your project was received by our team"
     finish:
       successful:
-        email_subject: "Hooray! The project you backed was successful on Catarse!"
-        email_text: "The project %{project_link}, which you backed, was successfuly funded on Catarse! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
-        facebook_text: "Hooray! The project '%{name}', which I backed, was successful on Catarse!"
-        notification_text: "Hooray! The project %{link} that you backed was successful! Spread the word!"
-        reward_notification_text: "Soon, %{link} will contact you to deliver your reward. Enjoy!"
-        twitter_text: "Hooray! The project '%{name}', which I backed, was successful on @Catarse_! %{short_url}"
+        email_subject: "Hooray! The project you boosted was successful on Crowdplaces!"
+        email_text: "Woohoo! The project %{project_link} you boosted made its goal and will be fully funded! <br><br>You were important in making this placemaking dream a reality. Soon, %{user_link} will contact you to deliver your reward. For now, spread the word about the project's success!"
+        facebook_text: "Hooray! The project '%{name}' I crowdfunded on Crowdplaces was successful."
+        notification_text: "Hooray! The project %{link} that you boosted was successful! Spread the word!"
+        reward_notification_text: "Soon, %{link} will contact you to get you your reward. Enjoy!"
+        twitter_text: "Hooray! The project '%{name}' I crowdfunded on @Crowdplaces was successful! %{short_url}"
       unsuccessful:
-        email_subject: "The project you backed wasn't funded on Catarse."
-        email_text: "The project %{project_link}, that you backed, was not funded. Maybe next time!<br><br>Because of this, you received <strong>%{value}</strong> in credits to back other projects. If you prefer, you can ask for a refund %{credits_link}."
-        notification_text: "You received %{value} in credits to back other projects. If you prefer, you can request a refund %{link}."
-        unsuccessful_text: "The project %{link} that you backed wasn't funded. Maybe next time!"
+        email_subject: "Bummer. The project you boosted on Crowdplaces wasn't fully funded."
+        email_text: "The project %{project_link} that you boosted was not fully funded. Maybe next time!<br><br>Because of this, you received <strong>%{value}</strong> in credit to boost other projects. Or if you prefer, you can ask for a refund %{credits_link}."
+        notification_text: "You have received %{value} in credit to boost other projects. Or if you prefer, you can request a refund %{link}."
+        unsuccessful_text: "The project %{link} that you boosted wasn't funded. Maybe next time!"
     verify_if_video_exists_on_vimeo: "must exist on Vimeo"
     vimeo_regex_validation: "only Vimeo URLs are allowed"
     display_status:
@@ -348,78 +348,78 @@ en:
     back_project:
       project_warning:
         not_successful:
-          expired: "This project didn't reach the goal of %{goal} until %{date} and wasn't funded"
-          not_expired: "This project will only be funded if at least %{goal} is backed until %{date}"
+          expired: "This project didn't reach the goal of %{goal} until %{date} and wasn't funded."
+          not_expired: "This project will only be funded if at least %{goal} is boosted until %{date}"
         successful:
           expired: "This project was successful and was funded on %{date}"
           not_expired: "This project will be successful and funded on %{date}"
-        waiting_confirmation: "Waiting confirmation from payments to know if this project will be funded."
+        waiting_confirmation: "Waiting final confirmation on payments to know if this project will be funded."
       reached_of: "Reached of"
-      submit: "Back this project"
+      submit: "Boost this project"
     backer:
-      anonymous_backer: "Anonymous backer"
+      anonymous_backer: "Anonymous booster"
       anonymous_description: "Opted to remain incognito"
-      no_reward: "This backer has not picked a reward"
+      no_reward: "This booster has not picked a reward"
     backers:
       checkout:
-        moip_error: "Ooops. There was an error while sending your payment to MoIP. Please try again."
-        no_credits: "You don't have enough credits to back this project."
-        paypal_cancel: "Your PayPal payment was canceled. Please try again."
-        paypal_description: "Back project"
-        paypal_error: "Ooops. There was an error while sending your payment to PayPal. Please try again."
-        success: "Your back was successfully made. Thanks a lot!"
+        moip_error: "Oops! There was an error while sending your payment to MoIP. Please try again."
+        no_credits: "You don't have enough credit to boost this project."
+        paypal_cancel: "Your PayPal payment was cancelled. Please try again."
+        paypal_description: "Boost project"
+        paypal_error: "Oops. There was an error while sending your payment to PayPal. Please try again."
+        success: "Your funding was successful. Thanks a lot!"
       new:
-        cannot_back: "It's not possible to back this project right now. Please, back other projects."
+        cannot_back: "It's not possible to boost this project right now. Go check out some other projects and come back later."
         header:
           subtitle: "You are a few steps from making the difference and becoming part of this project."
-          title: "Oohh yeah!"
+          title: Success!
         no_reward: "Thanks. I just want to help the project."
         submit: "Review and proceed to checkout"
-        title: "Back %{name}"
+        title: "Booster %{name}"
       review:
-        credits_notice_html: "This back will be payed with your credits. After the confirmation, you will have <strong>%{credits}</strong> in credits to back other projects."
-        error: "Ooops. There was an error while registering your back. Please try again."
+        credits_notice_html: "We will use your credit for this boost. After the confirmation, you will have <strong>%{credits}</strong> in credit to boost other projects."
+        error: "Oops. There was an error while registering your boost. Please try again."
         international:
           description: "You can use PayPal to make international payments"
           important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + $0,60 per transaction.</p>"
-          submit: "Proceed to PayPal's checkout"
+          submit: "Proceed to PayPal checkout"
           title: "Want to make an international payment?"
-        review_with_reward_html: "You will back with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
-        review_without_reward_html: "You will back with <strong>%{value}</strong> but you don't want any reward for that."
+        review_with_reward_html: "You will fund with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
+        review_without_reward_html: "You will fund with <strong>%{value}</strong> but you don't want to receive a reward."
         submit:
-          credits: "Confirm backing with credits"
+          credits: "Confirm funding with credits"
           moip: "Proceed to MoIP's checkout"
-        subtitle: "This is the last step to make the difference and become part of this project."
+        subtitle: "This is the last step to make a difference for this project."
         title: "Fill in and review your data"
         choose_payment: "How do you want to pay?"
         choose_credit_card: "Pay with your credit card"
-        choose_boleto: "Billet Banking"
-        you_are_about_html: "You are about to become part of the group that does everything to make %{link} happen."
+        choose_boleto: n/a
+        you_are_about_html: "You are about to become part of the crew that is making %{link} happen."
     create:
-      success: "Your project was successfully created! We'll soon contact you. Thanks a lot!"
+      success: "Your placemaking project was successfully created! We'll be in touch soon. Thanks!"
     form:
       add_reward: "Add reward"
-      important_html: "Please notice that Catarse will charge 7.5% if your project is successful, and our payment gateways (MoIP and Paypal) charge a fee that varies, usually, from 4% to 5% per transaction. Add this values to your budget in order to execute your project with no surprises."
+      important_html: "Please note that Crowdplaces will a charge a 7% fee if your project gets fully funded. Our payment system (PayPal) charges a fee that varies, usually, from 4% to 5% per transaction. Please consider these charges in your budget so you can complete your project with no surprises."
       project_warning:
-        content_html: "Want to have your project selected? Don't forget to read %{link}."
+        content_html: "Want your project included in our super selection? Be sure to read %{link}."
         help_link: "our guide"
-      rewards_description: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      rewards_description: "We believe that the best way to inspire people to boost a project is offering excellent – and creative! – rewards. Everybody loves limited editions, unique things, joyful experiences and feeling part of a placemaking project. Spend some time devising creative rewards and people will get excited by your project."
       rewards_title: Rewards
       submit: "Submit project"
     index:
       crowdmap:
         title_html: "<span>The magical</span><span>urbanism</span><span>world tour</span>"
     index_header:
-      subtitle_html: "Fund + activate<br/><span class='first'>block</span> / <span class='second'>neighborhood</span> / <span class='third'>city</span> projects and be part of a micro-urban revolution. Make neighborhoods inspiring."
+      subtitle_html: "Fund + activate<br/><span class='first'>block</span> / <span class='second'>neighborhood</span> / <span class='third'>city</span> projects and boost a micro-urban revolution."
       title: "Make neighborhoods more awesome."
     new:
-      subtitle: "The time to make it happen is now! We really want to know what you're up to..."
+      subtitle: "Make it happen now! We want to know what you're up to..."
       title: "Submit your project"
     pending:
-      can_finish: "Can finish?"
+      can_finish: "Can you finish?"
       finished: Finished?
       home_page: "Home page?"
-      id: Id
+      id: ID
       name: Name
       no_projects: "No projects found."
       order: Order
@@ -435,84 +435,84 @@ en:
       anonymous: Anonymous?
       confirmed: Confirmed?
       credits: "Used credits?"
-      id: Id
+      id: ID
       key: Key
-      no_backers: "No backers found."
+      no_backers: "No boosters found."
       project: Project
       refunded: Refunded?
       requested_refund: "Requested refund?"
       reward: Reward
       submit: Search
-      title: "Backers management"
-      total_backed: backed
-      total_backers: backers
-      total_backs: backs
+      title: "Booster management"
+      total_backed: boosted
+      total_backers: boosters
+      total_backs: boosts
       total_users: users
       user: User
       value: Value
     project:
-      backed: commited
+      backed: committed
       reached: "of the goal"
     project_backers:
-      empty: "Nobody backed this project so far. How about being the first one?"
+      empty: "Nobody has boosted this project...yet! Go ahead and be the first!"
     project_header:
       subtitle_html: "A project by %{link}"
       without_city: "A project in %{category_name}, by %{author}"
       with_city: "A project in %{category_name}, in %{city}, by %{author}"
     project_updates:
-      empty: "This project didn't have updates yet. But wait and see =D"
+      empty: "This project doesn't have any updates yet. But just you wait and see..."
       submit: "Send update"
-      comment: "Text of the update"
-      title: "Title of the update"
+      comment: "Update text"
+      title: "Update title"
       destroy: "Remove update"
       destroy_confirmation: "Do you want to remove this update?"
     project_warning:
-      rejected: "This project was not selected to participate on Catarse. Maybe next time! :)"
-      waiting: "This project is waiting for approval and soon we'll know if it will go online on Catarse ;)"
+      rejected: "This project was not selected to participate on Crowdplaces. Maybe next time!"
+      waiting: "This project is awaiting approval. Soon, we'll know if it will get onto Crowdplaces."
     rewards:
       reward_title: "For %{minimum} or more"
-      title: "Back and receive..."
+      title: "Boost and receive..."
     send_mail:
-      success: "Your project was successfully sent! We'll soon contact you. Thanks a lot!"
+      success: "Your project was successfully sent! We'll contact you soon. Thanks a lot!"
     show:
       about_title: "About this project"
       menu:
         about: About
-        backers: Backers
+        backers: Boosters
         comments: Comments
         updates: Updates
       share:
         embed: embed
-        embed_title: "Embed this project on your site"
+        embed_title: "Embed this project on your website"
         link: Link
         link_title: "Share the link"
         take_a_look: "Check out the project"
-        title: "Be part of it and share this project"
+        title: "Be part of the fun and share this project"
     start:
-      about: "Describe your project and how much do you need"
+      about: "Describe your project and how much you need"
       category: "Project category"
       how_much_you_need: "How much do you want to raise?"
-      about_hint: "Tell us a little about what you want to do, how much you need and what for. Be brief and punctual, but don't forget to give the readers something that moves them. After all, it's your creation and they need to see your passion taking place!"
-      contact: "Leave us your email address so we can contact you"
+      about_hint: "Tell us a little about what you want to do, how much you need and how it will be spent. Be brief, but be sure to tell a story and share your passion. After all, this is your creation. Help the world see why you care so much!"
+      contact: "Leave us your email address so we can get in touch with you"
       links: "Where can we find more about you and your project?"
-      links_hint: "Leave us as many links as you have, so we can get to know your work and your project better. Doesn't have to be something formal or fancy, just a few useful links."
-      video: "Your project already have a video?"
-      video_hint: "A vimeo link"
-      twitter: "Have twitter account?"
-      facebook: "Have facebook account?"
+      links_hint: "Share as many links as you have, to help us get to know your work and your project better. It doesn't have to be formal or fancy, just a few useful links."
+      video: "Does your project already have a video?"
+      video_hint: "A Vimeo link"
+      twitter: "Have a Twitter account?"
+      facebook: "Have a Facebook account?"
       blog: "Have a blog about the project?"
-      know_us_via: "How did you meet Catarse?"
-      how_works: "How to mobilize backers to raise $ needed for enforcement?"
+      know_us_via: "How did you discover Crowdplaces?"
+      how_works: "How to mobilize boosters to reach your funding target?"
       project_warning:
-        content_html: "Want to have your project selected? Don't forget to read %{link}."
+        content_html: "Want your project in our super selection? Be sure to read %{link}."
         help_link: "our guide"
       rewards: "What rewards do you want to offer?"
-      rewards_hint: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      rewards_hint: "We believe that the best way to inspire people to boost a project is offering excellent – and creative! – rewards. Everybody loves limited editions, unique things, joyful experiences and feeling part of the project. Spend some time devising creative rewards and people will be interested."
       submit: "Submit the project"
-      subtitle: "The time to make it happen is now! We really want to know what you're up to..."
+      subtitle: "Make it happen now! We really want to know what you're up to..."
       title: "Submit your project"
     twitter:
-      take_a_look: "Check out the project %{name} on @Catarse_"
+      take_a_look: "Check out the project %{name} on @crowdplaces"
     video_embed:
       a_project_by_html: "A project by %{link} on"
   projects_mailer:
@@ -521,13 +521,13 @@ en:
       subject_html: "Project sent by %{link}"
   registrations:
     new:
-      site_title: "Sign up"
+      site_title: "Sign Up"
       submit: "Sign Up"
-      title: "Sign up using you email"
+      title: "Sign up using your email"
   remaining_plural: "to go"
   remaining_singular: "to go"
   remove: remove
-  require_admin: "You must be admin to perform this action."
+  require_admin: "You must be a Crowdplaces super staff member to perform this action."
   require_login: "You must be logged in to perform this action."
   require_permission: "You don't have permission to perform this action."
   reward:
@@ -541,7 +541,7 @@ en:
     destroy:
       success: "Successfully logged out. See you!"
     failure:
-      error: "There was an error while loggin in. Please try again."
+      error: "There was an error while logging in. Please try again."
   site:
     host: crowdplaces.org
     base_url: "http://crowdplaces.org"
@@ -557,12 +557,12 @@ en:
     twitter: crowdplaces
   static:
     faq:
-      title: "Frequent asked questions"
+      title: "Frequently asked questions"
     guidelines:
-      accept: "I have read and understood how Catarse works."
+      accept: "I have read and understood how Crowdplaces works."
       submit: "I want to submit my project"
-      subtitle: "Before submitting your project, learn a little about how Catarse works."
-      title: "How does Catarse work?"
+      subtitle: "Before submitting your project, learn a bit about how Crowdplaces works."
+      title: "How does Crowdplaces work?"
     privacy:
       title: "Privacy Policy"
     terms:
@@ -571,46 +571,48 @@ en:
   user:
     backs_text:
       many: "Backed this and other %{total} projects"
-      one: "Backed only this project until now"
+      one: "Funded this project and %{total} more."
       two: "Backed this and 1 other project"
+      other: "Funded only this project at this point."
+      zero: "Funded this project and one other. "
     no_name: Unnamed
   users:
     show:
       tabs:
-        backed_projects: "Backed projects"
+        backed_projects: "Funded projects"
         created_projects: "Created projects"
         comments: Comments
         credits: Credits
         settings: Settings
     backs:
-      anonymous: "Anonymous back."
-      no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
-      no_backs_current_user_html: "You haven't backed any project yet. What about <a href=\"/\">starting now</a>?"
+      anonymous: "Anonymous funding."
+      no_backs: "%{name} hasn't boosted any projects yet. But, just you watch. it's only a matter of time!"
+      no_backs_current_user_html: "You haven't boosted any projects yet. What are you waiting for?"
       no_reward: "You didn't pick a reward"
-      title: "Projects %{name} has backed"
-      title_current_user: "Projects I've backed"
+      title: "Projects %{name} has funded"
+      title_current_user: "Projects I've boosted"
       your_reward: "Your reward"
     current_user_fields:
-      updated: "Your information have been updated"
+      updated: "Your information has been updated"
       update_social_info: "Update info"
       social_info: "Contact info"
-      twitter: "twitter ( username )"
-      facebook_link: "facebook profile link"
+      twitter: "Twitter ( username )"
+      facebook_link: "Facebook profile link"
       other_link: "another internet page"
       change_password: "Change my password"
       current_password_hint: "<i>We need your current password to confirm your changes.</i>"
-      email_hint: "Your email will only be used for communications from Catarse and from the projects you back. It won't be visible in your profile. When you back a project, we will give your email to the project owner so he can provide your rewards."
-      email_tooltip: "Click here to fill your email..."
-      gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well ;)"
+      email_hint: "Your email will only be used for communications from Crowdplaces and from the projects you boost. It won't be visible on your profile. When you fund a project, we will give your email to the project creator so you can get your reward."
+      email_tooltip: "Click here to fill in your email."
+      gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well."
       my_data: "My profile"
-      newsletter: "I want to receive news from Catarse via email"
+      newsletter: "I want to receive news from Crowdplaces via email"
       password_hint: "<i>Leave blank if you don't want to change it.</i>"
     header:
-      bio_tooltip: "Click here to write about you..."
-      name_tooltip: "Click here to fill your name..."
+      bio_tooltip: "Click here to write something about yourself..."
+      name_tooltip: "Click here to fill in your name..."
     projects:
-      no_projects: "%{name} haven't started any project on Catarse yet. We wonder if inspiration will hit one of these days!"
-      no_projects_current_user_html: "You haven't submitted any project to Catarse yet. Let the inspiration flow and %{link} to start!"
+      no_projects: "%{name} hasn't started any projects on Crowdplaces yet. We wonder when inspiration will strike!"
+      no_projects_current_user_html: "You haven't submitted any projects to Crowdplaces yet. Get those placemaking juices flowing and %{link} to start!"
       title: "%{name}'s projects"
       title_current_user: "My projects"
   users_mailer:
@@ -618,10 +620,10 @@ en:
       alt: "You must enable images in order to correctly view this message."
       forward: "Foward to your friends"
       hello: Hi
-      intro: "You are receiving this message because you signed up on Catarse"
+      intro: "You're getting this message because you signed up on Crowdplaces"
       mailee: "Message delivered by Mailee.me"
-      salutation: "Big hugs,"
-      signature: "Catarse's Team"
+      salutation: "Have a good day,"
+      signature: "The Crowdplaces Team"
       unsubscribe: Unsubscribe
       unsubscribe_long: "If you don't want to receive these emails"
       weblink: "View on the web"
