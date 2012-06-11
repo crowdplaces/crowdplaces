@@ -25,10 +25,32 @@ Then just checkout the code, configure dependencies and run the tests:
 
  `bundler install`
 
-5. Create your database.yml:
+Setup Development and Test Databases
+====================================
+
+1. Create your database.yml:
 
  `cp config/database.sample.yml config/database.yml`
 
+2. Create a role for the project:
+
+ `psql -c "CREATE ROLE crowdplaces LOGIN CREATEDB;" -d postgres`
+
+3. Create the local databases:
+
+ `bundle exec rake db:create`
+
+4. Download a recent pgbackup from Heroku and restore:
+
+ ```
+ heroku pgbackups
+ curl -o db.dump `heroku pgbackups:url`
+ pg_restore --verbose --clean --no-acl --no-owner -U crowdplaces -d crowdplaces_development ./db.dump
+ pg_restore --verbose --clean --no-acl --no-owner -U crowdplaces -d crowdplaces_test ./db.dump
+ ```
+5. Workaround a very strange error message _"ERROR: must be owner of extension plpgsql"_:
+
+ `psql -c "ALTER ROLE crowdplaces WITH superuser;" template1`
 
 Translations
 ============
