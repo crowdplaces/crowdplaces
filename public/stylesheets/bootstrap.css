@@ -11936,7 +11936,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
   font-family: "Lato-Bold";
   font-size: 12px;
   border: 2px solid #f5f2ed;
-  width: 130px;
+  width: 115px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
@@ -12136,7 +12136,7 @@ body[data-namespace="null"][data-controller="projects"][data-action="index"] #pa
 /* line 233, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .sidebar #rewards .box em {
   margin-left: 30px;
-  color: #ff0066;
+  color: #666666;
   font-family: "Lato-Regular";
   font-weight: bold;
   font-size: 14px;
