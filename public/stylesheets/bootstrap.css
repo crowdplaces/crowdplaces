@@ -703,7 +703,7 @@ div.project .box h4 {
   line-height: 120%;
   color: #4383d1;
   padding: 0px 0 10px 3px;
-  font-family: Lato-Bold;
+  font-family: "Lato-Bold";
   height: 24px;
   overflow: hidden;
   margin-bottom: 3px;
@@ -711,7 +711,7 @@ div.project .box h4 {
 /* line 65, ../../app/stylesheets/miv/_projects.sass */
 div.project .box h4 a {
   color: black;
-  font-family: Lato-Bold;
+  font-family: "Lato-Bold";
   font-size: 14px;
   text-decoration: none;
 }
@@ -756,7 +756,7 @@ div.project .box .where img {
 div.project .box .status_bar {
   background-color: white;
   width: 202px;
-  height: 10px;
+  height: 6px;
   overflow: hidden;
   border: 1px #cccccc solid;
   -moz-border-radius: 3px;
@@ -775,7 +775,7 @@ div.project .box .status_bar .progress {
   -khtml-border-radius: 2px;
   border-radius: 2px;
   background-color: #0094bf;
-  height: 10px;
+  height: 6px;
   overflow: hidden;
 }
 /* line 107, ../../app/stylesheets/miv/_projects.sass */
@@ -10968,7 +10968,7 @@ body #crowdmap_container #crowdmap .map {
 #recommended_header .statistics .progress {
   margin-bottom: 10px;
   width: 205px;
-  height: 12px;
+  height: 8px;
   background: white;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -10987,7 +10987,7 @@ body #crowdmap_container #crowdmap .map {
   -ms-border-radius: 2px;
   -khtml-border-radius: 2px;
   border-radius: 2px;
-  height: 12px;
+  height: 8px;
   background: #0094bf;
 }
 /* line 124, ../../app/stylesheets/content/_recommended_header.sass */
@@ -11288,11 +11288,11 @@ body #crowdmap_container #crowdmap .map {
 }
 /* line 5, ../../app/stylesheets/content/_explore.sass */
 [data-action="index"][data-controller="explore"] #page_content .container .sidebar {
-  margin-top: 123px;
+  margin-top: 92px;
 }
 /* line 7, ../../app/stylesheets/content/_explore.sass */
 [data-action="index"][data-controller="explore"] #page_content .container .sidebar .content {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 /* line 10, ../../app/stylesheets/content/_explore.sass */
 [data-action="index"][data-controller="explore"] #page_content .container .sidebar section h2 {
@@ -11339,7 +11339,7 @@ body #crowdmap_container #crowdmap .map {
   margin-right: 10px;
   width: 940px;
   margin-left: 0;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 /* line 37, ../../app/stylesheets/content/_explore.sass */
 [data-action="index"][data-controller="explore"] #page_content .container .main .section_header h1 {
