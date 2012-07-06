@@ -150,7 +150,7 @@ es:
     index:
       title: "Páginas seleccionadas"
     show:
-      backed: dados
+      backed: acumulados
       reached: "de la meta"
   devise:
     confirmations:
@@ -206,7 +206,7 @@ es:
         register_subtitle: "Usa tu cuenta de correo electrónico"
         with_facebook: "Accede con tu Facebook"
         with_facebook_subtitle: "Una forma rápida de acceder"
-        with_another_social: "¿Tienes cuenta en facebook?"
+        with_another_social: "¿No tienes cuenta en Facebook?"
         with_another_social_subtitle: "Accede con otra red social"
       signed_in: "Has accedido exitosamente."
       signed_out: "Has salido exitosamente."
@@ -220,8 +220,8 @@ es:
       categories: Categorías
       expiring: "En la recta final"
       quick_explore: "Búsqueda rápida"
-      recent: "recién llegados"
-      recommended: "super selección"
+      recent: "Recién llegados"
+      recommended: "Super selección"
       subtitle: "¡Descubre nuevos proyectos y hazlos realidad!"
       successful: Exitoso
       title: "Descubre super proyectos"
@@ -271,7 +271,7 @@ es:
     locales:
       title: "choose language"
     login:
-      login_with_facebook: "Entra con tu cuenta de Facebook"
+      login_with_facebook: "Accede con tu cuenta de Facebook"
       remember_me: "Recordarme y dejarme conectado."
     header:
       blog: mapa
@@ -362,7 +362,7 @@ es:
       no_reward: "Este dador no pidió recompensa"
     backers:
       checkout:
-        moip_error: "¡Ups! Hubo un error mientras se enviaba tu pago via MoIP. Por favor inténtalo otra vez."
+        moip_error: "¡Ups! Hubo un error mientras se enviaba tu pago. Por favor inténtalo otra vez."
         no_credits: "No tienes créditos suficientes para dar a este proyecto."
         paypal_cancel: "Tu pago via PayPal fue cancelado. Por favor inténtalo de nuevo."
         paypal_description: "Diste al proyecto"
@@ -372,7 +372,7 @@ es:
         cannot_back: "No es posible dar a este proyecto ahora. Por favor, revisa otros proyectos y vuelve a intentarlo más tarde."
         header:
           subtitle: "Estás a pocos pasos de hacer la diferencia y formar parte de este proyecto."
-          title: ¡Logrado!
+          title: "¡Dar a este proyecto!"
         no_reward: "Gracias. Yo sólo quiero dar al proyecto."
         submit: "Revisa y termina de efectuar el pago"
         title: "Dador %{name}"
@@ -451,14 +451,14 @@ es:
       user: Usuario
       value: Valor
     project:
-      backed: dados
+      backed: acumulados
       reached: "de la meta"
     project_backers:
       empty: "Nadie a dado a este proyecto aún. ¿Quieres ser el primero?"
     project_header:
       subtitle_html: "Un proyecto por %{link}"
-      without_city: "Un proyecto en%{category_name} por %{author}"
-      with_city: "Un proyecto en %{category_name}, en %{city}, por%{author}"
+      without_city: "Un proyecto en %{category_name} por %{author}"
+      with_city: "Un proyecto en %{category_name} en %{city} por %{author}"
     project_updates:
       empty: "Este proyecto todavía no tiene actualizaciones. ¡Espera y verás!"
       submit: "Enviar actualización"
@@ -509,7 +509,7 @@ es:
       rewards: "¿Qué recompensas quieres ofrecer?"
       rewards_hint: "Creemos que la mejor manera de inspirar a personas a impulsar un proyecto es ofreciendo recompensas creativas. A todo el mundo le gustan los mensajes personalizados y sentirse parte integrante del proyecto. Tómate el tiempo de pensar en recompensas creativas que generen interés."
       submit: "Envía el proyecto"
-      subtitle: "El tiempo para hacerlo es ahora. Queremos saber en qué estas..."
+      subtitle: "¡Haz tu proyecto realidad ahora! Queremos saber qué has estado haciendo..."
       title: "Envía tu proyecto"
     twitter:
       take_a_look: "Mira el proyecto %{name} en @crowdplaces"

@@ -124,7 +124,7 @@ en:
   credits:
     index:
       back_date: "Funding date"
-      current_credits_html: "Your current balance is <span id=\"current_credits\">%{credits}</span> in credit."
+      current_credits_html: "You have <span id=\"current_credits\">%{credits}</span> in credit."
       important_html: "You have <strong>up to 180 days after the payment date</strong> to ask for a refund. If you ask for a refund, the value of your payment will be deducted from your credits."
       project: Project
       refund_expration_date: "Refund deadline"
@@ -203,9 +203,9 @@ en:
         login_title: Login
         login_subtitle: "If already have an account"
         register_title: "Sign Up"
-        register_subtitle: "Use your email account"
+        register_subtitle: "Using your email address"
         with_facebook: "Login with your Facebook account"
-        with_facebook_subtitle: "A quick way to access"
+        with_facebook_subtitle: "A quick way to get in"
         with_another_social: "Don't have a Facebook account?"
         with_another_social_subtitle: "Login using another social network"
       signed_in: "Signed in successfully."
@@ -220,11 +220,11 @@ en:
       categories: Categories
       expiring: "Final countdown"
       quick_explore: "Quick search"
-      recent: "new arrivals"
-      recommended: "super selection"
+      recent: "New arrivals"
+      recommended: "Super selection"
       subtitle: "Explore projects and make them happen!"
       successful: Successful
-      title: "Discover amazing projects"
+      title: "Explore amazing projects"
     title: "Explore projects"
     project:
       empty: "Hey, we actually didn't find any projects with the text you used to search. How about trying another search?"
@@ -349,7 +349,7 @@ en:
       project_warning:
         not_successful:
           expired: "This project didn't reach the goal of %{goal} until %{date} and wasn't funded."
-          not_expired: "This project will only be funded if at least %{goal} is boosted until %{date}"
+          not_expired: "This project will only be funded if at least %{goal} is boosted by %{date}"
         successful:
           expired: "This project was successful and was funded on %{date}"
           not_expired: "This project will be successful and funded on %{date}"
@@ -362,7 +362,7 @@ en:
       no_reward: "This booster has not picked a reward"
     backers:
       checkout:
-        moip_error: "Oops! There was an error while sending your payment to MoIP. Please try again."
+        moip_error: "Oops! There was an error while sending your payment. Please try again."
         no_credits: "You don't have enough credit to boost this project."
         paypal_cancel: "Your PayPal payment was cancelled. Please try again."
         paypal_description: "Boost project"
@@ -372,7 +372,7 @@ en:
         cannot_back: "It's not possible to boost this project right now. Go check out some other projects and come back later."
         header:
           subtitle: "You are a few steps from making the difference and becoming part of this project."
-          title: Success!
+          title: "Boost this project!"
         no_reward: "Thanks. I just want to help the project."
         submit: "Review and proceed to checkout"
         title: "Booster %{name}"
@@ -381,7 +381,7 @@ en:
         error: "Oops. There was an error while registering your boost. Please try again."
         international:
           description: "You can use PayPal to make international payments"
-          important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + $0,60 per transaction.</p>"
+          important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5.4% + $0.60 per transaction.</p>"
           submit: "Proceed to PayPal checkout"
           title: "Want to make an international payment?"
         review_with_reward_html: "You will fund with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
@@ -457,7 +457,7 @@ en:
       empty: "Nobody has boosted this project...yet! Go ahead and be the first!"
     project_header:
       subtitle_html: "A project by %{link}"
-      without_city: "A project in %{category_name}, by %{author}"
+      without_city: "A project in %{category_name} by %{author}"
       with_city: "A project in %{category_name}, in %{city}, by %{author}"
     project_updates:
       empty: "This project doesn't have any updates yet. But just you wait and see..."
@@ -500,7 +500,7 @@ en:
       video_hint: "A Vimeo link"
       twitter: "Have a Twitter account?"
       facebook: "Have a Facebook account?"
-      blog: "Have a blog about the project?"
+      blog: "Has anyone blogged about the project?"
       know_us_via: "How did you discover Crowdplaces?"
       how_works: "How to mobilize boosters to reach your funding target?"
       project_warning:
