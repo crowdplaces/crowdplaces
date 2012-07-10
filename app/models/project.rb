@@ -46,7 +46,7 @@ class Project < ActiveRecord::Base
   scope :not_expired, where("finished = false AND expires_at >= current_timestamp")
   scope :expiring, where("finished = false AND expires_at >= current_timestamp AND expires_at < (current_timestamp + interval '2 weeks')")
   scope :not_expiring, where("NOT (finished = false AND expires_at >= current_timestamp AND expires_at < (current_timestamp + interval '2 weeks'))")
-  scope :recent, where("projects.created_at > (current_timestamp - interval '1 month')")
+  scope :recent, where("current_timestamp - projects.created_at <= '15 days'::interval")
   scope :last_week, where("projects.created_at > (current_timestamp - interval '1 week')")
   scope :successful, where(successful: true)
   scope :sort_by_explore_asc, order('(expires_at < current_timestamp) ASC, successful DESC, finished DESC, abs(EXTRACT(epoch FROM current_timestamp - expires_at)), created_at DESC')
@@ -179,9 +179,9 @@ class Project < ActiveRecord::Base
           backer.generate_credits!
           notification_text = I18n.t('project.finish.unsuccessful.unsuccessful_text', :link => link_to(truncate(name, :length => 32), "/projects/#{self.to_param}"), :locale => backer.user.locale)
           backer.user.notifications.create :project => self, :text => notification_text
-          notification_text = I18n.t('project.finish.unsuccessful.notification_text', :value => backer.display_value, :link => link_to(I18n.t('here', :locale => backer.user.locale), "#{I18n.t('site.base_url')}/credits"), :locale => backer.user.locale)
+          notification_text = I18n.t('project.finish.unsuccessful.notification_text', :value => backer.display_value, :link => link_to(I18n.t('here', :locale => backer.user.locale), "#{I18n.t('site.base_url')}/users/#{backer.user.to_param}#credits"), :locale => backer.user.locale)
           email_subject = I18n.t('project.finish.unsuccessful.email_subject', :locale => backer.user.locale)
-          email_text = I18n.t('project.finish.unsuccessful.email_text', :project_link => link_to(name, "#{I18n.t('site.base_url')}/projects/#{self.to_param}", :style => 'color: #008800;'), :value => backer.display_value, :credits_link => link_to(I18n.t('clicking_here', :locale => backer.user.locale), "#{I18n.t('site.base_url')}/credits", :style => 'color: #008800;'), :locale => backer.user.locale)
+          email_text = I18n.t('project.finish.unsuccessful.email_text', :project_link => link_to(name, "#{I18n.t('site.base_url')}/projects/#{self.to_param}", :style => 'color: #008800;'), :value => backer.display_value, :credits_link => link_to(I18n.t('clicking_here', :locale => backer.user.locale), "#{I18n.t('site.base_url')}/users/#{backer.user.to_param}#credits", :style => 'color: #008800;'), :locale => backer.user.locale)
           backer.user.notifications.create :project => self, :text => notification_text, :email_subject => email_subject, :email_text => email_text
         end
         backer.update_attribute :notified_finish, true

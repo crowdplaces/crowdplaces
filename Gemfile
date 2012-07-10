@@ -12,12 +12,12 @@ gem 'active_paypal_adaptive_payment', '~> 0.3.13'
 gem 'httpclient', '2.2.4'
 gem 'selenium-webdriver', '2.21.1'
 gem 'bourbon'
+gem "airbrake"
 
 
 gem 'feedzirra'
 gem 'rails', '3.0.3'
 gem 'rake', '0.8.7'
-gem 'haml'
 gem 'slim'
 gem 'slim-rails'
 gem 'sass', '3.1.7'
@@ -28,7 +28,7 @@ gem 'validation_reflection'
 gem 'inherited_resources', '= 1.1.2'
 gem 'maxim-sexy_pg_constraints'
 gem 'spectator-validates_email', :require => 'validates_email'
-gem 'has_vimeo_video', '>= 0.0.3'
+gem 'has_vimeo_video', '>= 0.0.4'
 gem 'wirble'
 gem "on_the_spot"
 gem 'unicorn'
@@ -36,7 +36,7 @@ gem 'mailee', '0.5.4', :git => 'https://github.com/danielweinmann/mailee-api.git
 # gem 'will_paginate', ">= 3.0.pre2"
 gem 'weekdays'
 gem 'moip', :git => 'https://github.com/danielweinmann/moip-ruby.git', :ref => 'db1b879358c623b597dc1c221b53336f9f06db0e'
-#gem 'paypal-express', :require => 'paypal'
+gem 'paypal-express', '0.4.7', :require => 'paypal'
 gem 'brcep'
 gem "meta_search", "1.0.6"
 gem "RedCloth"
@@ -75,6 +75,10 @@ group :test, :development do
   gem 'rspec-rails', "~> 2.10.0"
   gem 'rcov', '= 0.9.11'
   gem 'mocha'
+end
+
+group :development do
+  gem 'mailcatcher'
 end
 
 group :test do

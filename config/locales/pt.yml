@@ -392,13 +392,13 @@ pt:
         subtitle: "Último passo para fazer a diferença e se tornar parte deste projeto."
         title: "Preencha e revise seus dados"
         choose_payment: "Como você quer pagar?"
-        choose_credit_card: "Cartão de crédito"
-        choose_boleto: "Boleto bancário"
+        choose_credit_card: "Pagamento internacional"
+        choose_boleto: "Pagamento nacional"
         you_are_about_html: "Você está prestes a fazer parte do grupo que faz de tudo para o %{link} acontecer."
     create:
       success: "Seu projeto foi criado com sucesso! Logo entraremos em contato. Muito obrigado!"
     form:
-      add_reward: "Adicionar recompensa"
+      add_reward: "Adicionar nova recompensa"
       important_html: "Lembre-se que o Catarse ficará com 7,5%, e os meios de pagamento (MoIP e Paypal) cobram uma taxa que varia, em geral, entre 4% e 5% por transação. Inclua estes valores no seu orçamento, para executar o projeto sem problemas depois."
       project_warning:
         content_html: "Quer aumentar a chance de seu projeto ser selecionado? Não deixe de ler %{link}."
@@ -466,15 +466,14 @@ pt:
       title: "Título da atualização"
       destroy: "Remover atualização"
       destroy_confirmation: "Deseja remover a atualização?"
-    project_warning:
-      rejected: "Este projeto não foi selecionado para participar do Catarse. Quem sabe numa próxima vez? :)"
-      waiting: "Este projeto está aguardando análise e logo saberemos se ele entrará no Catarse ;)"
     rewards:
       reward_title: "Para %{minimum} ou mais"
       title: "Apoie e ganhe..."
     send_mail:
       success: "Seu projeto foi enviado com sucesso! Logo entraremos em contato. Muito obrigado!"
     show:
+      rejected: "Este projeto não foi selecionado para participar do Catarse. Quem sabe numa próxima vez? :)"
+      waiting: "Este projeto está aguardando análise e logo saberemos se ele entrará no Catarse ;)"
       about_title: "Sobre o projeto"
       menu:
         about: Sobre
@@ -544,7 +543,7 @@ pt:
       error: "Ocorreu um erro ao realizar o login. Por favor, tente novamente."
   site:
     host: catarse.me
-    base_url: "http://catarse-cedar.herokuapp.com"
+    base_url: "http://catarse.me"
     blog: "http://blog.catarse.me/"
     email:
       contact: contato@catarse.me
