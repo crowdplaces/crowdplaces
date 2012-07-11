@@ -33,6 +33,7 @@ class Projects::BackersController < ApplicationController
     params[:backer][:reward_id] = nil if params[:backer][:reward_id] == '0'
     params[:backer][:user_id] = current_user.id
     @project = Project.find params[:project_id]
+    puts params[:backer]
     @backer = @project.backers.new(params[:backer])
 
     unless @backer.save

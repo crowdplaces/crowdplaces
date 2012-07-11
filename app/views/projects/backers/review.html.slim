@@ -44,20 +44,21 @@
               = form.buttons do
                 .bootstrap-twitter
                   = form.commit_button (@backer.credits ? t('.submit.credits') : t('.submit.moip')), :button_html => {:disabled => true, :class => 'btn'}
-          #payment.hide
-            .title
-              h1= t('.choose_payment')
-            .choose_payment
-              .cc
-                a[href=pay_paypal_path(@backer) disabled="disabled"]
-                  = image_tag 'catarse/cc_icon.png'
-                  span= t('.choose_credit_card')
-                .clearfix
-              .or
-                span= t('or')
-              .boleto
-                = link_to checkout_project_backer_path(@backer.project, @backer), :method => :put do
-                  = image_tag 'catarse/boleto_icon.png', :class => 'boleto_icon'
-                  = image_tag 'catarse/cc_icon.png', :class => 'cc_icon'
-                  span= t('.choose_boleto')
+          - unless @backer.credits
+            #payment.hide
+              .title
+                h1= t('.choose_payment')
+              .choose_payment
+                .cc
+                  a[href=pay_paypal_path(@backer) disabled="disabled"]
+                    = image_tag 'catarse/cc_icon.png'
+                    span= t('.choose_credit_card')
+                  .clearfix
+                .or
+                  span= t('or')
+                .boleto
+                  = link_to checkout_project_backer_path(@backer.project, @backer), :method => :put do
+                    = image_tag 'catarse/boleto_icon.png', :class => 'boleto_icon'
+                    = image_tag 'catarse/cc_icon.png', :class => 'cc_icon'
+                    span= t('.choose_boleto')
     .clearfix
