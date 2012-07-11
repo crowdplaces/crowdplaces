@@ -22,7 +22,7 @@ feature "Pending Backers" do
     verify_translations
 
     page.should have_no_css('.failure.wrapper')
-    within ".title" do
+    within "div.title" do
       page.should have_css('h1', :text => 'Gerenciamento de apoios')
     end
 
