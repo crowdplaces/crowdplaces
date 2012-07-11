@@ -26,7 +26,7 @@ feature "New Project Feature", :driver => :selenium do
     visit new_project_path
     verify_translations
     current_path.should == new_project_path
-    within '.title' do
+    within 'div.title' do
       within 'h1' do
         page.should have_content("Envie seu projeto")
       end
