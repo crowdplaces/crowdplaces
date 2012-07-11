@@ -19,7 +19,7 @@ feature "Pending projects" do
     visit pending_projects_path
     verify_translations
     page.should have_no_css('.failure.wrapper')
-    within ".title" do
+    within "div.title" do
       page.should have_css('h1', :text => 'Gerenciamento dos projetos')
     end
   end

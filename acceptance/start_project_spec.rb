@@ -24,7 +24,7 @@ feature "Send Project Feature", :driver => :selenium do
       page.should have_content("Como funciona")
     end
 
-    within '.title' do
+    within 'div.title' do
       within 'h1' do
         page.should have_content("Como funciona")
       end
@@ -39,7 +39,7 @@ feature "Send Project Feature", :driver => :selenium do
     sleep 2
     verify_translations
 
-    within '.title' do
+    within 'div.title' do
       within 'h1' do
         page.should have_content("Envie seu projeto")
       end

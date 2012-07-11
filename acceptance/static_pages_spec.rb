@@ -15,7 +15,7 @@ feature "Static Pages Feature", :driver => :selenium do
       page.should have_content("Como funciona o Catarse?")
     end
 
-    within '.title' do
+    within 'div.title' do
       within 'h1' do
         page.should have_content("Como funciona o Catarse?")
       end
@@ -34,7 +34,7 @@ feature "Static Pages Feature", :driver => :selenium do
       page.should have_content("Perguntas frequentes")
     end
 
-    within '.title' do
+    within 'div.title' do
       within 'h1' do
         page.should have_content("Perguntas frequentes")
       end
@@ -53,7 +53,7 @@ feature "Static Pages Feature", :driver => :selenium do
       page.should have_content("Termos de uso")
     end
 
-    within '.title' do
+    within 'div.title' do
       within 'h1' do
         page.should have_content("Termos de uso")
       end
@@ -61,23 +61,23 @@ feature "Static Pages Feature", :driver => :selenium do
 
   end
 
-  scenario "I visit the privacy policy page" do
+  #scenario "I visit the privacy policy page" do
 
-    visit homepage
-    click_link 'Política de Privacidade'
-    verify_translations
-    current_path.should == privacy_path
+    #visit homepage
+    #click_link 'Política de Privacidade'
+    #verify_translations
+    #current_path.should == privacy_path
 
-    within 'head title' do
-      page.should have_content("Política de privacidade")
-    end
+    #within 'head title' do
+      #page.should have_content("Política de privacidade")
+    #end
 
-    within '.title' do
-      within 'h1' do
-        page.should have_content("Política de privacidade")
-      end
-    end
+    #within 'div.title' do
+      #within 'h1' do
+        #page.should have_content("Política de privacidade")
+      #end
+    #end
 
-  end
+  #end
 
 end

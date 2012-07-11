@@ -74,9 +74,11 @@ feature "with devise routes" do
     verify_translations
     user_facebook = Factory.create(:user, :provider => 'facebook', :uid => '1234566',:email => 'lorem@lorem.com', :password => 'somepassword', :password_confirmation => 'somepassword')
 
-    fill_in 'user_email', :with => user_facebook.email
-    fill_in 'user_password', :with => user_facebook.password
-    click_button 'user_submit'
+    within('.new_session') do
+      fill_in 'user_email', :with => user_facebook.email
+      fill_in 'user_password', :with => user_facebook.password
+      click_button 'user_submit'
+    end
 
     page.should have_no_css('#user')
     page.should have_css('.alert.wrapper')
@@ -87,9 +89,11 @@ feature "with devise routes" do
     verify_translations
     user = Factory.create(:user, :provider => 'devise',:email => 'lorem@lorem.com', :password => '123lorem', :password_confirmation => '123lorem')
 
-    fill_in 'user_email', :with => user.email
-    fill_in 'user_password', :with => user.password
-    click_button 'user_submit'
+    within('.new_session') do
+      fill_in 'user_email', :with => user.email
+      fill_in 'user_password', :with => user.password
+      click_button 'user_submit'
+    end
 
     page.should have_css('.user')
     page.should have_link(I18n.t('layouts.header.account'))

@@ -21,7 +21,7 @@ feature "Show curated page" do
     visit "/pages/#{cp.permalink}"
     verify_translations
 
-    within '.titles' do
+    within 'div.titles' do
       within 'h1' do
         page.should have_content(cp.name)
       end
