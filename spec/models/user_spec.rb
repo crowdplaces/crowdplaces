@@ -34,7 +34,7 @@ describe User do
     let(:auth) do {
         'provider' => "twitter",
         'uid' => "foobar",
-        'user_info' => {
+        'info' => {
           'name' => "Foo bar",
           'email' => 'another_email@anotherdomain.com',
           'nickname' => "foobar",
@@ -46,10 +46,10 @@ describe User do
     subject{ User.create_with_omniauth(auth) }
     its(:provider){ should == auth['provider'] }
     its(:uid){ should == auth['uid'] }
-    its(:name){ should == auth['user_info']['name'] }
-    its(:nickname){ should == auth['user_info']['nickname'] }
-    its(:bio){ should == auth['user_info']['description'][0..139] }
-    its(:image_url){ should == auth['user_info']['image'] }
+    its(:name){ should == auth['info']['name'] }
+    its(:nickname){ should == auth['info']['nickname'] }
+    its(:bio){ should == auth['info']['description'][0..139] }
+    its(:image_url){ should == auth['info']['image'] }
   end
 
   describe ".find_with_omniauth" do
@@ -132,11 +132,11 @@ describe User do
     end
     context "when we have an email" do
       let(:user){ Factory(:user, :image_url => nil, :email => 'diogob@gmail.com') }
-      it{ should == "http://gravatar.com/avatar/5e2a237dafbc45f79428fdda9c5024b1.jpg?default=#{I18n.t('site.base_url')}/images/user.png" }
+      it{ should == "http://gravatar.com/avatar/5e2a237dafbc45f79428fdda9c5024b1.jpg?default=#{I18n.t('site.base_url')}/assets/user.png" }
     end
     context "when we do not have an image nor an email" do
       let(:user){ Factory(:user, :image_url => nil, :email => nil) }
-      it{ should == '/images/user.png' }
+      it{ should == '/assets/user.png' }
     end
   end
 

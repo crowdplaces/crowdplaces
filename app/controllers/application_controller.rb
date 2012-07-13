@@ -27,13 +27,11 @@ class ApplicationController < ActionController::Base
     end
   end
 
-
   private
-
   def has_institutional_videos?
     InstitutionalVideo.visibles.present?
   end
-  
+
   def institutional_video
     InstitutionalVideo.visibles.random.first
   end

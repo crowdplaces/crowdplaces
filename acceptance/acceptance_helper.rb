@@ -84,6 +84,7 @@ RSpec.configure do |config|
   config.include HelperMethods
   config.include Rack::Test::Methods
   config.include Factory::Syntax::Methods
+  config.include Rails.application.routes.url_helpers, :type => :acceptance
 
   config.mock_with :mocha
 
@@ -98,6 +99,9 @@ RSpec.configure do |config|
   config.before(:suite) do
     ActiveRecord::Base.connection.execute "SET client_min_messages TO warning;"
     DatabaseCleaner.strategy = :truncation
+
+    # Put ActiveMerchant in test mode
+    ActiveMerchant::Billing::Base.mode = :test
   end
 
   config.before(:each) do
@@ -106,5 +110,3 @@ RSpec.configure do |config|
     I18n.default_locale = :pt
   end
 end
-
-include Rails.application.routes.url_helpers
