@@ -570,7 +570,8 @@ en:
   terms: "terms of use"
   user:
     backs_text:
-      one: "Funded this project and %{total} more."
+      many: "Funded this project and %{total} more."
+      one: "Funded only this project at this point."
       other: "Funded only this project at this point."
       zero: "Funded this project and one other. "
     no_name: Unnamed
