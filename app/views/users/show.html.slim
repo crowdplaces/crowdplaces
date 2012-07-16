@@ -85,9 +85,9 @@
                   tr[id="back_#{credit.id}"]
                     td.project_name
                       = link_to credit.project.name, credit.project, :class => 'link_project'
-                    td.date= I18n.l(credit.created_at.to_date)
+                    td.date= I18n.l(credit.created_at.to_date, format: :long)
                     td.value= credit.display_value
-                    td.term= I18n.l(credit.refund_deadline.to_date)
+                    td.term= I18n.l(credit.refund_deadline.to_date, format: :long)
                     td.status
                       - if credit.requested_refund
                         = t('credits.index.requested_refund')

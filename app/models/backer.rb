@@ -70,7 +70,7 @@ class Backer < ActiveRecord::Base
   end
 
   def display_confirmed_at
-    I18n.l(confirmed_at.to_date) if confirmed_at
+    I18n.l(confirmed_at.to_date, format: :long) if confirmed_at
   end
 
   def platform_fee(fee=7.5)
