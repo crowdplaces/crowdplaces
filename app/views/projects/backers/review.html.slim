@@ -50,7 +50,7 @@
               .title
                 h1= t('.choose_payment')
               .choose_payment
-                .cc
+                .cc.dineromail
                   /a[href=catarse_dineromail.pay_payment_dineromail_path(@backer) disabled="disabled"]
                   = link_to 'javascript:void(0);', :"data-payment_method_url" => catarse_dineromail.pay_payment_dineromail_path(@backer), :method => :get, :class => 'payment_link', disabled: true do
                     = image_tag 'catarse/cc_icon.png'
