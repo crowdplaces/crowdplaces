@@ -232,7 +232,7 @@ en:
     hints:
       backer:
         credits: "You have <strong>%{credits}</strong> in credit and can boost up to this amount without needing to make a new payment."
-        value: "You chose to start with $10. Awesome! Any amount is great."
+        value: "You choose the amount. Anything above $X is awesome."
       project:
         about: "Tell us a little about what you want to do, how much you need and how you will use it. Be brief, but be sure to also share something that tells a story and shows your passion!"
         category: "Choose the category where your project fits best. No worries if you think it fits in more than one category. Choose the one where you want people to find your project."
@@ -247,7 +247,7 @@ en:
         minimum_value: "This is the minimum amount to choose this reward."
     labels:
       backer:
-        anonymous: "I want my funding to be anonymous."
+        anonymous: "I want my boost to be anonymous."
         credits: "I want to use my credit for this funding."
         reward: "Select your reward"
         value: "How much do you want to fund?"
@@ -570,14 +570,13 @@ en:
   terms: "terms of use"
   user:
     backs_text:
-      many: "Backed this and other %{total} projects"
       one: "Funded this project and %{total} more."
-      two: "Backed this and 1 other project"
       other: "Funded only this project at this point."
       zero: "Funded this project and one other. "
     no_name: Unnamed
   users:
     show:
+      email: ~
       tabs:
         backed_projects: "Funded projects"
         created_projects: "Created projects"

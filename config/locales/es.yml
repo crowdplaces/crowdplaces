@@ -570,14 +570,13 @@ es:
   terms: "términos de uso"
   user:
     backs_text:
-      many: "Apoió este y otros %{total} proyectos"
       one: "Dio a este proyecto y %{total} más. "
-      two: "Apoyó este y 1 otro proyecto"
       other: "Dio solamente a este proyecto hasta ahora"
       zero: "Dio a este y otro proyecto"
     no_name: "Sin nombre"
   users:
     show:
+      email: ~
       tabs:
         backed_projects: "Proyectos financiados"
         created_projects: "Proyectos creados"
