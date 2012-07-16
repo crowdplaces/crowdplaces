@@ -11,6 +11,7 @@ Catarse::Application.routes.draw do
   end
 
   ActiveAdmin.routes(self)
+  mount CatarseDineromail::Engine => "/", :as => "catarse_dineromail"
 
   filter :locale
 

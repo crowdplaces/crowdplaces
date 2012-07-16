@@ -75,6 +75,10 @@ gem 'selenium-webdriver', '2.21.2'
 gem 'bourbon'
 gem 'paypal-express', :require => 'paypal'
 
+gem 'dinero_mail_checkout', git: "git://github.com/josemarluedke/dinero_mail_checkout.git"
+gem 'dinero_mail_ipn', git: "git://github.com/josemarluedke/dinero_mail_ipn.git"
+gem 'catarse_dineromail'
+
 # Server
 gem 'thin'
 

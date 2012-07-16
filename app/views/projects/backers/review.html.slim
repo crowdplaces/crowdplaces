@@ -23,6 +23,7 @@
         = semantic_form_for current_user, :url => checkout_project_backer_path(@backer.project, @backer), :html => { :id => 'review_form', :class => "form-horizontal #{('dont_align' if @backer.credits)}" } do |form|
           = hidden_field_tag 'backer_id', @backer.id
           = hidden_field_tag 'backer_credits', @backer.credits
+          = hidden_field_tag 'payment_method_url', nil
           - unless @backer.credits
             = form.inputs do
               = form.input :full_name, :required => true, :as => :string
@@ -50,15 +51,16 @@
                 h1= t('.choose_payment')
               .choose_payment
                 .cc
-                  a[href=pay_paypal_path(@backer) disabled="disabled"]
+                  /a[href=catarse_dineromail.pay_payment_dineromail_path(@backer) disabled="disabled"]
+                  = link_to 'javascript:void(0);', :"data-payment_method_url" => catarse_dineromail.pay_payment_dineromail_path(@backer), :method => :get, :class => 'payment_link', disabled: true do
                     = image_tag 'catarse/cc_icon.png'
                     span= t('.choose_credit_card')
                   .clearfix
-                .or
-                  span= t('or')
-                .boleto
-                  = link_to checkout_project_backer_path(@backer.project, @backer), :method => :put do
-                    = image_tag 'catarse/boleto_icon.png', :class => 'boleto_icon'
-                    = image_tag 'catarse/cc_icon.png', :class => 'cc_icon'
-                    span= t('.choose_boleto')
+                /.or
+                  /span= t('or')
+                /.boleto
+                  /= link_to checkout_project_backer_path(@backer.project, @backer), :method => :put do
+                    /= image_tag 'catarse/boleto_icon.png', :class => 'boleto_icon'
+                    /= image_tag 'catarse/cc_icon.png', :class => 'cc_icon'
+                    /span= t('.choose_boleto')
     .clearfix

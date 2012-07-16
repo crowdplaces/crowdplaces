@@ -146,18 +146,18 @@ CATARSE.BackersReviewView = Backbone.View.extend({
     $('#accept_international').click(function(){
       $('#international_submit').attr('disabled', !$('#accept_international').is(':checked'))
     })
-    $('.cc a').click(function(event){
-      if($(this).attr('disabled')){
-        event.preventDefault()
-        return false
-      }
-    })
-    everything_ok()
 
     $('a.payment_link').click(function(event){
-      event.preventDefault();
-      $('input#payment_method_url').val($(this).data('payment_method_url'));
-      $('form#review_form')[0].submit();
+      if($(this).attr('disabled')){
+        event.preventDefault();
+        return false;
+      } else {
+        $('input#payment_method_url').val($(this).data('payment_method_url'));
+        $('form#review_form')[0].submit();
+        return false;
+      }
     });
+
+    everything_ok();
   }
 })
