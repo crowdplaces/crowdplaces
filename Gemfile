@@ -19,9 +19,9 @@ gem 'omniauth', "~> 1.1.0"
 gem 'omniauth-openid', '~> 1.0.1'
 gem 'omniauth-twitter', '~> 0.0.12'
 gem 'omniauth-facebook', '~> 1.2.0'
-gem 'omniauth-github', '~> 1.0.1'
-gem 'omniauth-linkedin', '~> 0.0.6'
-gem 'omniauth-yahoo', '~> 0.0.4'
+#gem 'omniauth-github', '~> 1.0.1'
+#gem 'omniauth-linkedin', '~> 0.0.6'
+#gem 'omniauth-yahoo', '~> 0.0.4'
 gem 'devise', '1.5.3'
 gem 'cancan'
 
