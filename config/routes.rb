@@ -32,7 +32,7 @@ Catarse::Application.routes.draw do
   match "/privacy" => "static#privacy", :as => :privacy
 
   match "/thank_you" => "payment_stream#thank_you", :as => :thank_you
-  match "/moip" => "payment_stream#moip", :as => :moip
+  #match "/moip" => "payment_stream#moip", :as => :moip
   match "/explore" => "explore#index", :as => :explore
   match "/explore#:quick" => "explore#index", :as => :explore_quick
   match "/credits" => "credits#index", :as => :credits
@@ -86,14 +86,14 @@ Catarse::Application.routes.draw do
     end
   end
 
-  resources :paypal, only: [] do
-    member do
-      get :pay
-      get :success
-      get :cancel
-      get :notifications
-    end
-  end
+  #resources :paypal, only: [] do
+    #member do
+      #get :pay
+      #get :success
+      #get :cancel
+      #get :notifications
+    #end
+  #end
 
   resources :curated_pages do
     collection do
