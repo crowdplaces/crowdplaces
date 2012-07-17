@@ -570,10 +570,9 @@ es:
   terms: "términos de uso"
   user:
     backs_text:
-      many: "Dio a este proyecto y %{total} más."
-      one: "Dio solamente a este proyecto hasta ahora"
-      other: "Dio solamente a este proyecto hasta ahora"
-      zero: "Dio a este y otro proyecto"
+      many: "Dio este y otros %{total} proyectos"
+      one:  "Dio solamente a este proyecto hasta ahora"
+      two: "Dio a este y otro proyecto"
     no_name: "Sin nombre"
   users:
     show:
