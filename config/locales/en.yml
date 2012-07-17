@@ -367,6 +367,8 @@ en:
         paypal_cancel: "Your PayPal payment was cancelled. Please try again."
         paypal_description: "Boost project"
         paypal_error: "Oops. There was an error while sending your payment to PayPal. Please try again."
+        dineromail_description: "Boost project"
+        dineromail_error: "Oops. There was an error while sending your payment to Dineromail. Please try again."
         success: "Your funding was successful. Thanks a lot!"
       new:
         cannot_back: "It's not possible to boost this project right now. Go check out some other projects and come back later."

@@ -367,6 +367,8 @@ es:
         paypal_cancel: "Tu pago via PayPal fue cancelado. Por favor inténtalo de nuevo."
         paypal_description: "Diste al proyecto"
         paypal_error: "¡Ups! Hubo un error al enviar tu pago a PayPal. Por favor inténtalo de nuevo."
+        dineromail_description: "Diste al proyecto"
+        dineromail_error: "¡Ups! Hubo un error al enviar tu pago a Dineromail. Por favor inténtalo de nuevo."
         success: "Tu aporte fue realizado con éxito. ¡Muchísimas gracias!"
       new:
         cannot_back: "No es posible dar a este proyecto ahora. Por favor, revisa otros proyectos y vuelve a intentarlo más tarde."

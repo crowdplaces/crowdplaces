@@ -367,6 +367,8 @@ pt:
         paypal_cancel: "Seu pagamento no PayPal foi cancelado. Por favor, tente novamente."
         paypal_description: "Apoio para projeto"
         paypal_error: "Ooops. Ocorreu um erro ao enviar seu pagamento para o PayPal. Por favor, tente novamente."
+        dineromail_description: "Apoio para projeto"
+        dineromail_error: "Ooops. Ocorreu um erro ao enviar seu pagamento para o Dineromail. Por favor, tente novamente."
         success: "Seu apoio foi realizado com sucesso. Muito obrigado!"
       new:
         cannot_back: "Não é possível apoiar este projeto no momento. Por favor, apoie outros projetos."
