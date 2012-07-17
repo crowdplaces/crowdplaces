@@ -46,7 +46,7 @@
                 .bootstrap-twitter
                   = form.commit_button (@backer.credits ? t('.submit.credits') : t('.submit.moip')), :button_html => {:disabled => true, :class => 'btn'}
           - unless @backer.credits
-            #payment.hide
+            #payment
               .title
                 h1= t('.choose_payment')
               .choose_payment
