@@ -151,18 +151,17 @@
         .choose_payment
           .or
             +grid(2)
-            display: none
             padding-top: 30px
             text-align: center
             span
               font-family: Lato-Bold
               font-size: 22px
-          .cc, .boleto
+          .paypal, .dineromail
             +grid(7)
             a
               display: block
               +background-image(linear-gradient(top, $crowdplaces_white, $crowdplaces_ice))
-              padding: 20px 10px 0px 30px
+              padding: 20px 15px 0px 15px
               @include border-radius(5px)
               border: 1px solid $crowdplaces_light_gray
               font-size: 15px
@@ -170,25 +169,19 @@
               color: black
               text-transform: uppercase
               height: 65px
-              img
-                float: left
+              text-align: center
               span
                 float: left
                 margin-top: 15px
                 margin-left: 20px
               &:hover
                 +background-image(linear-gradient(bottom, $crowdplaces_white, $crowdplaces_ice))
-          .cc
-            +grid-prefix(5)
-            +alpha
-            +omega
             a[disabled="disabled"]
               background: $ed_gryn
               cursor: default
-          .boleto
+              img
+                +opacity(0.6)
+          .dineromail
+            +alpha
+          .paypal
             +omega
-            display: none
-            .boleto_icon
-              margin-top: -5px
-            .cc_icon
-              margin-left: 10px

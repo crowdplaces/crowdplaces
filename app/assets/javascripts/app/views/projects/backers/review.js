@@ -30,14 +30,14 @@ CATARSE.BackersReviewView = Backbone.View.extend({
       if(all_ok){
         if($('#back_with_credits').length < 1) {
           //$('#payment.hide').show();
-          $('.cc a').attr('disabled', false)
+          $('.dineromail a, .paypal a').attr('disabled', false)
         } else {
           $("#user_submit").attr('disabled', false)
         }
       } else {
         //$('#payment.hide').hide();
         if($('#back_with_credits').length < 1) {
-          $('.cc a').attr('disabled', true)
+          $('.dineromail a, .paypal a').attr('disabled', true)
         }else{
            $("#user_submit").attr('disabled', true)
         }
