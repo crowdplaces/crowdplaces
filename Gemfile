@@ -79,7 +79,7 @@ gem 'paypal-express', :require => 'paypal'
 # Payment (Dineromail)i
 gem 'dinero_mail_checkout', "~> 0.1.0"
 gem 'dinero_mail_ipn', git: "git://github.com/josemarluedke/dinero_mail_ipn.git"
-gem "catarse_dineromail", "~> 0.1.2"
+gem "catarse_dineromail", "~> 0.1.3"
 
 # Server
 gem 'thin'
