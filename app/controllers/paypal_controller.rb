@@ -109,7 +109,7 @@ class PaypalController < ApplicationController
 
   def paypal_payment(backer)
     {
-      currency_code: 'BRL',
+      currency_code: 'USD',
       description: t('paypal_description', scope: SCOPE, :project_name => backer.project.name, :value => backer.display_value),
       items: [{
         name: backer.project.name,
