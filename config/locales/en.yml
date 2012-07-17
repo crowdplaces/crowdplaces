@@ -571,7 +571,7 @@ en:
   user:
     backs_text:
       many: "Funded this project and %{total} others."
-      one:  "Funded only this project at this point."
+      one: "Funded only this project at this point."
       two: "Funded this project and one other."
     no_name: Unnamed
   users:

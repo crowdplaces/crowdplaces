@@ -571,7 +571,7 @@ es:
   user:
     backs_text:
       many: "Dio este y otros %{total} proyectos"
-      one:  "Dio solamente a este proyecto hasta ahora"
+      one: "Dio solamente a este proyecto hasta ahora"
       two: "Dio a este y otro proyecto"
     no_name: "Sin nombre"
   users:
