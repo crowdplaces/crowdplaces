@@ -269,6 +269,8 @@ GEM
       rack
     omniauth-facebook (1.2.0)
       omniauth-oauth2 (~> 1.0.0)
+    omniauth-linkedin (0.0.6)
+      omniauth-oauth (~> 1.0.0)
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
@@ -494,6 +496,7 @@ DEPENDENCIES
   moip!
   omniauth (~> 1.1.0)
   omniauth-facebook (~> 1.2.0)
+  omniauth-linkedin (~> 0.0.6)
   omniauth-openid (~> 1.0.1)
   omniauth-twitter (~> 0.0.12)
   on_the_spot
