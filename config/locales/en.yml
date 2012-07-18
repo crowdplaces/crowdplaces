@@ -341,6 +341,9 @@ en:
       successful: funded
       waiting_confirmation: waiting
   projects:
+    recommended_header:
+      sugest_for_you: "suggested for you"
+      highlight_project: "featured project"
     box:
       by: by
     admin_fields:
