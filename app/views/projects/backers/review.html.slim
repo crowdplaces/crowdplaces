@@ -42,9 +42,9 @@
               = check_box_tag 'accept'
               = label_tag 'accept', t('accept_terms_html', :link => link_to(t('terms'), terms_path, :target => :_blank)), :class => 'inline'
             - if @backer.credits
-              = form.buttons do
+              = form.actions do
                 .bootstrap-twitter
-                  = form.commit_button (@backer.credits ? t('.submit.credits') : t('.submit.moip')), :button_html => {:disabled => true, :class => 'btn'}
+                  = form.submit (@backer.credits ? t('.submit.credits') : t('.submit.moip')), :id => "user_submit", :button_html => {:disabled => true, :class => 'btn'}
           - unless @backer.credits
             #payment
               .title

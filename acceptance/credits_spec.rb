@@ -54,9 +54,9 @@ feature "Credits Feature" do
       backer = @backers.first
 
       columns[0].find("a")[:href].should match(/\/projects\/#{backer.project.to_param}/)
-      columns[1].text.should == I18n.l(backer.created_at.to_date)
+      columns[1].text.should == I18n.l(backer.created_at.to_date, format: :long)
       columns[2].text.should == backer.display_value
-      columns[3].text.should == I18n.l(backer.refund_deadline.to_date)
+      columns[3].text.should == I18n.l(backer.refund_deadline.to_date, format: :long)
       columns[4].text.should == "Solicitar estorno"
     end
 

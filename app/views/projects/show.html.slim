@@ -21,10 +21,10 @@
       #project_warning.bootstrap-alert
         - if @project.rejected?
           .alert.alert-warning
-            = t('.rejected')
+            = t('projects.project_warning.rejected')
         - else
           .alert.alert-warning
-            = t('.waiting')
+            = t('projects.project_warning.waiting')
     #project_description[data-project=@project.to_json]
     .project_image
       = image_tag @project.display_image, :width=>'85px', :height => '67px'

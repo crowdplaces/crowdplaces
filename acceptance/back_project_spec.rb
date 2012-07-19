@@ -121,80 +121,80 @@ feature "Back project" do
 
 
 
-  #scenario "As a user without credits, I want to back a project by clicking on the reward on the back project page, and pay using PayPal" do
-    #fake_login
+  scenario "As a user without credits, I want to back a project by clicking on the reward on the back project page, and pay using PayPal" do
+    fake_login
 
-    #visit project_path(@project)
-    #verify_translations
+    visit project_path(@project)
+    verify_translations
 
-    #click_on "Quero apoiar este projeto"
-    #verify_translations
-    #current_path.should == new_project_backer_path(@project)
+    click_on "Quero apoiar este projeto"
+    verify_translations
+    current_path.should == new_project_backer_path(@project)
 
-    #fill_in "Com quanto você quer apoiar?", with: "10"
+    fill_in "Com quanto você quer apoiar?", with: "10"
 
-    #choose "backer_reward_id_#{@rewards[2].id}"
-    #find("#backer_value")[:value].should == "30"
-    #choose "backer_reward_id_#{@rewards[1].id}"
-    #find("#backer_value")[:value].should == "30"
-    #choose "backer_reward_id_#{@rewards[0].id}"
-    #find("#backer_value")[:value].should == "30"
-    #choose "backer_reward_id_0"
-    #find("#backer_value")[:value].should == "30"
+    choose "backer_reward_id_#{@rewards[2].id}"
+    find("#backer_value")[:value].should == "30"
+    choose "backer_reward_id_#{@rewards[1].id}"
+    find("#backer_value")[:value].should == "30"
+    choose "backer_reward_id_#{@rewards[0].id}"
+    find("#backer_value")[:value].should == "30"
+    choose "backer_reward_id_0"
+    find("#backer_value")[:value].should == "30"
 
-    #fill_in "Com quanto você quer apoiar?", with: "10"
-    #choose "backer_reward_id_#{@rewards[1].id}"
-    #find("#backer_value")[:value].should == "20"
+    fill_in "Com quanto você quer apoiar?", with: "10"
+    choose "backer_reward_id_#{@rewards[1].id}"
+    find("#backer_value")[:value].should == "20"
 
-    #Backer.count.should == 0
+    Backer.count.should == 0
 
-    #click_on "Revisar e realizar pagamento"
-    #verify_translations
-    #current_path.should == review_project_backers_path(@project)
-    #page.should have_content("Você irá apoiar com $ 20 e ganhará a seguinte recompensa: $20 reward")
-    #Backer.count.should == 1
-    #backer = Backer.first
-    #backer.payment_method.should == "MoIP"
+    click_on "Revisar e realizar pagamento"
+    verify_translations
+    current_path.should == review_project_backers_path(@project)
+    page.should have_content("Você irá apoiar com $ 20 e ganhará a seguinte recompensa: $20 reward")
+    Backer.count.should == 1
+    backer = Backer.first
+    backer.payment_method.should == "MoIP"
 
-    #page.evaluate_script('jQuery.mask = function() { return true; }')
+    page.evaluate_script('jQuery.mask = function() { return true; }')
 
-    #fill_in "Nome completo", with: "Foo bar"
-    #fill_in "Email", with: "foo@bar.com"
-    #fill_in "CPF", with: "815.587.240-87"
-    #fill_in "CEP", with: "90050-004"
-    #fill_in "Logradouro", with: "Lorem Ipsum"
+    fill_in "Nome completo", with: "Foo bar"
+    fill_in "Email", with: "foo@bar.com"
+    fill_in "CPF", with: "815.587.240-87"
+    fill_in "CEP", with: "90050-004"
+    fill_in "Logradouro", with: "Lorem Ipsum"
 
-    ## Sleep to wait for the loading of zip code data
-    ##sleep 2
+    # Sleep to wait for the loading of zip code data
+    #sleep 2
 
-    #fill_in "Número", with: "1010"
-    #fill_in "Complemento", with: "10"
-    #fill_in "Bairro", with: "Foo bar"
-    #fill_in "Cidade", with: "Foo bar"
-    #select "Foo bar", from: "Estado"
-    #fill_in "Telefone celular", with: "(99)9999-9999"
+    fill_in "Número", with: "1010"
+    fill_in "Complemento", with: "10"
+    fill_in "Bairro", with: "Foo bar"
+    fill_in "Cidade", with: "Foo bar"
+    select "Foo bar", from: "Estado"
+    fill_in "Telefone celular", with: "(99)9999-9999"
 
-    #page.should have_css("#user_full_name.ok")
-    #page.should have_css("#user_email.ok")
+    page.should have_css("#user_full_name.ok")
+    page.should have_css("#user_email.ok")
 
-    #check "Eu li e estou de acordo com os termos de uso."
-    #page.should have_content("Como você quer pagar?")
-    #find(".choose_payment .cc a").click
+    check "Eu li e estou de acordo com os termos de uso."
+    page.should have_content("Como você quer pagar?")
+    find(".choose_payment .paypal a").click
 
-    #current_url.should match(/paypal\.com/)
-    #backer.reload
-    #backer.payment_method.should == "PayPal"
+    current_url.should match(/paypal\.com/)
+    backer.reload
+    backer.payment_method.should == "PayPal"
 
-    #visit thank_you_path
-    #verify_translations
+    visit thank_you_path
+    verify_translations
 
-    #within 'head title' do
-      #page.should have_content("Muito obrigado")
-    #end
+    within 'head title' do
+      page.should have_content("Muito obrigado")
+    end
 
-    #page.should have_content "Você agora é parte do grupo que faz de tudo para o #{@project.name} acontecer."
+    page.should have_content "Você agora é parte do grupo que faz de tudo para o #{@project.name} acontecer."
 
-  #end
+  end
 
   #scenario "As a user without credits, I want to back a project by clicking on a reward on the project page, and pay using MoIP", :now => true do
 
