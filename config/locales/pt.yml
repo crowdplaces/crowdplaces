@@ -396,6 +396,8 @@ pt:
         choose_payment: "Como você quer pagar?"
         choose_credit_card: "Cartão de crédito"
         choose_boleto: "Boleto bancário"
+        choose_dineromail_hint: "Preferido para usuários no Chile e Argentina."
+        choose_paypal_hint: "Preferido se você estiver fora do Chile e Argentina."
         you_are_about_html: "Você está prestes a fazer parte do grupo que faz de tudo para o %{link} acontecer."
     create:
       success: "Seu projeto foi criado com sucesso! Logo entraremos em contato. Muito obrigado!"
