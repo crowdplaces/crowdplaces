@@ -29,7 +29,7 @@ class PaypalController < ApplicationController
         ip: request.remote_ip,
         return_url: success_paypal_url(backer),
         cancel_return_url: cancel_paypal_url(backer),
-        currency_code: 'BRL',
+        currency_code: 'USD',
         description: t('paypal_description', scope: SCOPE, :project_name => backer.project.name, :value => backer.display_value),
         notify_url: notifications_paypal_url(backer)
       })
@@ -106,17 +106,4 @@ class PaypalController < ApplicationController
       puts "[PayPal] An API Certificate or API Signature is required to make requests to PayPal"
     end
   end
-
-  def paypal_payment(backer)
-    {
-      currency_code: 'USD',
-      description: t('paypal_description', scope: SCOPE, :project_name => backer.project.name, :value => backer.display_value),
-      items: [{
-        name: backer.project.name,
-        description: t('paypal_description', scope: SCOPE, :project_name => backer.project.name, :value => backer.display_value),
-        amount: backer.value
-      }]
-    }
-  end
-
 end
