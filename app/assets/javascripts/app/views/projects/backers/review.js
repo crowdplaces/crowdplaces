@@ -4,7 +4,9 @@ CATARSE.BackersReviewView = Backbone.View.extend({
     everything_ok = function(){
       var all_ok = true
       if($('#backer_credits').val() == "false"){
-        if(!ok('#user_full_name'))
+        if(!ok('#user_first_name'))
+          all_ok = false
+        if(!ok('#user_last_name'))
           all_ok = false
         //if(!cpf_ok())
           //all_ok = false
@@ -29,13 +31,11 @@ CATARSE.BackersReviewView = Backbone.View.extend({
         all_ok = false
       if(all_ok){
         if($('#back_with_credits').length < 1) {
-          //$('#payment.hide').show();
           $('.dineromail a, .paypal a').attr('disabled', false)
         } else {
           $("#user_submit").attr('disabled', false)
         }
       } else {
-        //$('#payment.hide').hide();
         if($('#back_with_credits').length < 1) {
           $('.dineromail a, .paypal a').attr('disabled', true)
         }else{

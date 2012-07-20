@@ -16,6 +16,8 @@ class User < ActiveRecord::Base
                   :image_url,
                   :newsletter,
                   :full_name,
+                  :first_name,
+                  :last_name,
                   :address_street,
                   :address_number,
                   :address_complement,
@@ -28,7 +30,9 @@ class User < ActiveRecord::Base
                   :locale,
                   :twitter,
                   :facebook_link,
-                  :other_link
+                  :other_link,
+                  :address_country,
+                  :address_street_2
 
   include ActionView::Helpers::NumberHelper
   include ActionView::Helpers::TextHelper
@@ -69,7 +73,7 @@ class User < ActiveRecord::Base
     order("count_backs desc").
     group("users.name, users.id, users.email")
   }
-  before_save :fix_twitter_user
+  before_save :fix_twitter_user, :fill_full_name
 
   def self.find_for_database_authentication(warden_conditions)
     conditions = warden_conditions.dup
@@ -219,6 +223,12 @@ class User < ActiveRecord::Base
   end
 
   protected
+  def fill_full_name
+    if self.first_name.present? and self.last_name.present?
+      self.full_name = "#{self.first_name} #{self.last_name}"
+    end
+  end
+
   def fix_twitter_user
     self.twitter.gsub! /@/, '' if self.twitter
   end

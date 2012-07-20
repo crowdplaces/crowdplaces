@@ -82,23 +82,22 @@ feature "Back project" do
 
     page.evaluate_script('jQuery.mask = function() { return true; }')
 
-    fill_in "Nome completo", with: "Foo bar"
+    fill_in "Primeiro nome", with: "Foo"
+    fill_in "Sobrenome", with: "Bar"
     fill_in "Email", with: "foo@bar.com"
-    fill_in "CPF", with: "815.587.240-87"
     fill_in "CEP", with: "90050-004"
     fill_in "Logradouro", with: "Lorem Ipsum"
+    fill_in "Logradouro 2", with: "Lorem Ipsum 2"
 
     # Sleep to wait for the loading of zip code data
     #sleep 2
 
-    fill_in "Número", with: "1010"
-    fill_in "Complemento", with: "10"
-    fill_in "Bairro", with: "Foo bar"
     fill_in "Cidade", with: "Foo bar"
-    select "Foo bar", from: "Estado"
+    fill_in "País", with: "Foo bar"
     fill_in "Telefone celular", with: "(99)9999-9999"
 
-    page.should have_css("#user_full_name.ok")
+    page.should have_css("#user_first_name.ok")
+    page.should have_css("#user_last_name.ok")
     page.should have_css("#user_email.ok")
 
     check "Eu li e estou de acordo com os termos de uso."
@@ -158,23 +157,22 @@ feature "Back project" do
 
     page.evaluate_script('jQuery.mask = function() { return true; }')
 
-    fill_in "Nome completo", with: "Foo bar"
+    fill_in "Primeiro nome", with: "Foo"
+    fill_in "Sobrenome", with: "Bar"
     fill_in "Email", with: "foo@bar.com"
-    fill_in "CPF", with: "815.587.240-87"
     fill_in "CEP", with: "90050-004"
     fill_in "Logradouro", with: "Lorem Ipsum"
+    fill_in "Logradouro 2", with: "Lorem Ipsum 2"
 
     # Sleep to wait for the loading of zip code data
     #sleep 2
 
-    fill_in "Número", with: "1010"
-    fill_in "Complemento", with: "10"
-    fill_in "Bairro", with: "Foo bar"
     fill_in "Cidade", with: "Foo bar"
-    select "Foo bar", from: "Estado"
+    fill_in "País", with: "Foo bar"
     fill_in "Telefone celular", with: "(99)9999-9999"
 
-    page.should have_css("#user_full_name.ok")
+    page.should have_css("#user_first_name.ok")
+    page.should have_css("#user_last_name.ok")
     page.should have_css("#user_email.ok")
 
     check "Eu li e estou de acordo com os termos de uso."

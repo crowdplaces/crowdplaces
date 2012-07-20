@@ -95,16 +95,20 @@ es:
         address_neighbourhood: Barrio
         address_number: Número
         address_state: "Estado o Región"
-        address_street: Calle
+        address_street: "Calle 1"
+        address_street_2: "Calle 2"
+        address_country: "País"
         address_zip_code: "Código postal"
         cpf: CPF
         current_password: "Clave actual"
         email: "Correo electrónico"
         full_name: "Nombre completo"
+        first_name: "Nombre de pila"
+        last_name: "Apellido"
         name: Nombre
         password: Clave
         password_confirmation: "Confirmación de la clave"
-        phone_number: "Teléfono móvil"
+        phone_number: "Teléfono"
     models:
       backer: Dador
       category: Categoría

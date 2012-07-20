@@ -96,11 +96,15 @@ pt:
         address_number: Número
         address_state: Estado
         address_street: Logradouro
+        address_street_2: "Logradouro 2"
+        address_country: "País"
         address_zip_code: CEP
         cpf: CPF
         current_password: "Senha atual"
         email: Email
         full_name: "Nome completo"
+        first_name: "Primeiro nome"
+        last_name: "Sobrenome"
         name: Nome
         password: Senha
         password_confirmation: "Confirmação de senha"

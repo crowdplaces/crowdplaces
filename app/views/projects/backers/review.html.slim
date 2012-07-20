@@ -26,16 +26,14 @@
           = hidden_field_tag 'payment_method_url', nil
           - unless @backer.credits
             = form.inputs do
-              = form.input :full_name, :required => true, :as => :string
-              = form.input :cpf, :as => :string, :input_html => {:autocomplete => 'off'}
+              = form.input :first_name, :required => true, :as => :string
+              = form.input :last_name, :required => true, :as => :string
               = form.input :email, :required => true, :as => :string
               = form.input :address_street, :as => :string
-              = form.input :address_number, :as => :string
-              = form.input :address_complement, :required => false, :as => :string
-              = form.input :address_neighbourhood, :as => :string
+              = form.input :address_street_2, :as => :string
               = form.input :address_zip_code, :as => :string, :input_html => {:autocomplete => 'off'}
               = form.input :address_city, :as => :string
-              = form.input :address_state, :as => :select, :collection => State.array
+              = form.input :address_country, :as => :string
               = form.input :phone_number, :as => :string, :input_html => {:autocomplete => 'off'}
           .submit
             fieldset.accept_terms
