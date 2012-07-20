@@ -95,15 +95,15 @@ es:
         address_neighbourhood: Barrio
         address_number: Número
         address_state: "Estado o Región"
-        address_street: "Calle 1"
-        address_street_2: "Calle 2"
+        address_street: "Dirección"
+        address_street_2: "Dirección (opcional)"
         address_country: "País"
         address_zip_code: "Código postal"
         cpf: CPF
         current_password: "Clave actual"
-        email: "Correo electrónico"
+        email: "Email"
         full_name: "Nombre completo"
-        first_name: "Nombre de pila"
+        first_name: "Nombre"
         last_name: "Apellido"
         name: Nombre
         password: Clave
