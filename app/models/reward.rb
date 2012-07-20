@@ -20,12 +20,27 @@ class Reward < ActiveRecord::Base
   def display_remaining
     I18n.t('reward.display_remaining', :remaining => remaining, :maximum => maximum_backers)
   end
+
   def name
-    "<div class='reward_minimum_value'>#{minimum_value > 0 ? display_minimum+'+' : I18n.t('reward.dont_want')}</div><div class='reward_description'>#{h description}</div>#{'<div class="sold_out">' + I18n.t('reward.sold_out') + '</div>' if sold_out?}<div class='clear'></div>".html_safe
+    title = "#{minimum_value > 0 ? display_minimum+'+' : I18n.t('reward.dont_want')}"
+    if I18n.locale == :es and minimum_value > 0
+      begin
+        title = "#{title} <span>(estimar en el peso chileno: #{(display_minimum_in_clp)})</span>"
+      rescue Exception => e
+      end
+    end
+    "<div class='reward_minimum_value'>#{title}</div><div class='reward_description'>#{h description}</div>#{'<div class="sold_out">' + I18n.t('reward.sold_out') + '</div>' if sold_out?}<div class='clear'></div>".html_safe
   end
   def display_minimum
     number_to_currency minimum_value, :unit => '$', :precision => 2, :delimiter => '.'
   end
+
+  def display_minimum_in_clp
+    number_to_currency ("%.2f" % (EXCHANGE_RATE_CLP * minimum_value)).to_f, :unit => '$', :precision => 2, :delimiter => '.'
+    #minimum_value.usd_to_clp
+  end
+
+
   def short_description
     truncate description, :length => 35
   end

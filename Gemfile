@@ -26,6 +26,7 @@ gem 'cancan'
 gem 'rails_autolink', '~> 1.0.7'
 
 # Tools
+gem 'currency_switcher'
 gem 'mailchimp'
 gem "airbrake"
 gem 'feedzirra'
