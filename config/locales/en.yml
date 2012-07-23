@@ -587,13 +587,17 @@ en:
     no_name: Unnamed
   users:
     show:
-      email: ~
+      attention: Attention
       tabs:
         backed_projects: "Funded projects"
         created_projects: "Created projects"
         comments: Comments
         credits: Credits
         settings: Settings
+      user_social:
+        email: "Send me an email"
+        facebook: "Profile on facebook"
+        twitter: "Profile on twiiter"
     backs:
       anonymous: "Anonymous funding."
       no_backs: "%{name} hasn't boosted any projects yet. But, just you watch. it's only a matter of time!"

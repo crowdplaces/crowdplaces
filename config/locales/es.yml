@@ -584,13 +584,17 @@ es:
     no_name: "Sin nombre"
   users:
     show:
-      email: ~
+      attention: "atención"
       tabs:
         backed_projects: "Proyectos financiados"
         created_projects: "Proyectos creados"
         comments: Comentarios
         credits: Créditos
         settings: Ajustes
+      user_social:
+        email: "Envíame un correo electrónico"
+        facebook: "Perfil en facebook"
+        twitter: "Perfil en twitter"
     backs:
       anonymous: "Dador anónimo."
       no_backs: "%{name} no ha colaborado con ningún proyecto aún. ¡Pero sabemos que es sólo cuestión de tiempo!"
