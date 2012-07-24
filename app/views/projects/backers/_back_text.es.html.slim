@@ -1,10 +1,10 @@
-h3 Como eu apoio este projeto?
-p Primeiro, escolha o valor e a recompensa desejados. Depois nós te redirecionaremos para o #{link_to "MoIP", "http://www.moip.com.br/", :target => :_blank} para que você efetue o pagamento.
-h3 Quando o pagamento é efetivado?
-p Assim que o MoIP confirmar a transação. Depois, caso o projeto não atinja #{@project.display_goal} até #{@project.display_expires_at}, você receberá seu dinheiro de volta na forma de créditos no Catarse.
-h3 Então eu recebo meu dinheiro de volta se o projeto não sair?
-p Sim! Você recebe de volta 100% do que pagou na forma de créditos para apoiar outros projetos do Catarse.
-h3 E se eu não quiser usar os créditos no Catarse?
-p Sem problemas. É só entrar em #{link_to t('credits.title'), credits_path, :target => :_blank}, até 180 dias após seu apoio, e solicitar um estorno. Caso tenha pago com cartão de crédito, o estorno será feito na sua próxima fatura. Se pagou com débito em conta ou boleto bancário, a única maneira de fazer o estorno é você abrir uma conta no MoIP. Aí a gente transfere o valor da nossa conta para a sua e, de lá, você transfere para sua conta no banco. Independente do jeito que preferir, você não terá nenhuma despesa.
-h3 Se o projeto for financiado, como eu recebo minha recompensa?
-p Quando sua recompensa estiver pronta, #{link_to @project.user.display_name, user_path(@project.user)} vai entrar em contato com você para combinar a entrega.
+h3 ¿Cómo puedo apoyar este proyecto?
+p Primero, selecciona el monto que quieres dar y la recompensa. Luego presiona 'revisa y termina de efectuar el pago' al inferior de la página para proceder con el pago.
+h3 ¿Cuando se hace efectivo el pago?
+p Una vez que el sistema de pagos (Paypal o Dineromail) confirme la transacción.
+h3 Entonces, ¿Recibiré el dinero de vuelta si el proyecto no alcanza la meta?
+p Si el proyecto no alcanza la meta de #{@project.display_goal} el #{@project.display_expires_at}, recibirás tu dinero de vuelta en forma de créditos en Crowdplaces. 
+h3 Ok, ¿Pero qué hago si no quiero usar el crédito en Crowdplaces?
+p No hay problema. Anda a ‘mi cuenta’ en la esquina superior derecha y luego a ‘mi crédito’ para solicitar la devolución del dinero. Tendrás un máximo de 60 días después desde que realizaste el aporte para solicitar la devolución.
+h3 Entonces, ¿Una vez que el proyecto alcanza la meta de financiamiento yo recibo mi recompensa?
+p #{link_to @project.user.display_name, user_path(@project.user)}, el creador de proyecto, es responsabilidad de la distribución de las recompensas. Cuando tu recompensa esté lista #{link_to @project.user.display_name, user_path(@project.user)} te contactará para coordinar la entrega.
