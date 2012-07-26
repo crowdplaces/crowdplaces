@@ -402,6 +402,8 @@ es:
         choose_boleto: n/a
         choose_dineromail_hint: "Preferido por usuarios en Chile y Argentina."
         choose_paypal_hint: "Preferido por usuarios afuera de Chile y Argentina."
+        dineromail_question: "¿Quieres pagar en Pesos Chilenos?"
+        click_here: "Clique aqui"
         you_are_about_html: "Estás a punto de formar parte de un grupo que hace todo lo posible para hacer %{link} realidad."
     create:
       success: "Tu proyecto para la ciudad se ha creado con éxito. Te contactaremos pronto. ¡Muchísimas gracias!"

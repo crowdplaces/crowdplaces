@@ -165,8 +165,9 @@
             span
               font-family: Lato-Bold
               font-size: 22px
-          .paypal, .dineromail
+          .paypal
             +grid(7)
+            margin-left: 273px
             a
               display: block
               +background-image(linear-gradient(top, $crowdplaces_white, $crowdplaces_ice))
@@ -176,7 +177,7 @@
               font-size: 15px
               font-family: Lato-Regular
               color: black
-              height: 85px
+              height: 55px
               text-align: center
               text-decoration: none
               span
@@ -191,6 +192,13 @@
               img
                 +opacity(0.6)
           .dineromail
-            +alpha
+            margin-top: 5px
+            text-align: center
+            font-family: Lato-Regular
+            font-size: 17px
+            a
+              color: $crowdplaces_pink
+              &:hover
+                color: $crowdplaces_orange
           .paypal
             +omega

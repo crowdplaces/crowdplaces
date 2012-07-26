@@ -405,6 +405,8 @@ en:
         choose_boleto: n/a
         choose_dineromail_hint: "Preferred for users in Chile and Argentina."
         choose_paypal_hint: "Preferred if you are outside of Chile and Argentina."
+        dineromail_question: "Want to pay with Chilean Pesos?"
+        click_here: "Click here"
         you_are_about_html: "You are about to become part of the crew that is making %{link} happen."
     create:
       success: "Your placemaking project was successfully created! We'll be in touch soon. Thanks!"

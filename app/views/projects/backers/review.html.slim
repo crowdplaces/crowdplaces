@@ -48,16 +48,20 @@
               .title
                 h1= t('.choose_payment')
               .choose_payment
-                .dineromail
-                  = link_to 'javascript:void(0);', :"data-payment_method_url" => catarse_dineromail.pay_payment_dineromail_path(@backer), :method => :get, :class => 'payment_link', disabled: true do
-                    = image_tag 'catarse/dineromail_icon.png'
-                    span= t('.choose_dineromail_hint')
-                  .clearfix
-                .or
-                  span= t('or')
+                /.dineromail
+                  /= link_to 'javascript:void(0);', :"data-payment_method_url" => catarse_dineromail.pay_payment_dineromail_path(@backer), :method => :get, :class => 'payment_link', disabled: true do
+                    /= image_tag 'catarse/dineromail_icon.png'
+                    /span= t('.choose_dineromail_hint')
+                  /.clearfix
+                /.or
+                  /span= t('or')
                 .paypal
                   = link_to 'javascript:void(0);', :"data-payment_method_url" => pay_paypal_path(@backer), :method => :get, :class => 'payment_link', disabled: true do
                     = image_tag 'catarse/paypal_icon.png'
-                    span= t('.choose_paypal_hint')
-                  .clearfix
+                    /span= t('.choose_paypal_hint')
+                .clearfix
+                .dineromail
+                  span= t('.dineromail_question')
+                  |  
+                  = link_to t('.click_here'), 'javascript:void(0);', :"data-payment_method_url" => catarse_dineromail.pay_payment_dineromail_path(@backer), :method => :get, :class => 'payment_link', disabled: true
     .clearfix
