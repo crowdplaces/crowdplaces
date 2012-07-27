@@ -8,10 +8,8 @@ p Once the payment gateway confirms the transaction.
 h3 So I get the money back if the project does not reach its goal?
 p If the project does not reach its goal of #{@project.display_goal} by #{@project.display_expires_at} you get your money back in the form of credit on Crowdplaces to support other projects.
 
-// TEXT TODO
 h3 Ok, but what if I don’t want to use the credit on Crowdplaces?
-p No problem. Just go to "my account" in the top right corner and then to "my credit" to request the money back up to 60 days after your boost.
-
+p No problem. Just go to “my account” in the top right corner and then to “my credit” to request the money back within 60 days after your boost.
 
 h3 So once the project is funded, I get my reward?
 p It is up to #{link_to @project.user.display_name, user_path(@project.user)}, the project creator, to be clear about when rewards will be delivered. When your reward is ready, #{link_to @project.user.display_name, user_path(@project.user)} will contact you to arrange delivery.
