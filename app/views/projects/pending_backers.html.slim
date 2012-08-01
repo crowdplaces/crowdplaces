@@ -51,9 +51,9 @@
               .input.total_results
                 #total_results
                   = pluralize_without_number @search.count, t('found_singular'), t('found_plural')
-                  |  
+                  |
                   strong= @search.count
-                  |  
+                  |
                   = pluralize_without_number(@search.count, t('backer_singular'), t('backer_plural')).downcase
         .clearfix
         = paginate @backers
@@ -92,7 +92,14 @@
                         = backer.reward.display_minimum
                       - else
                         |-
-                    td.key= backer.key
+                    td.key
+                      = backer.key
+                      - if backer.payment_token
+                        br/
+                        br/
+                        strong (Payment Token - Trx_Id)
+                        br/
+                        =backer.payment_token
                     td= check_box_tag "confirmed__#{backer.id}", '1', backer.confirmed
                     td= check_box_tag "anonymous__#{backer.id}", '1', backer.anonymous
                     td= (backer.credits ? t('yes') : t('no'))
@@ -100,4 +107,4 @@
                     td= check_box_tag "refunded__#{backer.id}", '1', backer.refunded
         = paginate @backers
     .clearfix
-      
+
