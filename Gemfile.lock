@@ -16,6 +16,15 @@ GIT
       sass (>= 3.1.0)
 
 GIT
+  remote: git://github.com/josemarluedke/catarse_dineromail.git
+  revision: c9166f2a50478e116cff749763b58769ec13d71b
+  specs:
+    catarse_dineromail (0.1.8)
+      dinero_mail_checkout
+      dinero_mail_ipn
+      rails (~> 3.2.6)
+
+GIT
   remote: git://github.com/josemarluedke/dinero_mail_ipn.git
   revision: 44f281dc85544bdf0adb41fd6de6105446c679fa
   specs:
@@ -110,10 +119,6 @@ GEM
       xpath (~> 0.1.4)
     carrierwave (0.5.8)
       activesupport (~> 3.0)
-    catarse_dineromail (0.1.8)
-      dinero_mail_checkout
-      dinero_mail_ipn
-      rails (~> 3.2.6)
     childprocess (0.3.3)
       ffi (~> 1.0.6)
     chunky_png (1.2.5)
@@ -461,7 +466,7 @@ DEPENDENCIES
   cancan
   capybara (>= 1.0.1)
   carrierwave (= 0.5.8)
-  catarse_dineromail (~> 0.1.8)
+  catarse_dineromail (~> 0.1.8)!
   coffee-rails (~> 3.2.2)
   compass-960-plugin (~> 0.10.4)
   compass-rails (~> 1.0.1)
