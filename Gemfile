@@ -36,7 +36,7 @@ gem 'validation_reflection', git: 'git://github.com/ncri/validation_reflection.g
 gem 'maxim-sexy_pg_constraints'
 gem 'inherited_resources', '1.3.1'
 gem 'spectator-validates_email', require: 'validates_email'
-gem 'has_vimeo_video', '>= 0.0.4'
+gem 'has_vimeo_video', '>= 0.0.5'
 gem 'wirble'
 gem "on_the_spot"
 gem 'weekdays'
