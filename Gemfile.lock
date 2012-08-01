@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: git://github.com/josemarluedke/catarse_dineromail.git
-  revision: 9ace9ef8a3875ca266757564c537bfd5eb237d0f
+  revision: ca571c1bbb3c3be66bf622781fd6629f301fe41c
   specs:
     catarse_dineromail (0.1.8)
       dinero_mail_checkout
