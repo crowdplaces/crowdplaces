@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 source 'http://gems.github.com'
 
-gem 'rails', '3.2.6'
+gem 'rails', '3.2.7'
 gem 'rake', '0.9.2.2'
 
 # Database [Putting pg to the end because of a weird bug with Lion, pg and openssl]
@@ -78,7 +78,7 @@ gem 'paypal-express', :require => 'paypal'
 # Payment (Dineromail)i
 gem 'dinero_mail_checkout', "~> 0.1.0"
 gem 'dinero_mail_ipn', git: "git://github.com/josemarluedke/dinero_mail_ipn.git"
-gem "catarse_dineromail", "~> 0.1.4"
+gem "catarse_dineromail", "~> 0.1.5"
 
 # Server
 gem 'thin'
