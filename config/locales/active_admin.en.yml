@@ -1,0 +1,3 @@
+en:
+  project:
+    vimeo_regex_validation: "only Vimeo URLs are allowed"
