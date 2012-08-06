@@ -24,10 +24,11 @@ ActiveAdmin.register User do
       f.input :name, :as => :string
       f.input :full_name, :as => :string
       f.input :nickname, :as => :string
+      f.input :first_name, :as => :string
+      f.input :last_name, :as => :string
       f.input :bio, :as => :text
       f.input :newsletter
       f.input :project_updates
-      f.input :admin
       f.input :locale, :as => :string
     end
 
