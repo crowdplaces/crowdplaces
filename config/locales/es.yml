@@ -95,20 +95,20 @@ es:
         address_neighbourhood: Barrio
         address_number: Número
         address_state: "Estado o Región"
-        address_street: "Dirección"
+        address_street: Dirección
         address_street_2: "Dirección (opcional)"
-        address_country: "País"
+        address_country: País
         address_zip_code: "Código postal"
         cpf: CPF
         current_password: "Clave actual"
-        email: "Email"
+        email: Email
         full_name: "Nombre completo"
-        first_name: "Nombre"
-        last_name: "Apellido"
+        first_name: Nombre
+        last_name: Apellido
         name: Nombre
         password: Clave
         password_confirmation: "Confirmación de la clave"
-        phone_number: "Teléfono"
+        phone_number: Teléfono
     models:
       backer: Dador
       category: Categoría
@@ -586,7 +586,7 @@ es:
     no_name: "Sin nombre"
   users:
     show:
-      attention: "atención"
+      attention: atención
       tabs:
         backed_projects: "Proyectos financiados"
         created_projects: "Proyectos creados"
