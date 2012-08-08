@@ -10,7 +10,7 @@
           strong= "#{@total_backs} "
           = t('.total_backs')
           | ·
-          strong= "#{number_to_currency @total_backed, :unit => '$', :precision => 0, :delimiter => '.'} "
+          strong= "#{number_to_currency @total_backed, :unit => 'USD $', :precision => 0, :delimiter => '.'} "
           = t('.total_backed')
           | ·
           strong= "#{@total_users} "

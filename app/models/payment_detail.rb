@@ -12,7 +12,7 @@ class PaymentDetail < ActiveRecord::Base
         :login => Configuration[:paypal_username],
         :password => Configuration[:paypal_password],
         :signature => Configuration[:paypal_signature]
-      }) 
+      })
       response = @@gateway.details_for(self.backer.payment_token)
       process_paypal_response(response) if response.present?
     end
@@ -26,15 +26,15 @@ class PaymentDetail < ActiveRecord::Base
   end
 
   def display_service_tax
-    number_to_currency service_tax_amount, :unit => "$", :precision => 2, :delimiter => '.'
+    number_to_currency service_tax_amount, :unit => "USD $", :precision => 2, :delimiter => '.'
   end
 
   def display_net_amount
-    number_to_currency net_amount, :unit => "$", :precision => 2, :delimiter => '.'
+    number_to_currency net_amount, :unit => "USD $", :precision => 2, :delimiter => '.'
   end
 
   def display_total_amount
-    number_to_currency total_amount, :unit => "$", :precision => 2, :delimiter => '.'
+    number_to_currency total_amount, :unit => "USD $", :precision => 2, :delimiter => '.'
   end
 
   def display_payment_date

@@ -9,7 +9,7 @@ es:
     - vie
     - sáb
     abbr_month_names:
-    - 
+    -
     - ene
     - feb
     - mar
@@ -35,7 +35,7 @@ es:
       long: ! '%A %d de %B de %Y'
       short: ! '%d de %b'
     month_names:
-    - 
+    -
     - enero
     - febrero
     - marzo
@@ -137,14 +137,14 @@ es:
         delimiter: .
         format: ! '%u%n'
         precision: 0
-        separator: ! ','
+        separator: ! '.'
         significant: false
         strip_insignificant_zeros: false
-        unit: $
+        unit: "$"
     format:
       delimiter: .
       precision: 3
-      separator: ! ','
+      separator: ! '.'
       significant: false
       strip_insignificant_zeros: false
     human:

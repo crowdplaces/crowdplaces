@@ -18,7 +18,7 @@
         #back_with_credits
           .bootstrap-alert
             .alert
-              #credits_notice= t('.credits_notice_html', :credits => number_to_currency((current_user.credits - @backer.value), :unit => '$', :precision => 0, :delimiter => '.'))
+              #credits_notice= t('.credits_notice_html', :credits => number_to_currency((current_user.credits - @backer.value), :unit => 'USD $', :precision => 0, :delimiter => '.'))
       .bootstrap-form
         = semantic_form_for current_user, :url => checkout_project_backer_path(@backer.project, @backer), :html => { :id => 'review_form', :class => "form-horizontal #{('dont_align' if @backer.credits)}" } do |form|
           = hidden_field_tag 'backer_id', @backer.id
@@ -62,6 +62,6 @@
                 .clearfix
                 .dineromail
                   span= t('.dineromail_question')
-                  |  
+                  |
                   = link_to t('.click_here'), 'javascript:void(0);', :"data-payment_method_url" => catarse_dineromail.pay_payment_dineromail_path(@backer), :method => :get, :class => 'payment_link', disabled: true
     .clearfix

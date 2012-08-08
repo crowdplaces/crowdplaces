@@ -2,7 +2,7 @@ en:
   number:
     currency:
       format:
-        unit: $
+        unit: "$"
   time:
     formats:
       updates: "%d %b %Y"

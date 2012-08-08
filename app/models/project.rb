@@ -44,7 +44,7 @@ class Project < ActiveRecord::Base
   scope :not_expiring, not_expired.where("NOT (expires_at < (current_timestamp + interval '2 weeks'))")
   scope :recent, where("current_timestamp - projects.created_at <= '15 days'::interval")
   scope :successful, where(successful: true)
-  scope :recommended_for_home, ->{ 
+  scope :recommended_for_home, ->{
     includes(:user, :category, :backer_total).
     recommended.
     visible.
@@ -52,10 +52,10 @@ class Project < ActiveRecord::Base
     order('random()').
     limit(4)
   }
-  scope :expiring_for_home, ->(exclude_ids){ 
+  scope :expiring_for_home, ->(exclude_ids){
     includes(:user, :category, :backer_total).where("coalesce(id NOT IN (?), true)", exclude_ids).visible.expiring.order('date(expires_at), random()').limit(3)
   }
-  scope :recent_for_home, ->(exclude_ids){ 
+  scope :recent_for_home, ->(exclude_ids){
     includes(:user, :category, :backer_total).where("coalesce(id NOT IN (?), true)", exclude_ids).visible.recent.not_expiring.order('date(created_at) DESC, random()').limit(3)
   }
 
@@ -85,11 +85,11 @@ class Project < ActiveRecord::Base
   end
 
   def display_pledged
-    number_to_currency pledged, :unit => '$', :precision => 0, :delimiter => '.'
+    number_to_currency pledged, :unit => 'USD $', :precision => 0, :delimiter => '.'
   end
 
   def display_goal
-    number_to_currency goal, :unit => '$', :precision => 0, :delimiter => '.'
+    number_to_currency goal, :unit => 'USD $', :precision => 0, :delimiter => '.'
   end
 
   def pledged
