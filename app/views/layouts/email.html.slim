@@ -3,29 +3,18 @@ html
     meta content="text/html; charset=utf-8" http-equiv="Content-Type"
     title= message.subject
   body
-    div id="background" style="background-image: url(#{root_url}/assets/crowdplaces/bg.png); background-repeat:repeat; margin:0px; padding: 0px;"
-      div id="header" style="background-image: url(#{root_url}/assets/crowdplaces/bg_header.png); background-repeat:repeat-x; margin:0px; padding: 0px; padding-top: 10px; height: 82px; text-align: center"
+    div style="background-image: url(#{root_url}/assets/crowdplaces/bg.png); background-repeat:repeat; margin:0px;padding: 0px;"
+      div style="background-image: url(#{root_url}/assets/crowdplaces/bg_header.png); background-repeat:repeat-x; margin:0px; padding: 0px; padding-top: 10px; height: 82px; text-align: center"
         = image_tag "#{root_url}/assets/crowdplaces/logo.png", :style => "border:0 none;"
-      table width="100%" border="0" cellspacing="0" cellpadding="0" frame="void" style="margin:0; padding:0; border:0 none; border-spacing: 0px 0px; border-collapse: collapse; height:100%;"
-        tbody style="margin:0; padding:0; border:0;"
-          tr
-            td align="center" style="margin:0; padding:0; border:0 none;" valign="top"
-              br
-              br
-              table width="600" border="0" cellspacing="0" cellpadding="0" frame="void" id="content" style="margin:0; padding:0; border:0 none; border-spacing:0px 0px; border-collapse:collapse;"
-                tbody style="margin:0; padding:0; border:0;"
-                  tr
-                    td align="left" style="margin:0; padding:0; border:0 none; " valign="top"
-                      table border="0" cellspacing="0" cellpadding="0" frame="void" id="columns" style="margin:0; padding:0; border:1px solid #ccc; border-spacing:0; border-collapse:collapse; background-color: #fff;" width="100%"
-                        tbody style="margin:0; padding:0; border:0;"
-                          tr
-                            td width="600" id="main" align="left" valign="top" style="margin:0; padding:20px; border:0 none; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:150%; background-color: #fff;"
-                              table width="100%" frame="void" cellspacing="0" cellpadding="0" border="0" style="margin:0; padding:0; border:0 none; border-spacing:0px 0px; border-collapse:collapse; font-size:15px; color:#333; background-color: #fff;"
-                                tbody style="margin:0; padding:0; border:0;"
-                                  tr
-                                    td align="left" valign="top" style="margin:0; border:0 none;"
-                                      div class="repeat" id="paragraph" style="margin:0; padding:0px; border:0 none; font-size:14px; color:#666; text-align:left; background-color: #fff;"
-                                        p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-color: initial; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: normal; line-height: 17px;"
-                                          = yield
-              br
-              br
+
+        div style="background: #FFF; width: 620px; margin: auto; margin-top: 50px;"
+          #content
+            div style="font-family: Helvetica, Arial, Sans-serif;color: #5d5d5d; font-size: 13px; line-height: 21px; width: 513px; margin: auto; font-style:normal; padding-top: 10px"
+              = yield
+        div style="margin: auto; margin-top: 10px; padding-bottom: 10px; width: 620px;"
+          a href="#{t('site.facebook')}" style="float: right; width: 25px; height: 25px; margin-left: 5px; margin-right: 5px;" target="_blank"
+            img alt="Facebook" height="25" src="#{root_url}/assets/crowdplaces/icon_facebook.gif" width="25"
+          a href="http://twitter.com/#{t('site.twitter')}" style="float: right; width: 25px; height: 25px; margin-left: 5px; margin-right: 5px;" target="_blank"
+            img alt="Twitter" height="25" src="#{root_url}/assets/crowdplaces/icon_twitter.gif" width="25"
+          a href="http://crowdplaces.org" style="float: right;  margin-left: 5px; margin-right: 5px; color: #5d5d5d; text-decoration: none; padding-top: 7px" target="_blank" crowdplaces.org
+          div style="clear: both
