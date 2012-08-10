@@ -32,11 +32,11 @@ class Reward < ActiveRecord::Base
     "<div class='reward_minimum_value'>#{title}</div><div class='reward_description'>#{h description}</div>#{'<div class="sold_out">' + I18n.t('reward.sold_out') + '</div>' if sold_out?}<div class='clear'></div>".html_safe
   end
   def display_minimum
-    number_to_currency minimum_value, :unit => 'USD $', :precision => 2, :delimiter => '.'
+    number_to_currency minimum_value, :unit => 'USD $', :precision => 2, :delimiter => ','
   end
 
   def display_minimum_in_clp
-    number_to_currency ("%.2f" % (EXCHANGE_RATE_CLP * minimum_value)).to_f, :unit => 'CLP $', :precision => 2, :delimiter => '.'
+    number_to_currency ("%.2f" % (EXCHANGE_RATE_CLP * minimum_value)).to_f, :unit => 'CLP $', :precision => 2, :delimiter => '.', :separator => ','
     #minimum_value.usd_to_clp
   end
 

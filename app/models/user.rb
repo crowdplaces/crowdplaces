@@ -178,11 +178,11 @@ class User < ActiveRecord::Base
   end
 
   def display_credits
-    number_to_currency credits, :unit => 'USD $', :precision => 0, :delimiter => '.'
+    number_to_currency credits, :unit => 'USD $', :precision => 0, :delimiter => ','
   end
 
   def display_total_of_backs
-    number_to_currency backs.confirmed.sum(:value), :unit => 'USD $', :precision => 0, :delimiter => '.'
+    number_to_currency backs.confirmed.sum(:value), :unit => 'USD $', :precision => 0, :delimiter => ','
   end
 
   def as_json(options={})
