@@ -23,12 +23,12 @@
         span[itemprop="author"]= project.user.name
       p.description[itemprop="description"]= truncate(project.headline, :length => 140)
       p.where[itemprop="contentLocation"]
-        - unless project.user.address_city.blank?
+        - unless project.address_city.blank?
           = image_tag("crowdplaces/place.png")
-          = project.user.address_city
-          - unless project.user.address_state.blank?
+          = project.address_city
+          - unless project.address_state.blank?
             | /
-            = project.user.address_state
+            = project.address_state
     .info_bar
       .status_bar
         .progress style="width: #{project.display_progress}%;"

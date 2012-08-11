@@ -12,13 +12,13 @@
   .description
     p= link_to truncate(project.headline, :length => 120), project_path(project)
   .author
-    - if project.user.address_city || project.user.address_state
+    - if project.address_city || project.address_state
       p= link_to 'javascript:void(0)' do
-        - unless project.user.address_city.blank?
-          = project.user.address_city
-        - unless project.user.address_state.blank?
+        - unless project.address_city.blank?
+          = project.address_city
+        - unless project.address_state.blank?
             | &nbsp; / &nbsp;
-            = project.user.address_state
+            = project.address_state
   .statistics
     .progress
       .bar[style="width: #{project.display_progress}%"]

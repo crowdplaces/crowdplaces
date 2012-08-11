@@ -245,6 +245,8 @@ pt:
         headline: "Resuma em 140 caracteres o seu projeto. Esta frase será o primeiro contato das pessoas com o seu projeto, antes mesmo de ver o vídeo. Seja criativo, transparente e direto :)"
         name: "Qual o nome do seu projeto? Escolha com carinho, pois isto irá influenciar as chances do seu projeto atingir o mínimo."
         video_url: "Cole a URL de um vídeo no <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a>. Nós escolhemos o Vimeo pois ele é mais bonito e não tem propaganda. Assim, seu projeto fica mais bonito também! <strong>Produza seu vídeo o melhor possível e faça um vídeo específico para a sua campanha</strong>. Se há um ponto que diferencia os projetos que antingem o mínimo dos outros é o vídeo. Observe ;)"
+        address_city: "Nome da cidade do projeto"
+        address_state: "Nome do estado do projeto"
       reward:
         description: "Descreva sua recompensa de um jeito que desperte o interesse das pessoas para apoiar o projeto. Não seja tímido!"
         maximum_backers: "Se sua recompensa é limitada, informe o máximo de pessoas."
@@ -263,6 +265,8 @@ pt:
         goal: "De quanto você precisa?"
         name: "Nome do projeto"
         video_url: Vídeo
+        address_city: "Project location city"
+        address_state: "Project location state"
       reward:
         maximum_backers: "Máximo de apoiadores (opcional)"
     optional: " (opcional)"
