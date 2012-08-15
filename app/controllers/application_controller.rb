@@ -8,6 +8,14 @@ class ApplicationController < ActionController::Base
   before_filter :set_locale
   before_filter :detect_locale
 
+  # TEMP
+  before_filter :require_basic_auth
+  def require_basic_auth
+    authenticate_or_request_with_http_basic do |username, password|
+      username == 'admin' && password == 'whynot2011'
+    end
+  end
+
   # TODO: Change this way to get the opendata
   before_filter do
     #statistics = Statistics.first
