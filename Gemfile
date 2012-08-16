@@ -104,6 +104,8 @@ end
 group :development do
   gem 'mailcatcher'
   gem 'ruby-debug19'
+  gem 'pry'
+  gem 'awesome_print'
 end
 
 group :test do
