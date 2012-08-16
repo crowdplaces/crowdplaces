@@ -38,8 +38,12 @@ script type="text/template" id="project_template"
           = image_tag("crowdplaces/place.png")
           | <%= address_city %>
           |<% if (address_state && address_state.length > 0) { %>
-          | /
+          | , 
           | <%= address_state %>
+          |<% } %>
+          |<% if (address_country && address_country.length > 0) { %>
+          | /
+          | <%= address_country %>
           |<% } %>
           |<% } %>
       .info_bar

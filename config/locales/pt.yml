@@ -247,6 +247,7 @@ pt:
         video_url: "Cole a URL de um vídeo no <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a>. Nós escolhemos o Vimeo pois ele é mais bonito e não tem propaganda. Assim, seu projeto fica mais bonito também! <strong>Produza seu vídeo o melhor possível e faça um vídeo específico para a sua campanha</strong>. Se há um ponto que diferencia os projetos que antingem o mínimo dos outros é o vídeo. Observe ;)"
         address_city: "Nome da cidade do projeto"
         address_state: "Nome do estado do projeto"
+        address_country: "Nome do país do projeto"
       reward:
         description: "Descreva sua recompensa de um jeito que desperte o interesse das pessoas para apoiar o projeto. Não seja tímido!"
         maximum_backers: "Se sua recompensa é limitada, informe o máximo de pessoas."
@@ -267,6 +268,7 @@ pt:
         video_url: Vídeo
         address_city: "Project location city"
         address_state: "Project location state"
+        address_country: "Project location country"
       reward:
         maximum_backers: "Máximo de apoiadores (opcional)"
     optional: " (opcional)"

@@ -219,7 +219,8 @@ class Project < ActiveRecord::Base
       display_expires_at: display_expires_at,
       in_time: in_time?,
       address_city: address_city,
-      address_state: address_state
+      address_state: address_state,
+      address_country: address_country
     }
   end
 

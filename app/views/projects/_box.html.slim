@@ -27,8 +27,11 @@
           = image_tag("crowdplaces/place.png")
           = project.address_city
           - unless project.address_state.blank?
-            | /
+            | , 
             = project.address_state
+          - unless project.address_country.blank?
+            | /
+            = project.address_country
     .info_bar
       .status_bar
         .progress style="width: #{project.display_progress}%;"

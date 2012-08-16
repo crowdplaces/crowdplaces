@@ -35,6 +35,7 @@ ActiveAdmin.register Project do
       f.input :video_url, :as => :string
       f.input :address_city, :as => :string
       f.input :address_state, :as => :string
+      f.input :address_country, :as => :string
       f.input :can_finish
       f.input :finished
     end

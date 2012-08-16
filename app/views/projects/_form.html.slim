@@ -20,8 +20,10 @@
     .project_address
       .left
         = form.input :address_city
-      .right
+      .left
         = form.input :address_state
+      .right
+        = form.input :address_country, as: :string
       .clearfix
 
     #project_rewards

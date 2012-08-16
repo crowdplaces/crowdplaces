@@ -246,7 +246,8 @@ en:
         name: "What is your project's name? Choose with care! This will influence the chances of your project reaching the goal."
         video_url: "Paste the URL from a <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a> video. We use Vimeo because it looks better and doesn't have ads. This way, your project will look better too! <strong>Produce your video the best you can and make a video specifically for your campaign</strong>. If there is one single thing that differentiates the projects that reach their goal. it is the video. Observe and learn."
         address_city: "City name of the project"
-        address_state: "Name of project status"
+        address_state: "State name of the project"
+        address_country: "Country name of the project"
       reward:
         description: "Describe your reward in a way that sparks people's interest to boost the project. Be creative! Be bold! Be realistic."
         maximum_backers: "If your reward is limited, tell us the maximum number of boosters."
@@ -267,6 +268,7 @@ en:
         video_url: Video
         address_city: "Project location city"
         address_state: "Project location state"
+        address_country: "Project location country"
       reward:
         maximum_backers: "Maximum boosters (optional)"
     optional: " (optional)"
