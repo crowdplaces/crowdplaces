@@ -16,15 +16,15 @@ en:
       subtitle: "total of %{total}"
   project_by: "Project by"
   tell_about_this_back: "Tell the world about your support!"
-  share_my_backs: "See the projects i boost on Crowdplaces! "
+  share_my_backs: "See the projects i boost on UrbanKIT! "
   tell_about_this_project: "Tell the world about your project!"
-  share_my_projects: "See all the places I'm making on Crowdplaces! "
+  share_my_projects: "See all the places I'm making on UrbanKIT! "
   count_backed_projects: "funded %{total} projects"
   footer:
     titles:
       info: "Useful Information"
       opendata: "fun facts"
-      social: "like Crowdplaces?"
+      social: "like UrbanKIT?"
       newsletter: "receive our newsletter"
     stats:
       backers: Boosters
@@ -49,7 +49,7 @@ en:
     titles:
       blog: blog
       facebook: Facebook
-      twitter: "@crowdplaces"
+      twitter: "@urban_kit"
       newsletter: "want to receive news?"
       faq: questions?
       schedule: calendar
@@ -63,7 +63,7 @@ en:
     recents:
       title: "New arrivals"
     partners:
-      title: "Crowdplaces clan"
+      title: "UrbanKIT clan"
   "no": "No"
   "yes": "Yes"
   accept_terms_html: "I have read and accepted the %{link}."
@@ -275,8 +275,8 @@ en:
   found_plural: Found
   found_singular: Found
   here: here
-  i_backed: "I boosted the project %{name} on @Crowdplaces"
-  i_just_backed: "I just boosted the project %{name} on @Crowdplaces"
+  i_backed: "I boosted the project %{name} on @urban_kit"
+  i_just_backed: "I just boosted the project %{name} on @urban_kit"
   layouts:
     locales:
       title: "choose language"
@@ -329,18 +329,18 @@ en:
   project:
     start:
       email_subject: "Your project was received by our team"
-      email_text: "Thanks for sending us your project. <br><br>We know you're excited and expect a prompt response. We will do our very best but it may take up to 4 days to answer each of the projects. We have a lot of projects coming in and our super staff is only human! We may just be speedier than that so keep an eye on your inbox.<br><br>In the meantime, check out the projects currently on the air (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any - boost them! This shows you believe in the new community we're building around Crowdplaces.<br><br>Plus, you may even get some inspiration for your project...<br><br>Keep in touch! Friend us on <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a>, our <a href='%{blog}' style='color: #E75297 !important;'>add to our crowdmap</a> or follow us on Twitter @crowdplaces.<br><br>And if any questions come up, give us a holler at %{email}"
+      email_text: "Thanks for sending us your project. <br><br>We know you're excited and expect a prompt response. We will do our very best but it may take up to 4 days to answer each of the projects. We have a lot of projects coming in and our super staff is only human! We may just be speedier than that so keep an eye on your inbox.<br><br>In the meantime, check out the projects currently on the air (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any - boost them! This shows you believe in the new community we're building around UrbanKIT.<br><br>Plus, you may even get some inspiration for your project...<br><br>Keep in touch! Friend us on <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a>, our <a href='%{blog}' style='color: #E75297 !important;'>add to our crowdmap</a> or follow us on Twitter @urban_kit.<br><br>And if any questions come up, give us a holler at %{email}"
       notification_text: "Your project was received by our team"
     finish:
       successful:
-        email_subject: "Hooray! The project you boosted was successful on Crowdplaces!"
+        email_subject: "Hooray! The project you boosted was successful on UrbanKIT!"
         email_text: "Woohoo! The project %{project_link} you boosted made its goal and will be fully funded! <br><br>You were important in making this placemaking dream a reality. Soon, %{user_link} will contact you to deliver your reward. For now, spread the word about the project's success!"
-        facebook_text: "Hooray! The project '%{name}' I crowdfunded on Crowdplaces was successful."
+        facebook_text: "Hooray! The project '%{name}' I crowdfunded on UrbanKIT was successful."
         notification_text: "Hooray! The project %{link} that you boosted was successful! Spread the word!"
         reward_notification_text: "Soon, %{link} will contact you to get you your reward. Enjoy!"
-        twitter_text: "Hooray! The project '%{name}' I crowdfunded on @Crowdplaces was successful! %{short_url}"
+        twitter_text: "Hooray! The project '%{name}' I crowdfunded on @urban_kit was successful! %{short_url}"
       unsuccessful:
-        email_subject: "Bummer. The project you boosted on Crowdplaces wasn't fully funded."
+        email_subject: "Bummer. The project you boosted on UrbanKIT wasn't fully funded."
         email_text: "The project %{project_link} that you boosted was not fully funded. Maybe next time!<br><br>Because of this, you received <strong>%{value}</strong> in credit to boost other projects. Or if you prefer, you can ask for a refund %{credits_link}."
         notification_text: "You have received %{value} in credit to boost other projects. Or if you prefer, you can request a refund %{link}."
         unsuccessful_text: "The project %{link} that you boosted wasn't funded. Maybe next time!"
@@ -415,7 +415,7 @@ en:
       success: "Your placemaking project was successfully created! We'll be in touch soon. Thanks!"
     form:
       add_reward: "Add reward"
-      important_html: "Please note that Crowdplaces will a charge a 7% fee if your project gets fully funded. Our payment system (PayPal) charges a fee that varies, usually, from 4% to 5% per transaction. Please consider these charges in your budget so you can complete your project with no surprises."
+      important_html: "Please note that UrbanKIT will a charge a 7% fee if your project gets fully funded. Our payment system (PayPal) charges a fee that varies, usually, from 4% to 5% per transaction. Please consider these charges in your budget so you can complete your project with no surprises."
       project_warning:
         content_html: "Want your project included in our super selection? Be sure to read %{link}."
         help_link: "our guide"
@@ -483,8 +483,8 @@ en:
       destroy: "Remove update"
       destroy_confirmation: "Do you want to remove this update?"
     project_warning:
-      rejected: "This project was not selected to participate on Crowdplaces. Maybe next time!"
-      waiting: "This project is awaiting approval. Soon, we'll know if it will get onto Crowdplaces."
+      rejected: "This project was not selected to participate on UrbanKIT. Maybe next time!"
+      waiting: "This project is awaiting approval. Soon, we'll know if it will get onto UrbanKIT."
     rewards:
       reward_title: "For %{minimum} or more"
       title: "Boost and receive..."
@@ -517,7 +517,7 @@ en:
       twitter: "Have a Twitter account?"
       facebook: "Have a Facebook account?"
       blog: "Has anyone blogged about the project?"
-      know_us_via: "How did you discover Crowdplaces?"
+      know_us_via: "How did you discover UrbanKIT?"
       how_works: "How to mobilize boosters to reach your funding target?"
       project_warning:
         content_html: "Want your project in our super selection? Be sure to read %{link}."
@@ -528,7 +528,7 @@ en:
       subtitle: "Make it happen now! We really want to know what you're up to..."
       title: "Submit your project"
     twitter:
-      take_a_look: "Check out the project %{name} on @crowdplaces"
+      take_a_look: "Check out the project %{name} on @urban_kit"
     video_embed:
       a_project_by_html: "A project by %{link} on"
   projects_mailer:
@@ -543,7 +543,7 @@ en:
   remaining_plural: "to go"
   remaining_singular: "to go"
   remove: remove
-  require_admin: "You must be a Crowdplaces super staff member to perform this action."
+  require_admin: "You must be a UrbanKIT super staff member to perform this action."
   require_login: "You must be logged in to perform this action."
   require_permission: "You don't have permission to perform this action."
   reward:
@@ -559,26 +559,26 @@ en:
     failure:
       error: "There was an error while logging in. Please try again."
   site:
-    host: crowdplaces.org
-    base_url: "http://crowdplaces.org"
+    host: urbank.it
+    base_url: "http://urbank.it"
     blog: "https://crowdplaces.crowdmap.com/"
     email:
-      contact: contact@crowdplaces.org
-      payments: payments@crowdplaces.org
-      projects: projects@crowdplaces.org
-      system: system@crowdplaces.org
-    facebook: "http://www.facebook.com/crowdplaces"
-    name: Crowdplaces
+      contact: contact@urbank.it
+      payments: payments@urbank.it
+      projects: projects@urbank.it
+      system: system@urbank.it
+    facebook: "http://www.facebook.com/urbankit"
+    name: UrbanKIT
     title: "Make neighborhoods more awesome"
-    twitter: crowdplaces
+    twitter: urbank_it
   static:
     faq:
       title: "Frequently asked questions"
     guidelines:
-      accept: "I have read and understood how Crowdplaces works."
+      accept: "I have read and understood how UrbanKIT works."
       submit: "I want to submit my project"
       subtitle: "Before sending us your project, take a few minutes to learn how it all works."
-      title: "How does Crowdplaces work?"
+      title: "How does UrbanKIT work?"
     privacy:
       title: "Privacy Policy"
     terms:
@@ -620,18 +620,18 @@ en:
       other_link: "another internet page"
       change_password: "Change my password"
       current_password_hint: "<i>We need your current password to confirm your changes.</i>"
-      email_hint: "Your email will only be used for communications from Crowdplaces and from the projects you boost. It won't be visible on your profile. When you fund a project, we will give your email to the project creator so you can get your reward."
+      email_hint: "Your email will only be used for communications from UrbanKIT and from the projects you boost. It won't be visible on your profile. When you fund a project, we will give your email to the project creator so you can get your reward."
       email_tooltip: "Click here to fill in your email."
       gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well."
       my_data: "My profile"
-      newsletter: "I want to receive news from Crowdplaces via email"
+      newsletter: "I want to receive news from UrbanKIT via email"
       password_hint: "<i>Leave blank if you don't want to change it.</i>"
     header:
       bio_tooltip: "Click here to write something about yourself..."
       name_tooltip: "Click here to fill in your name..."
     projects:
-      no_projects: "%{name} hasn't started any projects on Crowdplaces yet. We wonder when inspiration will strike!"
-      no_projects_current_user_html: "You haven't submitted any projects to Crowdplaces yet. Get those placemaking juices flowing and %{link} to start!"
+      no_projects: "%{name} hasn't started any projects on UrbanKIT yet. We wonder when inspiration will strike!"
+      no_projects_current_user_html: "You haven't submitted any projects to UrbanKIT yet. Get those placemaking juices flowing and %{link} to start!"
       title: "%{name}'s projects"
       title_current_user: "My projects"
   users_mailer:
@@ -639,10 +639,10 @@ en:
       alt: "You must enable images in order to correctly view this message."
       forward: "Foward to your friends"
       hello: Hi
-      intro: "You're getting this message because you signed up on Crowdplaces"
+      intro: "You're getting this message because you signed up on UrbanKIT"
       mailee: "Message delivered by Mailee.me"
       salutation: "Have a good day,"
-      signature: "The Crowdplaces Team"
+      signature: "The UrbanKIT Team"
       unsubscribe: Unsubscribe
       unsubscribe_long: "If you don't want to receive these emails"
       weblink: "View on the web"

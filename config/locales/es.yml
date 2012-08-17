@@ -16,15 +16,15 @@ es:
       subtitle: "total de %{total}"
   project_by: "Proyecto por"
   tell_about_this_back: "¡Cuéntale al mundo acerca de tu aporte!"
-  share_my_backs: "¡Mira los proyectos con los que aporté en Crowdplaces! "
+  share_my_backs: "¡Mira los proyectos con los que aporté en UrbanKIT! "
   tell_about_this_project: "¡Cuéntale a todo el mundo sobre tu proyecto!"
-  share_my_projects: "¡Mira los lugares que estoy creando en Crowdplaces! "
+  share_my_projects: "¡Mira los lugares que estoy creando en UrbanKIT! "
   count_backed_projects: "dio a %{total} proyectos"
   footer:
     titles:
       info: "Información útil"
       opendata: "en números"
-      social: "¿Te gusta Crowdplaces?"
+      social: "¿Te gusta UrbanKIT?"
       newsletter: "recibe nuestro boletin"
     stats:
       backers: Dadores
@@ -49,7 +49,7 @@ es:
     titles:
       blog: blog
       facebook: Facebook
-      twitter: "@crowdplaces"
+      twitter: "@urban_kit"
       newsletter: "¿quieres recibir novedades?"
       faq: "¿tienes dudas?"
       schedule: agenda
@@ -63,7 +63,7 @@ es:
     recents:
       title: "Recién llegados"
     partners:
-      title: "Crowdplaces clan"
+      title: "UrbanKIT clan"
   "no": "No"
   "yes": Sí
   accept_terms_html: "He leído y estoy de acuerdo con los %{link}"
@@ -158,7 +158,7 @@ es:
       reached: "de la meta"
   devise:
     confirmations:
-      confirmed: "¡Funcionó! Tu cuenta en Crowdplaces ha sido confirmada. Has accedido a tu cuenta."
+      confirmed: "¡Funcionó! Tu cuenta en UrbanKIT ha sido confirmada. Has accedido a tu cuenta."
       send_instructions: "Recibirás un correo electrónico con instrucciones para la confirmación de tu cuenta en pocos minutos."
       send_paranoid_instructions: "Si tu correo electrónico existe en nuestra base de datos, recibirás un correo para recuperar tu clave."
     failure:
@@ -275,8 +275,8 @@ es:
   found_plural: Encontrados
   found_singular: Encontrado
   here: acá
-  i_backed: "Di al proyecto %{name} en @crowdplaces"
-  i_just_backed: "Recién di al el proyecto %{name} en @crowdplaces"
+  i_backed: "Di al proyecto %{name} en @urban_kit"
+  i_just_backed: "Recién di al el proyecto %{name} en @urban_kit"
   layouts:
     locales:
       title: "choose language"
@@ -329,18 +329,18 @@ es:
   project:
     start:
       email_subject: "El proyecto fue recibido por nuestro equipo"
-      email_text: "Gracias por confiar en nosotros y enviarnos tu proyecto :)<br><br>Sabemos que esperas una pronta respuesta, pero te reconocemos que podemos demorarnos hasta 4 dias en responder por cada proyecto. ¿Está bien? Eso es porque tenemos un equipo pequeño y recibimos muchos proyectos. Igual puede ocurrir que nos demoremos menos.  Quédate atento a tu bandeja de entrada.<br><br>Por mientras, es buena idea que revises los proyectos que tenemos publicados (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) y - si te gusta alguno- da!. Esta es la mejor manera de demostrar que crees en la cultura que estamos construyendo juntos y desarrollar un ecosistema que emerge alrededor de Crowdplaces.<br><br>Además, es también una buena manera para inspirarte para tu proyecto...<br><br>Quédate conectado a nuestro <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> y nuestro <a href='%{blog}' style='color: #E75297 !important;'>mapa</a> o en Twitter @Crowdplaces.<br><br>Si tienes alguna duda, contáctanos acá %{email}"
+      email_text: "Gracias por confiar en nosotros y enviarnos tu proyecto :)<br><br>Sabemos que esperas una pronta respuesta, pero te reconocemos que podemos demorarnos hasta 4 dias en responder por cada proyecto. ¿Está bien? Eso es porque tenemos un equipo pequeño y recibimos muchos proyectos. Igual puede ocurrir que nos demoremos menos.  Quédate atento a tu bandeja de entrada.<br><br>Por mientras, es buena idea que revises los proyectos que tenemos publicados (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) y - si te gusta alguno- da!. Esta es la mejor manera de demostrar que crees en la cultura que estamos construyendo juntos y desarrollar un ecosistema que emerge alrededor de UrbanKIT.<br><br>Además, es también una buena manera para inspirarte para tu proyecto...<br><br>Quédate conectado a nuestro <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> y nuestro <a href='%{blog}' style='color: #E75297 !important;'>mapa</a> o en Twitter @urban_kit.<br><br>Si tienes alguna duda, contáctanos acá %{email}"
       notification_text: "Tu proyecto fue recibido por nuestro equipo"
     finish:
       successful:
-        email_subject: "¡Tremenda noticia! El proyecto al que diste en Crowdplaces fue exitoso."
+        email_subject: "¡Tremenda noticia! El proyecto al que diste en UrbanKIT fue exitoso."
         email_text: "¡El proyecto %{project_link}, al cual diste, se financió completamente y seguirá adelante! <br><br> Sin ti esto no hubiese sido posible construir este lugar en la ciudad. Pronto, %{user_link} te contactará para enviarte tu recompensa. Por mientras, ¡corre la voz acerca de este tremendo éxito!"
-        facebook_text: "¡Tremenda noticia! El proyecto '%{name}', con el que colaboré, fue exitoso en Crowdplaces"
+        facebook_text: "¡Tremenda noticia! El proyecto '%{name}', con el que colaboré, fue exitoso en UrbanKIT"
         notification_text: "¡Tremenda noticia! El proyecto %{link} al cual diste fue exitoso. ¡Corre la voz!"
         reward_notification_text: "Pronto, %{link} te contactará para entregarte tu recompensa. ¡Disfrútala!"
-        twitter_text: "¡Tremenda noticia! El proyecto '%{name}', al que aporté fue exitoso en @crowdplaces %{short_url}"
+        twitter_text: "¡Tremenda noticia! El proyecto '%{name}', al que aporté fue exitoso en @urban_kit %{short_url}"
       unsuccessful:
-        email_subject: "Buuu. El proyecto que impulsaste en Crowdplaces no logró llegar a la meta."
+        email_subject: "Buuu. El proyecto que impulsaste en UrbanKIT no logró llegar a la meta."
         email_text: "El proyecto %{project_link} al cual diste no logró todo el financiamento. ¡Quizás la próxima vez!<br><br>Debido a esto recibirás <strong>%{value}<strong> en créditos para dar a otros proyectos. Si lo prefieres, puedes solicitar un reembolso %{credits_link}."
         notification_text: "Recibirás %{value} en créditos para dar a otros proyectos. Si lo prefieres, puedes solicitar un reembolso %{link}."
         unsuccessful_text: "El proyecto %{link} con el cual aportaste no logró el financiamento necesario. ¡Quizás la próxima vez!"
@@ -415,7 +415,7 @@ es:
       success: "Tu proyecto para la ciudad se ha creado con éxito. Te contactaremos pronto. ¡Muchísimas gracias!"
     form:
       add_reward: "Agregar recompensa"
-      important_html: "Ten en cuenta que Crowdplaces cobrará 7% sólo si el proyecto alcanza la meta de financiamiento. El sistema de pago cobrará un porcentaje variable que usualmente es entre el 4% y el 5% de la transacción. Suma estos valores a tu presupuesto de modo de poder ejecutar tu proyecto sin sorpresas."
+      important_html: "Ten en cuenta que UrbanKIT cobrará 7% sólo si el proyecto alcanza la meta de financiamiento. El sistema de pago cobrará un porcentaje variable que usualmente es entre el 4% y el 5% de la transacción. Suma estos valores a tu presupuesto de modo de poder ejecutar tu proyecto sin sorpresas."
       project_warning:
         content_html: "¿Quieres que tu proyecto sea incluido en nuestra super selección? No te olvides de leer esto:%{link}."
         help_link: "nuestra guía"
@@ -483,8 +483,8 @@ es:
       destroy: "Remover esta actualización"
       destroy_confirmation: "¿Quieres remover esta actualización?"
     project_warning:
-      rejected: "Este proyecto no fue seleccionado para participar en Crowdplaces. ¡Quizás la próxima vez!"
-      waiting: "Este proyecto está a la espera de aprobación y pronto sabrás si podrá ser subido a Crowdplaces."
+      rejected: "Este proyecto no fue seleccionado para participar en UrbanKIT. ¡Quizás la próxima vez!"
+      waiting: "Este proyecto está a la espera de aprobación y pronto sabrás si podrá ser subido a UrbanKIT."
     rewards:
       reward_title: "Por %{minimum} o más"
       title: "Da y recibe."
@@ -517,7 +517,7 @@ es:
       twitter: "¿Tienes cuenta en Twitter?"
       facebook: "¿Tienes cuenta en Facebook?"
       blog: "¿Tienes un blog acerca de tu proyecto?"
-      know_us_via: "¿Cómo conociste Crowdplaces?"
+      know_us_via: "¿Cómo conociste UrbanKIT?"
       how_works: "¿Cómo movilizar dadores para levantar el dinero necesario?"
       project_warning:
         content_html: "¿Quieres tu proyecto en nuestra super selección? No te olvides de leer esto:%{link}."
@@ -528,7 +528,7 @@ es:
       subtitle: "¡Haz tu proyecto realidad ahora! Queremos saber qué has estado haciendo..."
       title: "Envía tu proyecto"
     twitter:
-      take_a_look: "Mira el proyecto %{name} en @crowdplaces"
+      take_a_look: "Mira el proyecto %{name} en @urban_kit"
     video_embed:
       a_project_by_html: "Un proyecto por %{link} en"
   projects_mailer:
@@ -543,7 +543,7 @@ es:
   remaining_plural: quedan
   remaining_singular: queda
   remove: remover
-  require_admin: "Debes ser miembro del super equipo de Crowdplaces para hacer esto."
+  require_admin: "Debes ser miembro del super equipo de UrbanKIT para hacer esto."
   require_login: "Debes iniciar sesión para realizar esta acción."
   require_permission: "No tienes permiso para realizar esta acción."
   reward:
@@ -559,26 +559,26 @@ es:
     failure:
       error: "Ocurrió un error al iniciar sesión. Por favor inténtalo otra vez."
   site:
-    host: crowdplaces.org
-    base_url: "http://crowdplaces.org"
+    host: urbank.it
+    base_url: "http://urbank.it"
     blog: "https://crowdplaces.crowdmap.com/"
     email:
-      contact: contacto@crowdplaces.org
-      payments: pagos@crowdplaces.org
-      projects: proyectos@crowdplaces.org
-      system: sistema@crowdplaces.org
-    facebook: "http://www.facebook.com/crowdplaces"
-    name: Crowdplaces
+      contact: contacto@urbank.it
+      payments: pagos@urbank.it
+      projects: proyectos@urbank.it
+      system: sistema@urbank.it
+    facebook: "http://www.facebook.com/urbankit"
+    name: UrbanKIT
     title: "Transforma barrios en superbarrios"
-    twitter: crowdplaces
+    twitter: urbank_it
   static:
     faq:
       title: "Preguntas frecuentes"
     guidelines:
-      accept: "He leído y entiendo como funciona Crowdplaces."
+      accept: "He leído y entiendo como funciona UrbanKIT."
       submit: "Quiero enviar mi proyecto"
-      subtitle: "Antes de presentar tu proyecto, aprende como funciona Crowdplaces."
-      title: "¿Cómo funciona Crowdplaces?"
+      subtitle: "Antes de presentar tu proyecto, aprende como funciona UrbanKIT."
+      title: "¿Cómo funciona UrbanKIT?"
     privacy:
       title: "Política de privacidad"
     terms:
@@ -624,14 +624,14 @@ es:
       email_tooltip: "Presiona acá para escribir tu correo electrónico."
       gravatar_hint_html: "¿Quieres cambiar tu foto? Usa %{link} con tu correo electrónico. Es tan simple como subir una imagen y funciona para otros sitios también."
       my_data: "Mi perfil"
-      newsletter: "Quiero recibir noticias de Crowdplaces a través de mi correo electrónico"
+      newsletter: "Quiero recibir noticias de UrbanKIT a través de mi correo electrónico"
       password_hint: "<i>Déjalo en blanco si no quieres cambiarlo.</i>"
     header:
       bio_tooltip: "Presiona acá para escribir acerca de ti..."
       name_tooltip: "Presiona acá para escribir tu nombre..."
     projects:
-      no_projects: "%{name} no ha empezado ningún proyecto en Crowdplaces aún. ¡Nos preguntamos cuando te llegará la inspiración!"
-      no_projects_current_user_html: "No has presentado ningún proyecto a Crowdplaces aún. ¡Deja que esas ideas ciudadanas fluyan y %{link} para empezar!"
+      no_projects: "%{name} no ha empezado ningún proyecto en UrbanKIT aún. ¡Nos preguntamos cuando te llegará la inspiración!"
+      no_projects_current_user_html: "No has presentado ningún proyecto a UrbanKIT aún. ¡Deja que esas ideas ciudadanas fluyan y %{link} para empezar!"
       title: "Proyectos de %{name}"
       title_current_user: "Mis proyectos"
   users_mailer:
@@ -639,10 +639,10 @@ es:
       alt: "Debes aceptar las imágenes de manera de ver correctamente este mensaje."
       forward: "Reenvíalo a tus amigos"
       hello: Hola
-      intro: "Estás recibiendo este mensaje porque te registraste en Crowdplaces"
+      intro: "Estás recibiendo este mensaje porque te registraste en UrbanKIT"
       mailee: "Mensaje enviado por Mailee.me"
       salutation: "Que tengas un buen día,"
-      signature: "El super equipo de Crowdplaces"
+      signature: "El super equipo de UrbanKIT"
       unsubscribe: "Dejar suscripción"
       unsubscribe_long: "Si no quieres recibir estos correos electrónicos"
       weblink: "Ver en la web"

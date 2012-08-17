@@ -5,7 +5,7 @@ ActiveAdmin.setup do |config|
   # Set the title that is displayed on the main layout
   # for each of the active admin pages.
   #
-  config.site_title = "Crowdplaces"
+  config.site_title = "UrbanKIT"
 
   config.before_filter :set_admin_locale
 
