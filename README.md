@@ -78,4 +78,4 @@ All translation happens via [WebTranslateIt][].
 [bundler]: http://gembundler.com/
 [Gemspec]: http://docs.rubygems.org/read/chapter/20
 [Catarse]: https://github.com/danielweinmann/catarse
-[WebTranslateIt]: http://webtranslateit.com/en/projects/3936-Crowdplaces
+[WebTranslateIt]: http://webtranslateit.com/en/projects/4383-Crowdplaces
