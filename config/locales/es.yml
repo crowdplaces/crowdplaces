@@ -90,7 +90,7 @@ es:
         maximum_backers: "Máximo de dadores"
         minimum_value: "Valor mínimo"
       user:
-        address_city: Cidade
+        address_city: Ciudad
         address_complement: Complemento
         address_neighbourhood: Barrio
         address_number: Número
