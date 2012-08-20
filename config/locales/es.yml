@@ -251,7 +251,7 @@ es:
       reward:
         description: "Crea y describe recompensas de manera que despierten interés en impulsar el proyecto. ¡Se creativo! ¡Se atrevido! Se realista."
         maximum_backers: "Si la recompensa es limitada, cuéntanos cual es el máximo de dadores que pueden recibirla."
-        minimum_value: "Este es el monto mínimo para escoger esta recompensa."
+        minimum_value: "Este es el monto mínimo para escoger esta recompensa. El recompensa mínimo es de USD $10 (5,000 CLP)."
     labels:
       backer:
         anonymous: "Quiero quedar en el anonimato con este aporte."
@@ -570,7 +570,7 @@ es:
     facebook: "http://www.facebook.com/urbankit"
     name: UrbanKIT
     title: "Transforma barrios en superbarrios"
-    twitter: urban_kit
+    twitter: urbank_it
   static:
     faq:
       title: "Preguntas frecuentes"

@@ -251,7 +251,7 @@ en:
       reward:
         description: "Describe your reward in a way that sparks people's interest to boost the project. Be creative! Be bold! Be realistic."
         maximum_backers: "If your reward is limited, tell us the maximum number of boosters."
-        minimum_value: "This is the minimum amount to choose this reward."
+        minimum_value: "This is the minimum amount to choose this reward. The minimum reward is USD $10."
     labels:
       backer:
         anonymous: "I want my boost to be anonymous."
@@ -570,7 +570,7 @@ en:
     facebook: "http://www.facebook.com/urbankit"
     name: UrbanKIT
     title: "Make neighborhoods more awesome"
-    twitter: urban_kit
+    twitter: urbank_it
   static:
     faq:
       title: "Frequently asked questions"

@@ -97,14 +97,14 @@ pt:
         address_state: Estado
         address_street: Logradouro
         address_street_2: "Logradouro 2"
-        address_country: "País"
+        address_country: País
         address_zip_code: CEP
         cpf: CPF
         current_password: "Senha atual"
         email: Email
         full_name: "Nome completo"
         first_name: "Primeiro nome"
-        last_name: "Sobrenome"
+        last_name: Sobrenome
         name: Nome
         password: Senha
         password_confirmation: "Confirmação de senha"
@@ -251,7 +251,7 @@ pt:
       reward:
         description: "Descreva sua recompensa de um jeito que desperte o interesse das pessoas para apoiar o projeto. Não seja tímido!"
         maximum_backers: "Se sua recompensa é limitada, informe o máximo de pessoas."
-        minimum_value: "Este é valor mínimo de apoio para escolher esta recompensa."
+        minimum_value: "Este é valor mínimo de apoio para escolher esta recompensa. O mínimo da recompensa é USD $10."
     labels:
       backer:
         anonymous: "Quero que meu apoio seja anônimo."
@@ -592,7 +592,7 @@ pt:
     no_name: "Sem nome"
   users:
     show:
-      attention: "Atenção"
+      attention: Atenção
       tabs:
         backed_projects: "Projetos apoiados"
         created_projects: "Projetos criados"
