@@ -404,6 +404,7 @@ en:
         subtitle: "This is the last step to make a difference for this project."
         title: "Fill in and review your data"
         choose_payment: "How do you want to pay?"
+        payment_title: "Pay with Chilean Pesos"
         choose_credit_card: "Pay with your credit card"
         choose_boleto: n/a
         choose_dineromail_hint: "Preferred for users in Chile and Argentina."
