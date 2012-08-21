@@ -561,7 +561,7 @@ en:
   site:
     host: urbank.it
     base_url: "http://urbank.it"
-    blog: "https://crowdplaces.crowdmap.com/"
+    blog: "https://urbankit.crowdmap.com/"
     email:
       contact: contact@urbank.it
       payments: payments@urbank.it
