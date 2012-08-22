@@ -18,12 +18,11 @@ jQuery(function($){
 		firstDay: 0,
 		isRTL: false,
 		showMonthAfterYear: false,
-		yearSuffix: ''};
-});
+		yearSuffix: ''
+  };
 
-/* InicializaciÃ³n en espaÃ±ol para la extensiÃ³n 'UI date picker' para jQuery. */
-/* Traducido por Vester (xvester@gmail.com). */
-jQuery(function($){
+  /* InicializaciÃ³n en espaÃ±ol para la extensiÃ³n 'UI date picker' para jQuery. */
+  /* Traducido por Vester (xvester@gmail.com). */
 	$.datepicker.regional['es'] = {
 		closeText: 'Cerrar',
 		prevText: '&#x3c;Ant',
@@ -41,5 +40,13 @@ jQuery(function($){
 		firstDay: 1,
 		isRTL: false,
 		showMonthAfterYear: false,
-		yearSuffix: ''};
+		yearSuffix: ''
+  };
+
+	$.datepicker.regional['en'] = {
+		dateFormat: 'dd/mm/yy'
+  };
+
 });
+
+
