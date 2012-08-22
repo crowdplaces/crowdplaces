@@ -601,7 +601,7 @@ es:
         credits: Créditos
         settings: Ajustes
       user_social:
-        email: "Envíame un correo electrónico"
+        email: "Mándame un email"
         facebook: "Perfil en facebook"
         twitter: "Perfil en twitter"
     backs:
