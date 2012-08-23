@@ -46,6 +46,7 @@ CATARSE.ProjectsNewView = Backbone.View.extend({
       } else {
         $('#project_submit').attr('disabled', true)
       }
+      $('#project_address_city, #project_address_state, #project_address_country').addClass("ok").removeClass("error")
     }
     ok = function(id){
       var value = $(id).val()
@@ -169,6 +170,7 @@ CATARSE.ProjectsNewView = Backbone.View.extend({
     $('#project_headline').keyup(everything_ok)
     $('#accept').click(everything_ok)
     $('.reward input,.reward textarea').live('keyup', everything_ok)
+    $('#project_address_city, #project_address_state, #project_address_country').keyup(everything_ok)
 
     $('#project_goal').numeric(false)
     $('.reward input').numeric(false)
