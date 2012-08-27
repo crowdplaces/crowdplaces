@@ -237,7 +237,7 @@ en:
     hints:
       backer:
         credits: "You have <strong>%{credits}</strong> in credit and can boost up to this amount without needing to make a new payment."
-        value: "You choose the amount. Anything above USD $10 is awesome."
+        value: "You choose the amount. Anything above $5.000 Chilean Pesos is awesome."
       project:
         about: "Tell us a little about what you want to do, how much you need and how you will use it. Be brief, but be sure to also share something that tells a story and shows your passion!"
         category: "Choose the category where your project fits best. No worries if you think it fits in more than one category. Choose the one where you want people to find your project."

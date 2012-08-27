@@ -237,7 +237,7 @@ es:
     hints:
       backer:
         credits: "Tienes <strong>%{credits}</strong> en créditos para darle a un proyecto sin necesidad de efectuar un nuevo pago."
-        value: "¡Increíble! Cualquier monto más de USD $10 ($5.000 CLP) es bienvenido."
+        value: "¡Increíble! Cualquier monto más de $5.000 Chilean Pesos es bienvenido."
       project:
         about: "Cuéntanos del proyecto que quieres hacer, de cuánto necesitas para hacerlo realidad y cómo usarás el dinero. ¡Explícalo de la manera más precisa y resumida que puedas pero asegúrate de mostrar tu pasión por lo que haces!"
         category: "Elige la categoría en la que quieres que tu proyecto aparezca. No te preocupes si crees que calza en más de una. ¡Elige la que quieras que la gente encuentre tu proyecto!"
