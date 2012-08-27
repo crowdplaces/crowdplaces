@@ -2,7 +2,9 @@ en:
   number:
     currency:
       format:
-        unit: "$"
+        unit: "CLP $"
+        precision: 0
+        delimiter: "."
   time:
     formats:
       updates: "%d %b %Y"

@@ -23,16 +23,16 @@ class Reward < ActiveRecord::Base
 
   def name
     title = "#{minimum_value > 0 ? display_minimum+'+' : I18n.t('reward.dont_want')}"
-    if I18n.locale == :es and minimum_value > 0
-      begin
-        title = "#{title} <span>(estimar en el peso chileno: #{(display_minimum_in_clp)})</span>"
-      rescue Exception => e
-      end
-    end
+    #if I18n.locale == :es and minimum_value > 0
+      #begin
+        #title = "#{title} <span>(estimar en el peso chileno: #{(display_minimum_in_clp)})</span>"
+      #rescue Exception => e
+      #end
+    #end
     "<div class='reward_minimum_value'>#{title}</div><div class='reward_description'>#{h description}</div>#{'<div class="sold_out">' + I18n.t('reward.sold_out') + '</div>' if sold_out?}<div class='clear'></div>".html_safe
   end
   def display_minimum
-    number_to_currency minimum_value, :unit => 'USD $', :precision => 2, :delimiter => ','
+    number_to_currency minimum_value
   end
 
   def display_minimum_in_clp
