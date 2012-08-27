@@ -7,6 +7,9 @@ class StaticController < ApplicationController
     @title = t('static.faq.title')
   end
 
+  def about_us
+  end
+
   def sitemap
     # TODO: update this sitemap to use new homepage logic
     @home_page = Project.includes(:user, :category).visible.limit(6).all
