@@ -405,6 +405,7 @@ pt:
         title: "Preencha e revise seus dados"
         choose_payment: "Como você quer pagar?"
         payment_title: "Pagar en Pesos Chilenos"
+        payment_warning: "For now, you can only pay with Chilean credit or debit cards. <br/>We are working on enabling international credit cards."
         choose_credit_card: "Cartão de crédito"
         choose_boleto: "Boleto bancário"
         choose_dineromail_hint: "Preferido para usuários no Chile e Argentina."
