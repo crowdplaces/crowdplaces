@@ -29,7 +29,7 @@ class PaypalController < ApplicationController
         ip: request.remote_ip,
         return_url: success_paypal_url(backer),
         cancel_return_url: cancel_paypal_url(backer),
-        currency_code: 'USD',
+        currency_code: 'CLP',
         description: t('paypal_description', scope: SCOPE, :project_name => backer.project.name, :value => backer.display_value),
         notify_url: notifications_paypal_url(backer)
       })
@@ -45,7 +45,7 @@ class PaypalController < ApplicationController
       Rails.logger.info "-----> #{e.inspect}"
       paypal_flash_error
       return redirect_to new_project_backer_path(backer.project)
-    end    
+    end
   end
 
   def success
@@ -62,7 +62,7 @@ class PaypalController < ApplicationController
         backer.confirm!
       end
 
-      if details.params['transaction_id'] 
+      if details.params['transaction_id']
         backer.update_attribute :payment_id, details.params['transaction_id']
       end
 
