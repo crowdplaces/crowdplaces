@@ -252,7 +252,7 @@ es:
       reward:
         description: "Crea y describe recompensas de manera que despierten interés en impulsar el proyecto. ¡Se creativo! ¡Se atrevido! Se realista."
         maximum_backers: "Si la recompensa es limitada, cuéntanos cual es el máximo de dadores que pueden recibirla."
-        minimum_value: "Este es el monto mínimo para escoger esta recompensa. El recompensa mínimo es de USD $10 (5,000 CLP)."
+        minimum_value: "Este es el monto mínimo para escoger esta recompensa. El recompensa mínimo es de CLP $5000."
     labels:
       backer:
         anonymous: "Quiero quedar en el anonimato con este aporte."
