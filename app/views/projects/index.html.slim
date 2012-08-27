@@ -99,4 +99,5 @@
           = t('.crowdmap.title_html')
           span= image_tag('crowdplaces/place_crowdmap.png')
         .map
-          = image_tag "crowdplaces/crowdmap.jpg"
+          = link_to "https://urbankit.crowdmap.com/", :target => :_blank do
+            = image_tag "crowdplaces/crowdmap.jpg"
