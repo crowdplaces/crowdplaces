@@ -427,7 +427,7 @@ es:
       submit: "Enviar proyecto"
     index:
       crowdmap:
-        link: "descubre proyectos inspiradores"
+        link: "descubre otros proyectos en el mundo que te inspiraran para hacer el tuyo."
         title_html: "<span>El tour</span><span>de urbanismo</span><span>mágico</span>"
     index_header:
       subtitle_html: "Financia + activa proyectos de una <span class='first'>calle</span> / <span class='second'>manzana</span> / <span class='third'>ciudad</span> y forma parte de una micro-revolución urbana. Muévete por transformar barrios en lugares inspiradores."

@@ -427,7 +427,7 @@ en:
       submit: "Submit project"
     index:
       crowdmap:
-        link: "discover cool projects"
+        link: "discover other projects in the world that will inspire you to make your own."
         title_html: "<span>The magical</span><span>urbanism</span><span>world tour</span>"
     index_header:
       subtitle_html: "Fund + activate<br/><span class='first'>block</span> / <span class='second'>neighborhood</span> / <span class='third'>city</span> projects and boost a micro-urban revolution."
