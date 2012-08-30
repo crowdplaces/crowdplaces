@@ -69,32 +69,19 @@ body
       +grid(16)
       +alpha
       padding: 0 10px 0 10px
-      background: $crowdplaces_yellow
       margin-top: 10px
       margin-bottom: 10px
-      h2
-        +grid(7)
-        +omega
-        padding-top: 20px
-        padding-bottom: 20px
-        font-family: "fckaiser"
-        span
-          font-size: 82px
-          text-transform: uppercase
-          background: $crowdplaces_black
+      background: image-url("banner_crowdmap.es.jpg")
+      height: 450px
+      &.en
+        background: image-url("banner_crowdmap.es.jpg")
+      a
+        display: block
+        padding-top: 410px
+        font-weight: 200
+        color: white
+        text-align: center
+        text-decoration: none
+        font-family: "Lato-Regular"
+        &:hover
           color: $crowdplaces_yellow
-          display: inline-block
-          margin-bottom: 12px
-          margin-right: 12px
-          padding: 8px
-          img
-            height: 72px
-            vertical-align: top
-            margin-top: 8px
-            padding: 0 16px
-      .map
-        +grid(8)
-        +alpha
-        +omega
-        padding-top: 20px
-        padding-bottom: 20px

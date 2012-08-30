@@ -427,6 +427,7 @@ pt:
       submit: "Enviar o projeto"
     index:
       crowdmap:
+        link: "descubre proyectos inspiradores"
         title_html: "A turnê mundial de urbanismo mágico"
     index_header:
       subtitle_html: "Financie projetos de maneira colaborativa e torne-se parte de algo maior.<br/>Promova uma catarse coletiva! Você é a peça que falta nesta história."

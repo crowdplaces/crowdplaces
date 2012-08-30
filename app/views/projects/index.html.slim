@@ -94,10 +94,5 @@
 - content_for :crowdmap do
   #crowdmap_container_container
     #crowdmap_container
-      #crowdmap
-        h2
-          = t('.crowdmap.title_html')
-          span= image_tag('crowdplaces/place_crowdmap.png')
-        .map
-          = link_to "https://urbankit.crowdmap.com/", :target => :_blank do
-            = image_tag "crowdplaces/crowdmap.jpg"
+      #crowdmap[class=I18n.locale]
+        = link_to t('.crowdmap.link'), "https://urbankit.crowdmap.com/", :target => :_blank
