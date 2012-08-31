@@ -571,7 +571,7 @@ en:
       payments: payments@urbank.it
       projects: projects@urbank.it
       system: system@urbank.it
-    facebook: "http://facebook.com/urbkit"
+    facebook: "https://www.facebook.com/urbkit"
     name: UrbanKIT
     title: "Make neighborhoods more awesome"
     twitter: urban_kit
