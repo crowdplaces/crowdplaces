@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: git://github.com/josemarluedke/dinero_mail_ipn.git
-  revision: 44f281dc85544bdf0adb41fd6de6105446c679fa
+  revision: 99dc5d1a17f0617fc320981a934ee75c85ae3aff
   specs:
     dinero_mail_ipn (1.0.2)
       httparty (~> 0.6.1)
