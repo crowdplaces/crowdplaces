@@ -1,3 +1,13 @@
+= content_for :meta_tags do
+  -# Meta tags for facebook social graph
+  meta property="og:title" content="#{t('site.title')} - UrbanKIT"
+  meta property="og:type" content='cause'
+  meta property="og:url" content="#{t('site.base_url')}"
+  meta property="og:image" content="#{request.url}#{image_path('urbankit_facebook.png')}"
+  meta property="og:site_name" content=t('site.name')
+  meta property="og:description" content=strip_tags(t('projects.index_header.subtitle_html'))
+  meta property="fb:admins" content="#{fb_admins}"
+
 = render :partial => 'recommended_header'
 #page_content
   .container
