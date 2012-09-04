@@ -25,7 +25,11 @@
     #user_profile[data-user="#{@user.to_json}"]
       .section_header
         .profile_image
-          = image_tag @user.display_image, :class => 'profile_pic', :size => '119x121'
+          - if can? :manage, @user
+            = link_to "http://gravatar.com", :target => '_blank' do
+              = image_tag @user.display_image, :class => 'profile_pic', :size => '119x121'
+          -else
+            = image_tag @user.display_image, :class => 'profile_pic', :size => '119x121'
         .profile_title
           h1.profile
             - if current_user and @user == current_user
