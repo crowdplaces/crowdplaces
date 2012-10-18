@@ -11,5 +11,8 @@
       - else
         = render :partial => "project_header", :locals => {:title => t('layouts.recommended_header.highlight_project'), :project => @fourth_project} if @fourth_project
     - else
-      = render :partial => "project_header", :locals => {:title => t('layouts.recommended_header.highlight_project'), :project => @fourth_project} if @fourth_project
+      -  if @fourth_project
+        = render :partial => "project_header", :locals => {:title => t('layouts.recommended_header.highlight_project'), :project => @fourth_project} if @fourth_project
+      - else
+        = render :partial => "project_header", :locals => {:title => t('layouts.recommended_header.highlight_project'), :project => @first_project} if @first_project
   .clearfix
