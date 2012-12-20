@@ -277,7 +277,7 @@ es:
   found_singular: Encontrado
   here: acá
   i_backed: "Di al proyecto %{name} en @urban_kit"
-  i_just_backed: "Recién di al el proyecto %{name} en @urban_kit"
+  i_just_backed: "Recién di al proyecto %{name} en @urban_kit"
   layouts:
     locales:
       title: "choose language"
@@ -335,7 +335,7 @@ es:
     finish:
       successful:
         email_subject: "¡Tremenda noticia! El proyecto al que diste en UrbanKIT fue exitoso."
-        email_text: "¡El proyecto %{project_link}, al cual diste, se financió completamente y seguirá adelante! <br><br> Sin ti esto no hubiese sido posible construir este lugar en la ciudad. Pronto, %{user_link} te contactará para enviarte tu recompensa. Por mientras, ¡corre la voz acerca de este tremendo éxito!"
+        email_text: "¡El proyecto %{project_link}, al cual diste, se financió completamente y seguirá adelante! <br><br> Sin ti no hubiese sido posible construir este lugar en la ciudad. Pronto, %{user_link} te contactará para enviarte tu recompensa. Por mientras, ¡corre la voz acerca de este tremendo éxito!"
         facebook_text: "¡Tremenda noticia! El proyecto '%{name}', con el que colaboré, fue exitoso en UrbanKIT"
         notification_text: "¡Tremenda noticia! El proyecto %{link} al cual diste fue exitoso. ¡Corre la voz!"
         reward_notification_text: "Pronto, %{link} te contactará para entregarte tu recompensa. ¡Disfrútala!"
